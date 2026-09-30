@@ -14,11 +14,11 @@
 | :--- | :---: | :---: | :--- |
 | **0. Khởi tạo & Quy chuẩn nền tảng** | 🟢 **ĐÃ XONG** | **100%** | Đã đọc hiểu MVP, DB V2, lập skill conventions, kế hoạch 4 tuần |
 | **Giai đoạn 0: Dọn dẹp & Đồng bộ nền tảng** | 🟢 **ĐÃ XONG** | **100%** | Sửa Swagger GET, gỡ annotation thừa Controller, update RoleName |
-| **Tuần 1: Customer & Requirement** | 🟡 **TIẾP THEO** | **0%** | Customer CRUD, Requirement, AI Extraction |
+| **Tuần 1: Customer & Requirement** | 🟡 **ĐANG LÀM** | **50%** | **Đã xong Module Customer (100%)**, tiếp tục Module Requirement |
 | **Tuần 2: Service Catalog & Recommendation** | ⚪ CHƯA BẮT ĐẦU | **0%** | Catalog 12 dịch vụ, Data Items, Tags, Matching Engine |
 | **Tuần 3: Package Builder & Validation Engine** | ⚪ CHƯA BẮT ĐẦU | **0%** | Gói dịch vụ, phân phase, Rule Engine quét Gap/Dependency |
 | **Tuần 4: Summary, E2E Testing & Demo** | ⚪ CHƯA BẮT ĐẦU | **0%** | Báo cáo bàn giao Sales-to-Ops, Test 3 kịch bản, Docker deploy |
-| **TỔNG THỂ MVP BACKEND** | 🟡 **ĐANG TIẾN HÀNH** | **~20%** | Hoàn thành dọn dẹp nền tảng, sẵn sàng code module Customer |
+| **TỔNG THỂ MVP BACKEND** | 🟡 **ĐANG TIẾN HÀNH** | **~30%** | Xong Auth + Customer CRUD, tiếp tục với Requirement & AI Extraction |
 
 ---
 
@@ -48,15 +48,15 @@
 
 ### Tuần 1: Customer & Customer Requirement (Ngày 2 - Ngày 7) - [0%]
 
-#### 1. Module Customer (`customer/`):
-- [ ] Enum `CustomerStatus` (`ACTIVE`, `INACTIVE`).
-- [ ] Entity `Customer` (UUID PK, customerCode Unique, name, company, industry, contact, auditing timestamps).
-- [ ] `CustomerRepository` (kế thừa `JpaRepository`, tìm kiếm theo code, email, tên công ty).
-- [ ] DTOs: `CustomerCreateRequest`, `CustomerUpdateRequest`, `CustomerResponse`.
-- [ ] Mapper: `CustomerMapper` (MapStruct `componentModel = "spring"`).
-- [ ] Service: `CustomerService` & `CustomerServiceImpl`.
-- [ ] Controller: `CustomerController` (`POST`, `GET` list/detail, `PUT` update, `PUT` update-status).
-- [ ] Bổ sung mã lỗi: `CUSTOMER_NOT_FOUND`, `CUSTOMER_CODE_EXISTED` vào `ErrorCode.java`.
+#### 1. Module Customer (`customer/`) - [ĐÃ HOÀN THÀNH 100%]:
+- [x] Enum `CustomerStatus` (`ACTIVE`, `INACTIVE`).
+- [x] Entity `Customer` (UUID PK, customerCode Unique, name, company, industry, contact, auditing timestamps).
+- [x] `CustomerRepository` (kế thừa `JpaRepository`, tìm kiếm theo code, email, tên công ty, phân trang).
+- [x] DTOs: `CustomerCreateRequest`, `CustomerUpdateRequest`, `CustomerResponse`.
+- [x] Mapper: `CustomerMapper` (MapStruct `componentModel = "spring"`).
+- [x] Service: `CustomerService` & `CustomerServiceImpl`.
+- [x] Controller: `CustomerController` (`POST`, `GET` list/detail/code, `PUT` update, `PUT` update-status).
+- [x] Bổ sung mã lỗi: `CUSTOMER_NOT_FOUND`, `CUSTOMER_CODE_EXISTED`, `CUSTOMER_EMAIL_EXISTED` vào `ErrorCode.java`.
 
 #### 2. Module Requirement & AI Extraction (`requirement/`):
 - [ ] Enums: `RequirementStatus` (`DRAFT`, `CONFIRMED`, `ARCHIVED`), `ExtractionMethod` (`MANUAL`, `AI`).
@@ -127,4 +127,5 @@
 | Ngày | Người thực hiện | Nội dung thực hiện | Kết quả / Ghi chú |
 | :--- | :--- | :--- | :--- |
 | **2026-09-30** | Antigravity & User | - Đọc và phân tích toàn bộ dự án `Package_Builder`<br>- Đọc hiểu `GASCOLAE_Service_Package_Builder_MVP.md`<br>- Đọc hiểu & thẩm định `GASCOLAE_Database_Design_V2_UUID_All_Tables.md`<br>- Xây dựng Skill `package-builder-conventions`<br>- Lập kế hoạch 4 tuần `GASCOLAE_Implementation_Plan_4Weeks.md`<br>- Thống nhất chiến lược Customer First & tạo file theo dõi tiến độ | Hoàn tất giai đoạn phân tích & kiến trúc. |
-| **2026-09-30** | Antigravity | **Hoàn thành Giai đoạn 0**: <br>1. Sửa lỗi `SecurityConfig.java` (mở quyền GET Swagger UI, docs).<br>2. Gỡ bỏ `@EntityListeners` trên 3 Controllers.<br>3. Bổ sung `SALES_PRE_SALES`, `OPERATION`, `CUSTOMER` vào `RoleName.java`.<br>4. Xóa file nháp `ServicePackage.java`.<br>5. Chạy `mvn test-compile` thành công 100%. | Đạt mốc **20%** tiến độ tổng thể. Sẵn sàng triển khai Module Customer. |
+| **2026-09-30** | Antigravity | **Hoàn thành Giai đoạn 0**: <br>1. Sửa lỗi `SecurityConfig.java` (mở quyền GET Swagger UI, docs).<br>2. Gỡ bỏ `@EntityListeners` trên 3 Controllers.<br>3. Bổ sung `SALES_PRE_SALES`, `OPERATION`, `CUSTOMER` vào `RoleName.java`.<br>4. Xóa file nháp `ServicePackage.java`.<br>5. Chạy `mvn test-compile` thành công 100%. | Đạt mốc **20%** tiến độ tổng thể. |
+| **2026-09-30** | Antigravity | **Hoàn thành Module Customer**: <br>1. Enum `CustomerStatus` (`ACTIVE`, `INACTIVE`).<br>2. Entity `Customer` (UUID, customerCode unique, JPA Auditing).<br>3. `CustomerRepository` (tìm kiếm, lọc status, phân trang).<br>4. DTOs: `CustomerCreateRequest`, `CustomerUpdateRequest`, `CustomerResponse`.<br>5. `CustomerMapper` (MapStruct ignore auto fields).<br>6. `CustomerService` & `CustomerServiceImpl`.<br>7. `CustomerController` (REST APIs: POST, GET search/detail/code, PUT update/status).<br>8. Bổ sung `CUSTOMER_NOT_FOUND`, `CUSTOMER_CODE_EXISTED`, `CUSTOMER_EMAIL_EXISTED` vào `ErrorCode.java`.<br>9. Biên dịch `./mvnw test-compile` thành công 100% (49 source files). | Đạt mốc **~30%** tiến độ tổng thể. Sẵn sàng cho Module Requirement. |

@@ -36,7 +36,13 @@ public enum ErrorCode {
     ROLE_EXISTED(1202, "Vai trò đã tồn tại", HttpStatus.BAD_REQUEST),
     ROLE_NOT_EXISTED(1203, "Vai trò không tồn tại", HttpStatus.NOT_FOUND),
     PERMISSION_NOT_EXISTED(1204, "Quyền không tồn tại", HttpStatus.NOT_FOUND),
-    INVALID_STATUS(1205, "Trạng thái không hợp lệ", HttpStatus.BAD_REQUEST), ;
+    INVALID_STATUS(1205, "Trạng thái không hợp lệ", HttpStatus.BAD_REQUEST),
+
+    // 13xx - Customer
+    CUSTOMER_NOT_FOUND(1301, "Không tìm thấy thông tin khách hàng", HttpStatus.NOT_FOUND),
+    CUSTOMER_CODE_EXISTED(1302, "Mã khách hàng đã tồn tại", HttpStatus.BAD_REQUEST),
+    CUSTOMER_EMAIL_EXISTED(1303, "Email khách hàng đã tồn tại trong hệ thống", HttpStatus.BAD_REQUEST),
+    ;
     private int code;
     private String message;
     private HttpStatusCode statusCode;
