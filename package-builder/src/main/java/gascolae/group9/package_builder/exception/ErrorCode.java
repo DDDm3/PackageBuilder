@@ -42,6 +42,12 @@ public enum ErrorCode {
     CUSTOMER_NOT_FOUND(1301, "Không tìm thấy thông tin khách hàng", HttpStatus.NOT_FOUND),
     CUSTOMER_CODE_EXISTED(1302, "Mã khách hàng đã tồn tại", HttpStatus.BAD_REQUEST),
     CUSTOMER_EMAIL_EXISTED(1303, "Email khách hàng đã tồn tại trong hệ thống", HttpStatus.BAD_REQUEST),
+    CONTACT_INFO_REQUIRED(1304, "Vui lòng cung cấp ít nhất Email hoặc Số điện thoại", HttpStatus.BAD_REQUEST),
+
+    // 14xx - Requirement
+    REQUIREMENT_NOT_FOUND(1401, "Không tìm thấy yêu cầu của khách hàng", HttpStatus.NOT_FOUND),
+    REQUIREMENT_CODE_EXISTED(1402, "Mã yêu cầu dự án đã tồn tại", HttpStatus.BAD_REQUEST),
+    REQUIREMENT_ALREADY_CONFIRMED(1403, "Yêu cầu đã được xác nhận, không thể chỉnh sửa", HttpStatus.BAD_REQUEST),
     ;
     private int code;
     private String message;

@@ -86,8 +86,15 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Page<CustomerResponse> searchCustomers(String keyword, CustomerStatus status, Pageable pageable) {
-        String trimmedKeyword = StringUtils.hasText(keyword) ? keyword.trim() : null;
-        Page<Customer> customers = customerRepository.searchCustomers(trimmedKeyword, status, pageable);
+        boolean hasKeyword = StringUtils.hasText(keyword);
+        if (!hasKeyword && status == null) {
+            return customerRepository.findAll(pageable).map(customerMapper::toCustomerResponse);
+        }
+        if (!hasKeyword) {
+            return customerRepository.findByStatus(status, pageable).map(customerMapper::toCustomerResponse);
+        }
+        String pattern = "%" + keyword.trim().toLowerCase() + "%";
+        Page<Customer> customers = customerRepository.searchCustomers(pattern, status, pageable);
         return customers.map(customerMapper::toCustomerResponse);
     }
 

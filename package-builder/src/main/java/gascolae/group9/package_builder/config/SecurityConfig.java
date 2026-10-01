@@ -37,7 +37,9 @@ public class SecurityConfig {
             "/users/register",
             "/authenticate/login",
             "/authenticate/introspect",
-            "/authenticate/logout"
+            "/authenticate/logout",
+            "/requirements/public/**",
+            "/public/**"
     };
 
     private final String[] PUBLIC_GET_ENDPOINTS = {

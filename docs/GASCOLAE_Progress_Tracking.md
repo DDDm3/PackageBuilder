@@ -14,11 +14,11 @@
 | :--- | :---: | :---: | :--- |
 | **0. Khởi tạo & Quy chuẩn nền tảng** | 🟢 **ĐÃ XONG** | **100%** | Đã đọc hiểu MVP, DB V2, lập skill conventions, kế hoạch 4 tuần |
 | **Giai đoạn 0: Dọn dẹp & Đồng bộ nền tảng** | 🟢 **ĐÃ XONG** | **100%** | Sửa Swagger GET, gỡ annotation thừa Controller, update RoleName |
-| **Tuần 1: Customer & Requirement** | 🟡 **ĐANG LÀM** | **50%** | **Đã xong Module Customer (100%)**, tiếp tục Module Requirement |
-| **Tuần 2: Service Catalog & Recommendation** | ⚪ CHƯA BẮT ĐẦU | **0%** | Catalog 12 dịch vụ, Data Items, Tags, Matching Engine |
+| **Tuần 1: Customer & Requirement** | 🟢 **ĐÃ XONG** | **100%** | **Đã hoàn thành Module Customer & Module Requirement (Data-Only CRUD)** |
+| **Tuần 2: Service Catalog & Recommendation** | 🟡 **TIẾP THEO** | **0%** | Catalog 12 dịch vụ, Data Items, Tags, Matching Engine |
 | **Tuần 3: Package Builder & Validation Engine** | ⚪ CHƯA BẮT ĐẦU | **0%** | Gói dịch vụ, phân phase, Rule Engine quét Gap/Dependency |
 | **Tuần 4: Summary, E2E Testing & Demo** | ⚪ CHƯA BẮT ĐẦU | **0%** | Báo cáo bàn giao Sales-to-Ops, Test 3 kịch bản, Docker deploy |
-| **TỔNG THỂ MVP BACKEND** | 🟡 **ĐANG TIẾN HÀNH** | **~30%** | Xong Auth + Customer CRUD, tiếp tục với Requirement & AI Extraction |
+| **TỔNG THỂ MVP BACKEND** | 🟡 **ĐANG TIẾN HÀNH** | **~40%** | Hoàn thành Auth + Customer + Customer Requirement CRUD |
 
 ---
 
@@ -46,7 +46,7 @@
 
 ---
 
-### Tuần 1: Customer & Customer Requirement (Ngày 2 - Ngày 7) - [0%]
+### Tuần 1: Customer & Customer Requirement (Ngày 2 - Ngày 7) - [ĐÃ HOÀN THÀNH 100%]
 
 #### 1. Module Customer (`customer/`) - [ĐÃ HOÀN THÀNH 100%]:
 - [x] Enum `CustomerStatus` (`ACTIVE`, `INACTIVE`).
@@ -58,15 +58,15 @@
 - [x] Controller: `CustomerController` (`POST`, `GET` list/detail/code, `PUT` update, `PUT` update-status).
 - [x] Bổ sung mã lỗi: `CUSTOMER_NOT_FOUND`, `CUSTOMER_CODE_EXISTED`, `CUSTOMER_EMAIL_EXISTED` vào `ErrorCode.java`.
 
-#### 2. Module Requirement & AI Extraction (`requirement/`):
-- [ ] Enums: `RequirementStatus` (`DRAFT`, `CONFIRMED`, `ARCHIVED`), `ExtractionMethod` (`MANUAL`, `AI`).
-- [ ] Entity `CustomerRequirement` (trỏ `customerId`, diện tích, môi trường, mục tiêu, extraction confidence).
-- [ ] Entity `RequirementExpectedOutput` (đầu ra kỳ vọng).
-- [ ] Repositories: `CustomerRequirementRepository`, `RequirementExpectedOutputRepository`.
-- [ ] DTOs & Mapper: `RequirementCreateRequest`, `RequirementResponse`, `RequirementExtractRequest`, `RequirementMapper`.
-- [ ] Service AI Extraction: Tích hợp Gemini LLM API trích xuất thông tin tự nhiên thành JSON cấu trúc.
-- [ ] Controller: `RequirementController` (`POST /extract`, `POST /create`, `GET /{id}`, `GET /by-customer/{customerId}`).
-- [ ] Bổ sung mã lỗi: `REQUIREMENT_NOT_FOUND`, `EXTRACTION_FAILED`.
+#### 2. Module Requirement (gộp trong `customer/`) - [ĐÃ HOÀN THÀNH 100% (Data-Only)]:
+- [x] Enums: `RequirementStatus` (`DRAFT`, `CONFIRMED`, `ARCHIVED`), `OutputPriority` (`LOW`, `NORMAL`, `HIGH`, `REQUIRED`).
+- [x] Entity `CustomerRequirement` (UUID PK, requirementCode unique, liên kết Customer, diện tích, môi trường, mục tiêu, JPA Auditing).
+- [x] Entity `RequirementExpectedOutput` (đầu ra kỳ vọng, priority, quan hệ @ManyToOne với CustomerRequirement).
+- [x] Repositories: `CustomerRequirementRepository` (tìm kiếm, lọc status, customerId, phân trang), `RequirementExpectedOutputRepository`.
+- [x] DTOs & Mapper: `RequirementCreateRequest`, `RequirementUpdateRequest`, `ExpectedOutputRequest`, `RequirementResponse`, `ExpectedOutputResponse`, `RequirementMapper`.
+- [x] Service: `RequirementService` & `RequirementServiceImpl` (tạo mới, sửa, xóa, tìm kiếm, xác nhận `DRAFT` -> `CONFIRMED`).
+- [x] Controller: `RequirementController` (`POST`, `GET` list/detail/code/customer, `PUT` update/confirm, `DELETE`).
+- [x] Bổ sung mã lỗi: `REQUIREMENT_NOT_FOUND`, `REQUIREMENT_CODE_EXISTED`, `REQUIREMENT_ALREADY_CONFIRMED` vào `ErrorCode.java`.
 
 ---
 
@@ -129,3 +129,5 @@
 | **2026-09-30** | Antigravity & User | - Đọc và phân tích toàn bộ dự án `Package_Builder`<br>- Đọc hiểu `GASCOLAE_Service_Package_Builder_MVP.md`<br>- Đọc hiểu & thẩm định `GASCOLAE_Database_Design_V2_UUID_All_Tables.md`<br>- Xây dựng Skill `package-builder-conventions`<br>- Lập kế hoạch 4 tuần `GASCOLAE_Implementation_Plan_4Weeks.md`<br>- Thống nhất chiến lược Customer First & tạo file theo dõi tiến độ | Hoàn tất giai đoạn phân tích & kiến trúc. |
 | **2026-09-30** | Antigravity | **Hoàn thành Giai đoạn 0**: <br>1. Sửa lỗi `SecurityConfig.java` (mở quyền GET Swagger UI, docs).<br>2. Gỡ bỏ `@EntityListeners` trên 3 Controllers.<br>3. Bổ sung `SALES_PRE_SALES`, `OPERATION`, `CUSTOMER` vào `RoleName.java`.<br>4. Xóa file nháp `ServicePackage.java`.<br>5. Chạy `mvn test-compile` thành công 100%. | Đạt mốc **20%** tiến độ tổng thể. |
 | **2026-09-30** | Antigravity | **Hoàn thành Module Customer**: <br>1. Enum `CustomerStatus` (`ACTIVE`, `INACTIVE`).<br>2. Entity `Customer` (UUID, customerCode unique, JPA Auditing).<br>3. `CustomerRepository` (tìm kiếm, lọc status, phân trang).<br>4. DTOs: `CustomerCreateRequest`, `CustomerUpdateRequest`, `CustomerResponse`.<br>5. `CustomerMapper` (MapStruct ignore auto fields).<br>6. `CustomerService` & `CustomerServiceImpl`.<br>7. `CustomerController` (REST APIs: POST, GET search/detail/code, PUT update/status).<br>8. Bổ sung `CUSTOMER_NOT_FOUND`, `CUSTOMER_CODE_EXISTED`, `CUSTOMER_EMAIL_EXISTED` vào `ErrorCode.java`.<br>9. Biên dịch `./mvnw test-compile` thành công 100% (49 source files). | Đạt mốc **~30%** tiến độ tổng thể. Sẵn sàng cho Module Requirement. |
+| **2026-09-30** | Antigravity | **Hoàn thành Module Requirement (Data-Only CRUD)**: <br>1. Enums `RequirementStatus`, `OutputPriority`.<br>2. Entity `CustomerRequirement`, `RequirementExpectedOutput` (CascadeType.ALL, OrphanRemoval, Auditing).<br>3. `CustomerRequirementRepository` (search keyword, status, customerId, paging) & `RequirementExpectedOutputRepository`.<br>4. DTOs: `RequirementCreateRequest`, `RequirementUpdateRequest`, `ExpectedOutputRequest`, `RequirementResponse`, `ExpectedOutputResponse`.<br>5. `RequirementMapper` (MapStruct mappings).<br>6. `RequirementService` & `RequirementServiceImpl` (xử lý CRUD, sinh mã tự động nếu trống, kiểm tra confirm, lock sửa khi confirmed, confirm API).<br>7. `RequirementController` (REST APIs đầy đủ).<br>8. Bổ sung `REQUIREMENT_NOT_FOUND`, `REQUIREMENT_CODE_EXISTED`, `REQUIREMENT_ALREADY_CONFIRMED` vào `ErrorCode.java`.<br>9. Biên dịch `./mvnw test-compile` thành công 100% (64 source files). | **Hoàn thành 100% Tuần 1**, đạt mốc **~40%** tiến độ tổng thể. |
+| **2026-10-01** | Antigravity | **Hoàn thiện luồng Landing Page $\rightarrow$ Sales Admin**: <br>1. Thêm DTO `LandingLeadRequest` hỗ trợ nhận form Landing Page (liên hệ + dự án + AOI + dữ liệu sẵn có + expected outputs dạng text/DTO).<br>2. Thêm trường `locationDescription`, `providedInputsRaw`, `monitoringFrequencyRaw` vào `CustomerRequirement`.<br>3. Viết hàm `submitLandingLead` trong `RequirementServiceImpl`: tự động liên kết/tạo Customer theo email/phone, tự sinh mã code, tạo Requirement DRAFT.<br>4. Mở API Public `POST /requirements/public/lead` (không cần Bearer token).<br>5. Bổ sung `contactEmail`, `contactPhone`, `locationDescription`, `providedInputsRaw` vào `RequirementResponse` phục vụ màn hình Admin B1.<br>6. Hỗ trợ cập nhật tên doanh nghiệp/khách hàng trực tiếp qua `PUT /requirements/{id}`.<br>7. Biên dịch `./mvnw test-compile` thành công 100% (65 source files). | Hoàn thiện luồng kết nối Form Landing Page $\rightarrow$ Admin B1. |
