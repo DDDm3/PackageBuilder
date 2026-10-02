@@ -1,0 +1,87 @@
+﻿service_code,deliverable_code,deliverable_name,description,min_level_no,verification_status,source_ref
+S0269,S0269-D01,Giá trị albedo sóng ngắn dải rộng theo khu vực và loại bề mặt,Nguồn trong file 04: Q10; SRC-08,1,VERIFIED,S0269/04/muc10#1
+S0269,S0269-D02,Bản đồ phân bố albedo,Nguồn trong file 04: Q10,1,VERIFIED,S0269/04/muc10#2
+S0269,S0269-D03,Dữ liệu kiểm định và chỉ số độ chính xác,Nguồn trong file 04: Q10,1,VERIFIED,S0269/04/muc10#3
+S0269,S0269-D04,Báo cáo kỹ thuật kèm thuyết minh sai số,Nguồn trong file 04: Q10,1,VERIFIED,S0269/04/muc10#4
+S0269,S0269-D05,"Siêu dữ liệu mô tả nội dung, nguồn gốc và chất lượng dữ liệu",Nguồn trong file 04: SRC-23,1,VERIFIED,S0269/04/muc10#5
+S0269,S0269-D06,"Dữ liệu phản xạ bề mặt trung gian, chỉ bàn giao khi hợp đồng có yêu cầu",Nguồn trong file 04: Q01; Q20 — Cần xác minh: GASCOLAE | Chỉ bàn giao khi hợp đồng hoặc phạm vi yêu cầu.,1,NEED_VERIFY,S0269/04/muc10#6
+S0270,S0270-D01,Ảnh trực giao Orthomosaic & Nền nhiệt bề mặt,"Nguồn trong file 04: SRC-01, SRC-04",1,VERIFIED,S0270/04/muc10#1
+S0270,S0270-D02,Bản đồ phân bố độ ẩm đất (Soil Moisture Map),"Nguồn trong file 04: SRC-01, SRC-03",1,VERIFIED,S0270/04/muc10#2
+S0270,S0270-D03,Bản đồ phân vùng khô hạn & Bất thường độ ẩm (Anomaly Map),"Nguồn trong file 04: SRC-01, SRC-04",1,VERIFIED,S0270/04/muc10#3
+S0270,S0270-D04,Bản đồ & Báo cáo dự báo nguy cơ hạn hán (Level 3),"Nguồn trong file 04: SRC-02, SRC-04",3,VERIFIED,S0270/04/muc10#4
+S0270,S0270-D05,Báo cáo kỹ thuật & Bảng kiểm soát sai số,"Nguồn trong file 04: SRC-01, SRC-05",1,VERIFIED,S0270/04/muc10#5
+S0270,S0270-D06,Tài khoản Web GIS Dashboard (Level 2 & 3),"Nguồn trong file 04: SRC-01, SRC-04",2,VERIFIED,S0270/04/muc10#6
+S0271,S0271-D01,Bản đồ phân bố nồng độ bề mặt (GeoTIFF/PDF),Nguồn trong file 04: SRC-05; SRC-07; Q10,1,VERIFIED,S0271/04/muc10#1
+S0271,S0271-D02,Danh sách điểm nóng rò rỉ (Hotspots) (Excel/CSV),Nguồn trong file 04: SRC-05; SRC-07; Q10,1,VERIFIED,S0271/04/muc10#2
+S0271,S0271-D03,Sơ đồ luồng khí & Quỹ đạo bay (Shapefile/PDF),Nguồn trong file 04: SRC-04; Q10,1,VERIFIED,S0271/04/muc10#3
+S0271,S0271-D04,Báo cáo QA/QC & Hiệu chuẩn thiết bị (PDF),Nguồn trong file 04: SRC-04; Q10,1,VERIFIED,S0271/04/muc10#4
+S0271,S0271-D05,Báo cáo tính toán thông lượng phát thải (Flux) (PDF),Nguồn trong file 04: SRC-04; SRC-05; Q10,2,VERIFIED,S0271/04/muc10#5
+S0271,S0271-D06,Báo cáo so sánh trước–sau & Quy đổi (PDF),Nguồn trong file 04: SRC-02; SRC-17; Q10,2,VERIFIED,S0271/04/muc10#6
+S0271,S0271-D07,Báo cáo ước tính hiệu suất thu gom khí (PDF),Nguồn trong file 04: SRC-03; SRC-15; Q10 | Chỉ bàn giao khi hợp đồng hoặc phạm vi yêu cầu.,1,VERIFIED,S0271/04/muc10#7
+S0271,S0271-D08,Lớp dữ liệu GIS hoàn chỉnh tích hợp Metadata,Nguồn trong file 04: Q10,1,VERIFIED,S0271/04/muc10#8
+S0271,S0271-D09,Bộ bằng chứng hỗ trợ thẩm định (Level 3),Nguồn trong file 04: SRC-02; Q10,3,VERIFIED,S0271/04/muc10#9
+S0272,S0272-D01,Bản đồ ranh giới kiểm kê và danh mục nguồn phát thải,Nguồn trong file 04: SRC-02,1,VERIFIED,S0272/04/muc10#1
+S0272,S0272-D02,Orthomosaic và bản đồ nền,Nguồn trong file 04: SRC-05,1,VERIFIED,S0272/04/muc10#2
+S0272,S0272-D03,Carbon Source Map,Nguồn trong file 04: SRC-02; SRC-05,1,VERIFIED,S0272/04/muc10#3
+S0272,S0272-D04,Carbon hotspot map,Nguồn trong file 04: SRC-02; SRC-05,1,VERIFIED,S0272/04/muc10#4
+S0272,S0272-D05,Bảng CO₂e có provenance,Nguồn trong file 04: SRC-02,1,VERIFIED,S0272/04/muc10#5
+S0272,S0272-D06,GIS dataset,Nguồn trong file 04: SRC-05,1,VERIFIED,S0272/04/muc10#6
+S0272,S0272-D07,Báo cáo kỹ thuật,Nguồn trong file 04: SRC-02,1,VERIFIED,S0272/04/muc10#7
+S0272,S0272-D08,Change map (áp dụng từ Level 2),Nguồn trong file 04: SRC-02; SRC-05,2,VERIFIED,S0272/04/muc10#8
+S0272,S0272-D09,Dashboard hoặc WebGIS (áp dụng theo Level 2–3),Nguồn trong file 04: SRC-02; SRC-05,2,VERIFIED,S0272/04/muc10#9
+S0272,S0272-D10,Lớp carbon sink/vegetation (nếu thuộc scope),Nguồn trong file 04: SRC-05; SRC-06 | Chỉ bàn giao khi hợp đồng hoặc phạm vi yêu cầu.,1,VERIFIED,S0272/04/muc10#10
+S0273,S0273-D01,Ảnh trực giao và bản đồ ranh giới thửa (GeoTIFF/Shapefile),"Nguồn trong file 04: Profile, Key Deliverables; SRC-03; SRC-07",1,VERIFIED,S0273/04/muc10#1
+S0273,S0273-D02,Chuỗi dữ liệu chỉ số thực vật theo số lần bay thực tế,"Nguồn trong file 04: Profile, Key Deliverables; SRC-03; SRC-19",1,VERIFIED,S0273/04/muc10#2
+S0273,S0273-D03,Bảng nồng độ và thông lượng CH₄ tại điểm đo kèm metadata,"Nguồn trong file 04: Profile, Key Deliverables; SRC-01; SRC-02",1,VERIFIED,S0273/04/muc10#3
+S0273,S0273-D04,Bản đồ nồng độ và thông lượng phát thải methane kèm ghi chú mô hình,"Nguồn trong file 04: Knowledge Base, Deliverables; SRC-03; SRC-04",1,VERIFIED,S0273/04/muc10#4
+S0273,S0273-D05,Bản đồ và báo cáo phát thải mùa vụ kèm quy đổi CO₂e theo phạm vi Level,"Nguồn trong file 04: Profile, Service Levels/Deliverables; SRC-01; SRC-04",1,VERIFIED,S0273/04/muc10#5
+S0273,S0273-D06,"Báo cáo so sánh can thiệp canh tác kèm QA/QC, RMSE/Bias và độ không chắc chắn","Nguồn trong file 04: Knowledge Base, Quality/Deliverables; SRC-04; SRC-16",1,VERIFIED,S0273/04/muc10#6
+S0273,S0273-D07,"Hồ sơ dữ liệu hỗ trợ MRV và dashboard, chỉ trong phạm vi Level 3","Nguồn trong file 04: Knowledge Base, Service Levels/Deliverables; SRC-04; SRC-10",3,VERIFIED,S0273/04/muc10#7
+S0274,S0274-D01,Dữ liệu đo đã QA/QC,Nguồn trong file 04: SRC-02; SRC-03; SRC-12,1,VERIFIED,S0274/04/muc10#1
+S0274,S0274-D02,Bản đồ phân bố CO₂/CH₄ và lớp GIS,Nguồn trong file 04: SRC-03,1,VERIFIED,S0274/04/muc10#2
+S0274,S0274-D03,Phân tích hotspot và thống kê,Nguồn trong file 04: SRC-02; SRC-03; SRC-09,1,VERIFIED,S0274/04/muc10#3
+S0274,S0274-D04,Đánh giá mạng quan trắc,Nguồn trong file 04: SRC-02; SRC-10,1,VERIFIED,S0274/04/muc10#4
+S0274,S0274-D05,Báo cáo phương pháp và chất lượng,Nguồn trong file 04: SRC-02; SRC-05; SRC-12,1,VERIFIED,S0274/04/muc10#5
+S0274,S0274-D06,Ước lượng/đối chiếu phát thải (nếu thuộc scope),Nguồn trong file 04: SRC-02; SRC-04; SRC-08 – CẦN XÁC MINH | Chỉ bàn giao khi hợp đồng hoặc phạm vi yêu cầu.,1,NEED_VERIFY,S0274/04/muc10#6
+S0282,S0282-D01,Orthomosaic RGB (và DSM khi cần) — GeoTIFF,Nguồn trong file 04: SRC-04; Q10,1,VERIFIED,S0282/04/muc10#1
+S0282,S0282-D02,Bản đồ nhiệt độ bề mặt (LST) — GeoTIFF,Nguồn trong file 04: SRC-04; SRC-07; S0282_Research_Workbook (Q10),1,VERIFIED,S0282/04/muc10#2
+S0282,S0282-D03,Bản đồ độ ẩm đất / chỉ số ẩm thảm thực vật — GeoTIFF,Nguồn trong file 04: SRC-04; SRC-05; SRC-13; S0282_Research_Workbook (Q10),1,VERIFIED,S0282/04/muc10#3
+S0282,S0282-D04,Bản đồ phân vùng khô hạn — GeoTIFF / Shapefile,Nguồn trong file 04: S0282_Research_Workbook (Q10; Q15),1,VERIFIED,S0282/04/muc10#4
+S0282,S0282-D05,Bản đồ / xếp hạng nguy cơ cháy (Level 3) — Shapefile,Nguồn trong file 04: SRC-02; S0282_Research_Workbook (Q10; Q15),3,VERIFIED,S0282/04/muc10#5
+S0282,S0282-D06,Lớp GIS kèm metadata,Nguồn trong file 04: S0282_Research_Workbook (Q10),1,VERIFIED,S0282/04/muc10#6
+S0282,S0282-D07,Danh sách khu vực ưu tiên kiểm tra kèm tọa độ,Nguồn trong file 04: S0282_Research_Workbook (Q10; Q18),1,VERIFIED,S0282/04/muc10#7
+S0282,S0282-D08,"Báo cáo kỹ thuật kèm sai số, điều kiện áp dụng và giới hạn dịch vụ",Nguồn trong file 04: S0282_Research_Workbook (Q10; Q14),1,VERIFIED,S0282/04/muc10#8
+S0282,S0282-D09,Báo cáo biến động giữa các đợt giám sát (Level 3),Nguồn trong file 04: SRC-27; S0282_Research_Workbook (Q15),3,VERIFIED,S0282/04/muc10#9
+S0283,S0283-D01,Orthomosaic RGB và đa phổ theo từng kỳ; GeoTIFF; CRS thống nhất.,Nguồn trong file 04: SRC-03; SRC-04,1,VERIFIED,S0283/04/muc10#1
+S0283,S0283-D02,Bản đồ chỉ số thực vật (NDVI và chỉ số bổ sung phù hợp); GeoTIFF/PDF.,Nguồn trong file 04: SRC-02; SRC-04,1,VERIFIED,S0283/04/muc10#2
+S0283,S0283-D03,"Bản đồ biến động tăng, ổn định, giảm, không xác định; raster/vector.",Nguồn trong file 04: SRC-06; SRC-07,1,VERIFIED,S0283/04/muc10#3
+S0283,S0283-D04,Thống kê diện tích và tỷ lệ theo AOI/lô; XLSX/CSV.,Nguồn trong file 04: SRC-07,1,VERIFIED,S0283/04/muc10#4
+S0283,S0283-D05,Danh sách/lớp điểm nóng có mức ưu tiên; GeoPackage/GeoJSON.,Nguồn trong file 04: SRC-06; SRC-07,1,VERIFIED,S0283/04/muc10#5
+S0283,S0283-D06,Báo cáo kỹ thuật và QA/QC; DOCX/PDF; nêu sai số và giới hạn.,Nguồn trong file 04: SRC-06; SRC-07,1,VERIFIED,S0283/04/muc10#6
+S0283,S0283-D07,Dashboard/API và mô hình AI nếu thuộc Level 3/add-on đã phê duyệt.,Nguồn trong file 04: SRC-05; File 01/02 mục 7-8 | Chỉ bàn giao khi hợp đồng hoặc phạm vi yêu cầu.,3,VERIFIED,S0283/04/muc10#7
+S0284,S0284-D01,Orthomosaic / ảnh đã hiệu chỉnh — GeoTIFF,"Nguồn trong file 04: Asset 01 (KB Mục 8, D1); Asset 02 (Profile Mục 8); SRC-01, SRC-16",1,VERIFIED,S0284/04/muc10#1
+S0284,S0284-D02,Bản đồ FMC hoặc lớp chỉ số / trạng thái nước của tán — GeoTIFF,"Nguồn trong file 04: Asset 01 (KB Mục 8, D2); Asset 02 (Profile Mục 8); SRC-01, SRC-02",1,VERIFIED,S0284/04/muc10#2
+S0284,S0284-D03,Bản đồ theo cây / ô (nếu đủ độ phân giải) — GeoTIFF / Shapefile,"Nguồn trong file 04: Asset 01 (KB Mục 8, D3); Asset 02 (Profile Mục 8); SRC-01, SRC-16, SRC-27 | Chỉ bàn giao khi hợp đồng hoặc phạm vi yêu cầu.",1,VERIFIED,S0284/04/muc10#3
+S0284,S0284-D04,Lớp nhiệt / Canopy temperature (nếu có thermal) — GeoTIFF,"Nguồn trong file 04: Asset 01 (KB Mục 8, D4); Asset 02 (Profile Mục 8); SRC-07, SRC-15 | Chỉ bàn giao khi hợp đồng hoặc phạm vi yêu cầu.",1,VERIFIED,S0284/04/muc10#4
+S0284,S0284-D05,Bảng dữ liệu điểm / cây / ô — Excel / CSV,"Nguồn trong file 04: Asset 01 (KB Mục 8, D5); Asset 02 (Profile Mục 8); SRC-16",1,VERIFIED,S0284/04/muc10#5
+S0284,S0284-D06,"Báo cáo phương pháp, mô hình, sai số và validation — PDF","Nguồn trong file 04: Asset 01 (KB Mục 8, D6); Asset 02 (Profile Mục 8); SRC-02, SRC-06, SRC-12",1,VERIFIED,S0284/04/muc10#6
+S0284,S0284-D07,"Metadata về cảm biến, thời gian bay, điều kiện đo, calibration — XML / JSON / PDF","Nguồn trong file 04: Asset 01 (KB Mục 8, D7); Asset 02 (Profile Mục 8); SRC-06, SRC-13",1,VERIFIED,S0284/04/muc10#7
+S0284,S0284-D08,Khuyến nghị khu vực cần kiểm tra thực địa — Shapefile + Excel,"Nguồn trong file 04: Asset 01 (KB Mục 8, D8); Asset 02 (Profile Mục 8); SRC-03, SRC-16, SRC-23",1,VERIFIED,S0284/04/muc10#8
+S0285-S0287,S0285-S0287-D01,Đám mây điểm đã phân loại,Nguồn trong file 04: SRC-13; SRC-17 (Q10),1,VERIFIED,S0285-S0287/04/muc10#1
+S0285-S0287,S0285-S0287-D02,DTM / DSM / CHM,Nguồn trong file 04: SRC-17 (Q10),1,VERIFIED,S0285-S0287/04/muc10#2
+S0285-S0287,S0285-S0287-D03,Lớp cây đơn lẻ (thuộc L2),Nguồn trong file 04: SRC-18 (Q10; Q15),2,VERIFIED,S0285-S0287/04/muc10#3
+S0285-S0287,S0285-S0287-D04,Bản đồ AGB và trữ lượng các-bon theo lô (tấn C/ha và tCO2e/ha),Nguồn trong file 04: SRC-01; SRC-13; SRC-21 (Q10),1,VERIFIED,S0285-S0287/04/muc10#4
+S0285-S0287,S0285-S0287-D05,Báo cáo phương pháp kèm bảng sai số,Nguồn trong file 04: SRC-13; SRC-17 (Q10),1,VERIFIED,S0285-S0287/04/muc10#5
+S0285-S0287,S0285-S0287-D06,Bản đồ biến động và bảng thay đổi trữ lượng (thuộc L3),Nguồn trong file 04: SRC-13; SRC-20 (Q10; Q15),3,VERIFIED,S0285-S0287/04/muc10#6
+S0285-S0287,S0285-S0287-D07,Lớp GIS và dashboard theo dõi đa kỳ (thuộc L3),Nguồn trong file 04: Cần xác minh: GASCOLAE (Q15; Q16),3,NEED_VERIFY,S0285-S0287/04/muc10#7
+S0286,S0286-D01,Báo cáo MRV theo mẫu chương trình,Nguồn trong file 04: SRC-16; SRC-11,1,VERIFIED,S0286/04/muc10#1
+S0286,S0286-D02,Kế hoạch giám sát,Nguồn trong file 04: SRC-16,1,VERIFIED,S0286/04/muc10#2
+S0286,S0286-D03,Bảng tính định lượng kèm dữ liệu gốc,Nguồn trong file 04: SRC-11; SRC-16,1,VERIFIED,S0286/04/muc10#3
+S0286,S0286-D04,Gói dữ liệu không gian,Nguồn trong file 04: SRC-23; SRC-24,1,VERIFIED,S0286/04/muc10#4
+S0286,S0286-D05,Nhật ký QA/QC và hồ sơ truy vết,Nguồn trong file 04: SRC-15; SRC-16,1,VERIFIED,S0286/04/muc10#5
+S0286,S0286-D06,Bản giải trình đáp ứng phát hiện của đơn vị thẩm định,Nguồn trong file 04: SRC-12; SRC-19,1,VERIFIED,S0286/04/muc10#6
+S0288,S0288-D01,Đám mây điểm 3D (.LAS / .E57 / .PLY),"Nguồn trong file 04: SRC-01, SRC-14",1,VERIFIED,S0288/04/muc10#1
+S0288,S0288-D02,Bản đồ trực ảnh Orthomosaic RGB & Bản đồ nhiệt GeoTIFF,"Nguồn trong file 04: SRC-04, SRC-16",1,VERIFIED,S0288/04/muc10#2
+S0288,S0288-D03,Bảng chỉ tiêu hình học & Báo cáo khuyết tật,"Nguồn trong file 04: SRC-11, SRC-14",1,VERIFIED,S0288/04/muc10#3
+S0288,S0288-D04,Báo cáo đánh giá hiện trạng & Cảnh báo nguy cơ cháy do lão hóa vật liệu,"Nguồn trong file 04: SRC-07, SRC-11, SRC-19",1,VERIFIED,S0288/04/muc10#4
+S0288,S0288-D05,Mô hình Scan-to-BIM RVT/IFC (đối với gói Level 3),Nguồn trong file 04: SRC-27,3,VERIFIED,S0288/04/muc10#5

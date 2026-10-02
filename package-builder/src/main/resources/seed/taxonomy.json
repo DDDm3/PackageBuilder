@@ -1,0 +1,929 @@
+{
+ "PARENT": [
+  {
+   "term_type": "ENVIRONMENT",
+   "code": "RICE_FIELD",
+   "parent_code": "CROPLAND"
+  },
+  {
+   "term_type": "INDUSTRY",
+   "code": "CONSERVATION",
+   "parent_code": "FORESTRY"
+  }
+ ],
+ "OBJECTIVE": [
+  [
+   "CARBON_CREDIT_MRV",
+   "Lập hồ sơ MRV cho dự án tín chỉ carbon",
+   "Carbon credit MRV"
+  ],
+  [
+   "CARBON_STOCK_ASSESSMENT",
+   "Đánh giá trữ lượng / hấp thụ carbon",
+   "Carbon stock assessment"
+  ],
+  [
+   "GHG_EMISSION_MEASUREMENT",
+   "Đo và định lượng phát thải khí nhà kính",
+   "GHG emission measurement"
+  ],
+  [
+   "EMISSION_REDUCTION_VERIFICATION",
+   "Xác nhận hiệu quả giảm phát thải (trước – sau)",
+   "Emission reduction verification"
+  ],
+  [
+   "GHG_INVENTORY_SUPPORT",
+   "Hỗ trợ kiểm kê khí nhà kính",
+   "GHG inventory support"
+  ],
+  [
+   "CARBON_FOOTPRINT_MAPPING",
+   "Lập bản đồ carbon footprint cơ sở / doanh nghiệp",
+   "Carbon footprint mapping"
+  ],
+  [
+   "ESG_NETZERO",
+   "Mục tiêu ESG / Net Zero",
+   "ESG / Net Zero"
+  ],
+  [
+   "CLIMATE_RESEARCH",
+   "Dữ liệu phục vụ nghiên cứu khí hậu",
+   "Climate research data"
+  ],
+  [
+   "DROUGHT_WATER_STRESS",
+   "Cảnh báo hạn hán, theo dõi stress nước",
+   "Drought & water stress"
+  ],
+  [
+   "FIRE_RISK_PREVENTION",
+   "Phòng ngừa nguy cơ cháy",
+   "Fire risk prevention"
+  ],
+  [
+   "VEGETATION_CHANGE_MONITORING",
+   "Theo dõi biến động thảm thực vật / rừng",
+   "Vegetation change monitoring"
+  ],
+  [
+   "STRUCTURAL_INSPECTION",
+   "Kiểm tra kết cấu công trình",
+   "Structural inspection"
+  ]
+ ],
+ "INDUSTRY": [
+  [
+   "FORESTRY",
+   "Lâm nghiệp, chủ rừng, công ty lâm nghiệp",
+   "Forestry"
+  ],
+  [
+   "CONSERVATION",
+   "Khu bảo tồn, rừng đặc dụng / phòng hộ",
+   "Conservation"
+  ],
+  [
+   "AGRICULTURE",
+   "Nông nghiệp, hợp tác xã, doanh nghiệp nông nghiệp",
+   "Agriculture"
+  ],
+  [
+   "WASTE_MANAGEMENT",
+   "Bãi chôn lấp, xử lý chất thải, môi trường đô thị",
+   "Waste management"
+  ],
+  [
+   "INDUSTRIAL_MANUFACTURING",
+   "Nhà máy, khu công nghiệp, nhà xưởng",
+   "Industrial / manufacturing"
+  ],
+  [
+   "ENERGY_HEAVY_INDUSTRY",
+   "Năng lượng, dầu khí, nhiệt điện, xi măng, sắt thép",
+   "Energy & heavy industry"
+  ],
+  [
+   "GOVERNMENT_AGENCY",
+   "Cơ quan quản lý nhà nước, chính quyền địa phương",
+   "Government agency"
+  ],
+  [
+   "RESEARCH_ACADEMIA",
+   "Viện, trường, nhóm nghiên cứu",
+   "Research & academia"
+  ],
+  [
+   "CARBON_PROJECT_DEVELOPER",
+   "Chủ dự án / đơn vị phát triển dự án carbon, tư vấn MRV",
+   "Carbon project developer"
+  ],
+  [
+   "CARBON_INVESTOR",
+   "Quỹ, nhà đầu tư mua tín chỉ",
+   "Carbon investor"
+  ],
+  [
+   "CORPORATE_ESG",
+   "Doanh nghiệp có cam kết ESG / Net Zero",
+   "Corporate ESG"
+  ],
+  [
+   "FIRE_SAFETY_AUTHORITY",
+   "Lực lượng PCCC, đơn vị quản lý PCCC",
+   "Fire safety authority"
+  ],
+  [
+   "REAL_ESTATE_BUILDING",
+   "Quản lý tòa nhà, chung cư, kho bãi",
+   "Real estate & building"
+  ]
+ ],
+ "ENVIRONMENT": [
+  [
+   "FOREST",
+   "Rừng tự nhiên, rừng trồng",
+   "Forest"
+  ],
+  [
+   "RICE_FIELD",
+   "Ruộng lúa",
+   "Rice field"
+  ],
+  [
+   "CROPLAND",
+   "Đất canh tác, trang trại, vùng sản xuất",
+   "Cropland"
+  ],
+  [
+   "LANDFILL",
+   "Bãi chôn lấp chất thải rắn",
+   "Landfill"
+  ],
+  [
+   "INDUSTRIAL_SITE",
+   "Nhà máy, khu công nghiệp",
+   "Industrial site"
+  ],
+  [
+   "URBAN_AREA",
+   "Khu đô thị",
+   "Urban area"
+  ],
+  [
+   "BUILDING",
+   "Công trình, tòa nhà",
+   "Building"
+  ],
+  [
+   "MIXED_LAND_COVER",
+   "Nhiều loại bề mặt / lớp phủ",
+   "Mixed land cover"
+  ]
+ ],
+ "OUTPUT_FAMILY": [
+  [
+   "BASE_MAP",
+   "Bản đồ nền: ảnh trực giao, mô hình độ cao"
+  ],
+  [
+   "MONITORING_MAP",
+   "Bản đồ chỉ số / hiện trạng một kỳ"
+  ],
+  [
+   "CHANGE_ANALYSIS",
+   "Phân tích biến động nhiều kỳ"
+  ],
+  [
+   "RISK_MAP",
+   "Bản đồ phân vùng nguy cơ"
+  ],
+  [
+   "FORECAST",
+   "Dự báo"
+  ],
+  [
+   "EMISSION_MAP",
+   "Bản đồ nồng độ / nguồn phát thải"
+  ],
+  [
+   "EMISSION_QUANTIFICATION",
+   "Định lượng phát thải, quy đổi tCO₂e"
+  ],
+  [
+   "HOTSPOT_LIST",
+   "Danh sách điểm nóng / vị trí ưu tiên kiểm tra"
+  ],
+  [
+   "CARBON_STOCK",
+   "Trữ lượng / sinh khối carbon"
+  ],
+  [
+   "MRV_REPORT",
+   "Báo cáo MRV và kế hoạch giám sát"
+  ],
+  [
+   "MRV_SUPPORT",
+   "Hồ sơ hỗ trợ MRV / thẩm định"
+  ],
+  [
+   "ASSESSMENT_REPORT",
+   "Báo cáo đánh giá hiện trạng"
+  ],
+  [
+   "TECHNICAL_REPORT",
+   "Báo cáo kỹ thuật, phương pháp, sai số"
+  ],
+  [
+   "QAQC_REPORT",
+   "Báo cáo QA/QC, hiệu chuẩn, truy vết"
+  ],
+  [
+   "GIS_DATASET",
+   "Bộ dữ liệu / lớp GIS"
+  ],
+  [
+   "DATA_TABLE",
+   "Bảng số liệu, thống kê"
+  ],
+  [
+   "DASHBOARD",
+   "Dashboard / WebGIS / API"
+  ],
+  [
+   "MODEL_3D",
+   "Đám mây điểm, mô hình 3D / BIM"
+  ],
+  [
+   "METADATA",
+   "Siêu dữ liệu"
+  ]
+ ],
+ "DATA_OBJECT": [
+  [
+   "AOI_BOUNDARY",
+   "Ranh giới khu vực / dự án dạng số (KML, SHP, CAD)",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "SCOPE_OBJECTIVE",
+   "Mục tiêu, phạm vi, lịch khảo sát, kỳ báo cáo",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "SURFACE_TYPE_LIST",
+   "Danh sách loại bề mặt cần đánh giá",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "OWNER_CONSENT",
+   "Văn bản đồng ý của chủ khu vực / chủ sở hữu",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "CRS_SPEC",
+   "Hệ tọa độ quy định",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "DEM",
+   "Mô hình số độ cao có sẵn",
+   "BOTH",
+   "CUSTOMER",
+   "BASE_MAP"
+  ],
+  [
+   "SITE_ASSET_LAYOUT",
+   "Layout / danh mục tài sản của site",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "ACTIVITY_DATA",
+   "Dữ liệu hoạt động: điện, nhiên liệu, sản lượng, phương tiện, chất thải, môi chất lạnh",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "EMISSION_FACTORS",
+   "Hệ số phát thải, GWP, phương pháp kiểm kê được chấp nhận",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "GHG_INVENTORY",
+   "Báo cáo / dữ liệu kiểm kê khí nhà kính",
+   "BOTH",
+   "CUSTOMER",
+   "DATA_TABLE"
+  ],
+  [
+   "PROJECT_DESIGN_METHODOLOGY",
+   "Tài liệu thiết kế dự án và phương pháp luận đã chọn",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "BASELINE_ACTIVITY_DATA",
+   "Dữ liệu hoạt động kỳ đường cơ sở",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "BASELINE_DATA",
+   "Dữ liệu nền / baseline của khu vực",
+   "BOTH",
+   "CUSTOMER",
+   "DATA_TABLE"
+  ],
+  [
+   "MULTI_PERIOD_IMAGERY",
+   "Ảnh / dữ liệu các kỳ trước",
+   "BOTH",
+   "CUSTOMER",
+   "BASE_MAP"
+  ],
+  [
+   "OPERATION_HISTORY",
+   "Lịch sử vận hành, lịch tác động, mốc can thiệp",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "LFG_SYSTEM_LAYOUT",
+   "Sơ đồ giếng thu khí, đường ống gom, trạm flare",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "LFG_METER_DATA",
+   "Số đo đồng hồ khí thu hồi / đốt flare",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "EMISSION_SOURCE_LIST",
+   "Danh sách / tọa độ nguồn phát thải hoặc khu vực nghi ngờ",
+   "BOTH",
+   "CUSTOMER",
+   "EMISSION_MAP"
+  ],
+  [
+   "CROP_CALENDAR",
+   "Lịch mùa vụ, giống",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "WATER_REGIME",
+   "Chế độ nước, sự kiện AWD, mực nước",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "BASEMAP_GIS",
+   "Lớp GIS nền: hạ tầng, land-use, đường, công trình, lâm nghiệp",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "FIRE_SENSITIVE_POI",
+   "Điểm / đối tượng nhạy cảm cháy",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "FOREST_STATUS_RECORDS",
+   "Hồ sơ hiện trạng rừng: trạng thái, loài ưu thế",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "FOREST_INVENTORY_PREVIOUS",
+   "Kết quả kiểm kê rừng kỳ trước",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "FOREST_PLOT_DATA",
+   "Dữ liệu ô tiêu chuẩn / ô mẫu mặt đất",
+   "BOTH",
+   "CUSTOMER",
+   "DATA_TABLE"
+  ],
+  [
+   "AS_BUILT_DRAWINGS",
+   "Hồ sơ hoàn công, bản vẽ kiến trúc – kết cấu",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "CONSTRUCTION_HISTORY",
+   "Thông tin xây dựng, lịch sử cải tạo",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "MAINTENANCE_RECORDS",
+   "Hồ sơ bảo trì, kiểm định, đánh giá an toàn kỳ trước",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "OBSTACLE_INFO",
+   "Thông tin vật cản trong khu vực bay",
+   "IN",
+   "CUSTOMER",
+   null
+  ],
+  [
+   "FLIGHT_PERMIT",
+   "Giấy phép bay (GASCOLAE lập hồ sơ, cơ quan có thẩm quyền cấp)",
+   "IN",
+   "AUTHORITY",
+   null
+  ],
+  [
+   "WEATHER_DATA",
+   "Dữ liệu khí tượng: mưa, nhiệt, ẩm, gió, bức xạ",
+   "IN",
+   "THIRD_PARTY",
+   null
+  ],
+  [
+   "SATELLITE_HISTORY",
+   "Dữ liệu vệ tinh và lịch sử khí hậu",
+   "IN",
+   "THIRD_PARTY",
+   null
+  ],
+  [
+   "REFERENCE_VALIDATION_DATA",
+   "Dữ liệu tham chiếu để kiểm định (mặt đất / vệ tinh)",
+   "IN",
+   "THIRD_PARTY",
+   null
+  ],
+  [
+   "FLIGHT_PLAN",
+   "Kế hoạch bay",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "UAV_IMAGERY",
+   "Ảnh / dữ liệu cảm biến thu từ UAV",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "UAV_OPTIONAL_SENSORS",
+   "Dữ liệu cảm biến UAV bổ sung (đa phổ, LiDAR, nhiệt, khí)",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "INCIDENT_RADIATION",
+   "Bức xạ mặt trời chiếu xuống tại thời điểm khảo sát",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "CALIBRATION_DATA",
+   "Dữ liệu hiệu chuẩn: tấm chuẩn phản xạ, khí chuẩn",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "FLIGHT_METADATA",
+   "Điều kiện quan sát, thông số bay, flight log",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "GROUND_CONTROL",
+   "GCP / check point / RTK / PPK",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "GROUND_TRUTH",
+   "Số liệu kiểm chứng mặt đất",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "SOIL_INSITU_DATA",
+   "Số liệu đo đất in-situ: VWC, EC, nhiệt độ",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "ENV_SENSOR_DATA",
+   "Dữ liệu cảm biến môi trường",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "CHAMBER_CH4_SERIES",
+   "Chuỗi nồng độ CH₄ tại buồng đo",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "LEAF_SAMPLES",
+   "Mẫu lá ground-truth (khối lượng tươi / khô)",
+   "IN",
+   "GASCOLAE",
+   null
+  ],
+  [
+   "ORTHOMOSAIC",
+   "Ảnh trực giao (orthomosaic)",
+   "OUT",
+   null,
+   "BASE_MAP"
+  ],
+  [
+   "ELEVATION_MODEL",
+   "Mô hình độ cao DTM / DSM / CHM",
+   "OUT",
+   null,
+   "BASE_MAP"
+  ],
+  [
+   "POINT_CLOUD",
+   "Đám mây điểm đã xử lý / phân loại",
+   "OUT",
+   null,
+   "MODEL_3D"
+  ],
+  [
+   "BIM_MODEL",
+   "Mô hình Scan-to-BIM",
+   "OUT",
+   null,
+   "MODEL_3D"
+  ],
+  [
+   "SURFACE_TEMPERATURE_MAP",
+   "Bản đồ nhiệt độ bề mặt / nhiệt tán",
+   "OUT",
+   null,
+   "MONITORING_MAP"
+  ],
+  [
+   "ALBEDO_VALUES",
+   "Giá trị albedo theo khu vực và loại bề mặt",
+   "OUT",
+   null,
+   "DATA_TABLE"
+  ],
+  [
+   "ALBEDO_MAP",
+   "Bản đồ phân bố albedo",
+   "OUT",
+   null,
+   "MONITORING_MAP"
+  ],
+  [
+   "REFLECTANCE_DATA",
+   "Dữ liệu phản xạ bề mặt trung gian",
+   "OUT",
+   null,
+   "GIS_DATASET"
+  ],
+  [
+   "VEGETATION_INDEX_MAP",
+   "Bản đồ / chuỗi chỉ số thực vật",
+   "OUT",
+   null,
+   "MONITORING_MAP"
+  ],
+  [
+   "SOIL_MOISTURE_MAP",
+   "Bản đồ độ ẩm đất / chỉ số ẩm thảm thực vật",
+   "OUT",
+   null,
+   "MONITORING_MAP"
+  ],
+  [
+   "CANOPY_MOISTURE_MAP",
+   "Bản đồ độ ẩm tán (FMC) / trạng thái nước của tán",
+   "OUT",
+   null,
+   "MONITORING_MAP"
+  ],
+  [
+   "DROUGHT_ZONE_MAP",
+   "Bản đồ phân vùng khô hạn / bất thường độ ẩm",
+   "OUT",
+   null,
+   "RISK_MAP"
+  ],
+  [
+   "DROUGHT_FORECAST",
+   "Bản đồ và báo cáo dự báo hạn",
+   "OUT",
+   null,
+   "FORECAST"
+  ],
+  [
+   "FIRE_RISK_MAP",
+   "Bản đồ / xếp hạng nguy cơ cháy",
+   "OUT",
+   null,
+   "RISK_MAP"
+  ],
+  [
+   "CHANGE_MAP",
+   "Bản đồ / báo cáo biến động giữa các kỳ",
+   "OUT",
+   null,
+   "CHANGE_ANALYSIS"
+  ],
+  [
+   "GAS_CONCENTRATION_MAP",
+   "Bản đồ nồng độ khí (CO₂ / CH₄)",
+   "OUT",
+   null,
+   "EMISSION_MAP"
+  ],
+  [
+   "EMISSION_SOURCE_MAP",
+   "Bản đồ ranh giới kiểm kê và nguồn phát thải",
+   "OUT",
+   null,
+   "EMISSION_MAP"
+  ],
+  [
+   "GAS_FLOW_DIAGRAM",
+   "Sơ đồ luồng khí và quỹ đạo bay",
+   "OUT",
+   null,
+   "EMISSION_MAP"
+  ],
+  [
+   "EMISSION_HOTSPOTS",
+   "Điểm nóng phát thải kèm tọa độ",
+   "OUT",
+   null,
+   "HOTSPOT_LIST"
+  ],
+  [
+   "PRIORITY_INSPECTION_LIST",
+   "Danh sách khu vực / điểm ưu tiên kiểm tra",
+   "OUT",
+   null,
+   "HOTSPOT_LIST"
+  ],
+  [
+   "EMISSION_FLUX",
+   "Thông lượng phát thải kèm dải bất định",
+   "OUT",
+   null,
+   "EMISSION_QUANTIFICATION"
+  ],
+  [
+   "EMISSION_REDUCTION_RESULT",
+   "Kết quả so sánh trước – sau, quy đổi tCO₂e",
+   "OUT",
+   null,
+   "EMISSION_QUANTIFICATION"
+  ],
+  [
+   "LFG_COLLECTION_EFFICIENCY",
+   "Ước tính hiệu suất thu gom khí bãi rác",
+   "OUT",
+   null,
+   "EMISSION_QUANTIFICATION"
+  ],
+  [
+   "CO2E_TABLE",
+   "Bảng CO₂e theo khu vực / nguồn, có provenance",
+   "OUT",
+   null,
+   "EMISSION_QUANTIFICATION"
+  ],
+  [
+   "CH4_POINT_FLUX_TABLE",
+   "Bảng nồng độ và thông lượng CH₄ tại điểm đo",
+   "OUT",
+   null,
+   "EMISSION_QUANTIFICATION"
+  ],
+  [
+   "SEASONAL_CH4_EMISSION",
+   "Phát thải CH₄ mùa vụ, quy đổi CO₂e",
+   "OUT",
+   null,
+   "EMISSION_QUANTIFICATION"
+  ],
+  [
+   "INTERVENTION_COMPARISON",
+   "Báo cáo so sánh can thiệp canh tác (AWD / baseline)",
+   "OUT",
+   null,
+   "EMISSION_QUANTIFICATION"
+  ],
+  [
+   "CARBON_SINK_LAYER",
+   "Lớp carbon sink / thảm thực vật",
+   "OUT",
+   null,
+   "CARBON_STOCK"
+  ],
+  [
+   "TREE_LAYER",
+   "Lớp cây đơn lẻ / bản đồ theo cây, ô",
+   "OUT",
+   null,
+   "CARBON_STOCK"
+  ],
+  [
+   "AGB_CARBON_STOCK_MAP",
+   "Bản đồ AGB và trữ lượng carbon (tấn C/ha, tCO₂e/ha)",
+   "OUT",
+   null,
+   "CARBON_STOCK"
+  ],
+  [
+   "MONITORING_NETWORK_ASSESSMENT",
+   "Đánh giá mạng quan trắc",
+   "OUT",
+   null,
+   "ASSESSMENT_REPORT"
+  ],
+  [
+   "MRV_REPORT",
+   "Báo cáo MRV theo mẫu chương trình",
+   "OUT",
+   null,
+   "MRV_REPORT"
+  ],
+  [
+   "MONITORING_PLAN",
+   "Kế hoạch giám sát",
+   "OUT",
+   null,
+   "MRV_REPORT"
+  ],
+  [
+   "QUANTIFICATION_WORKBOOK",
+   "Bảng tính định lượng kèm dữ liệu gốc",
+   "OUT",
+   null,
+   "EMISSION_QUANTIFICATION"
+  ],
+  [
+   "VERIFICATION_RESPONSE",
+   "Bản giải trình đáp ứng phát hiện của đơn vị thẩm định",
+   "OUT",
+   null,
+   "MRV_SUPPORT"
+  ],
+  [
+   "VERIFICATION_EVIDENCE",
+   "Bộ bằng chứng / hồ sơ dữ liệu hỗ trợ MRV, thẩm định",
+   "OUT",
+   null,
+   "MRV_SUPPORT"
+  ],
+  [
+   "DEFECT_TABLE",
+   "Bảng chỉ tiêu hình học và khuyết tật",
+   "OUT",
+   null,
+   "DATA_TABLE"
+  ],
+  [
+   "CONDITION_REPORT",
+   "Báo cáo đánh giá hiện trạng, cảnh báo nguy cơ",
+   "OUT",
+   null,
+   "ASSESSMENT_REPORT"
+  ],
+  [
+   "MEASUREMENT_DATA_QC",
+   "Dữ liệu đo đã QA/QC",
+   "OUT",
+   null,
+   "DATA_TABLE"
+  ],
+  [
+   "STATISTICS_TABLE",
+   "Bảng thống kê / dữ liệu theo điểm, lô, AOI",
+   "OUT",
+   null,
+   "DATA_TABLE"
+  ],
+  [
+   "TECHNICAL_REPORT",
+   "Báo cáo kỹ thuật / phương pháp / sai số",
+   "OUT",
+   null,
+   "TECHNICAL_REPORT"
+  ],
+  [
+   "QAQC_REPORT",
+   "Báo cáo QA/QC, hiệu chuẩn, nhật ký truy vết",
+   "OUT",
+   null,
+   "QAQC_REPORT"
+  ],
+  [
+   "ACCURACY_DATA",
+   "Dữ liệu kiểm định và chỉ số độ chính xác",
+   "OUT",
+   null,
+   "QAQC_REPORT"
+  ],
+  [
+   "GIS_LAYER",
+   "Lớp / gói dữ liệu GIS",
+   "OUT",
+   null,
+   "GIS_DATASET"
+  ],
+  [
+   "METADATA_PACKAGE",
+   "Siêu dữ liệu cảm biến, thời gian, điều kiện đo",
+   "OUT",
+   null,
+   "METADATA"
+  ],
+  [
+   "DASHBOARD",
+   "Dashboard / WebGIS / API",
+   "OUT",
+   null,
+   "DASHBOARD"
+  ]
+ ],
+ "TOPIC": [
+  "carbon",
+  "ghg",
+  "co2",
+  "methane",
+  "mrv",
+  "biomass",
+  "forest",
+  "rice",
+  "landfill",
+  "urban",
+  "industrial",
+  "drought",
+  "soil-moisture",
+  "canopy-moisture",
+  "fire-risk",
+  "albedo",
+  "climate-research",
+  "vegetation",
+  "building",
+  "esg",
+  "lidar",
+  "multispectral",
+  "thermal",
+  "gas-sensor",
+  "rgb"
+ ]
+}

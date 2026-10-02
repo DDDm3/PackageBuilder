@@ -1,0 +1,92 @@
+﻿data_code,data_name,description,classification,verification_status,source_ref
+AOI_BOUNDARY,"Ranh giới khu vực / dự án dạng số (KML, SHP, CAD)",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+SCOPE_OBJECTIVE,"Mục tiêu, phạm vi, lịch khảo sát, kỳ báo cáo",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+SURFACE_TYPE_LIST,Danh sách loại bề mặt cần đánh giá,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+OWNER_CONSENT,Văn bản đồng ý của chủ khu vực / chủ sở hữu,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CRS_SPEC,Hệ tọa độ quy định,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+DEM,Mô hình số độ cao có sẵn,"Vai trò: BOTH. Người cung cấp mặc định khi là input: CUSTOMER. Nhóm đầu ra: BASE_MAP – Bản đồ nền: ảnh trực giao, mô hình độ cao.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+SITE_ASSET_LAYOUT,Layout / danh mục tài sản của site,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+ACTIVITY_DATA,"Dữ liệu hoạt động: điện, nhiên liệu, sản lượng, phương tiện, chất thải, môi chất lạnh",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+EMISSION_FACTORS,"Hệ số phát thải, GWP, phương pháp kiểm kê được chấp nhận",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+GHG_INVENTORY,Báo cáo / dữ liệu kiểm kê khí nhà kính,"Vai trò: BOTH. Người cung cấp mặc định khi là input: CUSTOMER. Nhóm đầu ra: DATA_TABLE – Bảng số liệu, thống kê.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+PROJECT_DESIGN_METHODOLOGY,Tài liệu thiết kế dự án và phương pháp luận đã chọn,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+BASELINE_ACTIVITY_DATA,Dữ liệu hoạt động kỳ đường cơ sở,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+BASELINE_DATA,Dữ liệu nền / baseline của khu vực,"Vai trò: BOTH. Người cung cấp mặc định khi là input: CUSTOMER. Nhóm đầu ra: DATA_TABLE – Bảng số liệu, thống kê.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+MULTI_PERIOD_IMAGERY,Ảnh / dữ liệu các kỳ trước,"Vai trò: BOTH. Người cung cấp mặc định khi là input: CUSTOMER. Nhóm đầu ra: BASE_MAP – Bản đồ nền: ảnh trực giao, mô hình độ cao.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+OPERATION_HISTORY,"Lịch sử vận hành, lịch tác động, mốc can thiệp",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+LFG_SYSTEM_LAYOUT,"Sơ đồ giếng thu khí, đường ống gom, trạm flare",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+LFG_METER_DATA,Số đo đồng hồ khí thu hồi / đốt flare,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+EMISSION_SOURCE_LIST,Danh sách / tọa độ nguồn phát thải hoặc khu vực nghi ngờ,Vai trò: BOTH. Người cung cấp mặc định khi là input: CUSTOMER. Nhóm đầu ra: EMISSION_MAP – Bản đồ nồng độ / nguồn phát thải.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CROP_CALENDAR,"Lịch mùa vụ, giống",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+WATER_REGIME,"Chế độ nước, sự kiện AWD, mực nước",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+BASEMAP_GIS,"Lớp GIS nền: hạ tầng, land-use, đường, công trình, lâm nghiệp",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+FIRE_SENSITIVE_POI,Điểm / đối tượng nhạy cảm cháy,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+FOREST_STATUS_RECORDS,"Hồ sơ hiện trạng rừng: trạng thái, loài ưu thế",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+FOREST_INVENTORY_PREVIOUS,Kết quả kiểm kê rừng kỳ trước,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+FOREST_PLOT_DATA,Dữ liệu ô tiêu chuẩn / ô mẫu mặt đất,"Vai trò: BOTH. Người cung cấp mặc định khi là input: CUSTOMER. Nhóm đầu ra: DATA_TABLE – Bảng số liệu, thống kê.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+AS_BUILT_DRAWINGS,"Hồ sơ hoàn công, bản vẽ kiến trúc – kết cấu",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CONSTRUCTION_HISTORY,"Thông tin xây dựng, lịch sử cải tạo",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+MAINTENANCE_RECORDS,"Hồ sơ bảo trì, kiểm định, đánh giá an toàn kỳ trước",Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+OBSTACLE_INFO,Thông tin vật cản trong khu vực bay,Vai trò: IN. Người cung cấp mặc định khi là input: CUSTOMER.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+FLIGHT_PERMIT,"Giấy phép bay (GASCOLAE lập hồ sơ, cơ quan có thẩm quyền cấp)",Vai trò: IN. Người cung cấp mặc định khi là input: AUTHORITY.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+WEATHER_DATA,"Dữ liệu khí tượng: mưa, nhiệt, ẩm, gió, bức xạ",Vai trò: IN. Người cung cấp mặc định khi là input: THIRD_PARTY.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+SATELLITE_HISTORY,Dữ liệu vệ tinh và lịch sử khí hậu,Vai trò: IN. Người cung cấp mặc định khi là input: THIRD_PARTY.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+REFERENCE_VALIDATION_DATA,Dữ liệu tham chiếu để kiểm định (mặt đất / vệ tinh),Vai trò: IN. Người cung cấp mặc định khi là input: THIRD_PARTY.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+FLIGHT_PLAN,Kế hoạch bay,Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+UAV_IMAGERY,Ảnh / dữ liệu cảm biến thu từ UAV,Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+UAV_OPTIONAL_SENSORS,"Dữ liệu cảm biến UAV bổ sung (đa phổ, LiDAR, nhiệt, khí)",Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+INCIDENT_RADIATION,Bức xạ mặt trời chiếu xuống tại thời điểm khảo sát,Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CALIBRATION_DATA,"Dữ liệu hiệu chuẩn: tấm chuẩn phản xạ, khí chuẩn",Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+FLIGHT_METADATA,"Điều kiện quan sát, thông số bay, flight log",Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+GROUND_CONTROL,GCP / check point / RTK / PPK,Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+GROUND_TRUTH,Số liệu kiểm chứng mặt đất,Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+SOIL_INSITU_DATA,"Số liệu đo đất in-situ: VWC, EC, nhiệt độ",Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+ENV_SENSOR_DATA,Dữ liệu cảm biến môi trường,Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CHAMBER_CH4_SERIES,Chuỗi nồng độ CH₄ tại buồng đo,Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+LEAF_SAMPLES,Mẫu lá ground-truth (khối lượng tươi / khô),Vai trò: IN. Người cung cấp mặc định khi là input: GASCOLAE.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+ORTHOMOSAIC,Ảnh trực giao (orthomosaic),"Vai trò: OUT. Nhóm đầu ra: BASE_MAP – Bản đồ nền: ảnh trực giao, mô hình độ cao.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+ELEVATION_MODEL,Mô hình độ cao DTM / DSM / CHM,"Vai trò: OUT. Nhóm đầu ra: BASE_MAP – Bản đồ nền: ảnh trực giao, mô hình độ cao.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+POINT_CLOUD,Đám mây điểm đã xử lý / phân loại,"Vai trò: OUT. Nhóm đầu ra: MODEL_3D – Đám mây điểm, mô hình 3D / BIM.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+BIM_MODEL,Mô hình Scan-to-BIM,"Vai trò: OUT. Nhóm đầu ra: MODEL_3D – Đám mây điểm, mô hình 3D / BIM.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+SURFACE_TEMPERATURE_MAP,Bản đồ nhiệt độ bề mặt / nhiệt tán,Vai trò: OUT. Nhóm đầu ra: MONITORING_MAP – Bản đồ chỉ số / hiện trạng một kỳ.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+ALBEDO_VALUES,Giá trị albedo theo khu vực và loại bề mặt,"Vai trò: OUT. Nhóm đầu ra: DATA_TABLE – Bảng số liệu, thống kê.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+ALBEDO_MAP,Bản đồ phân bố albedo,Vai trò: OUT. Nhóm đầu ra: MONITORING_MAP – Bản đồ chỉ số / hiện trạng một kỳ.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+REFLECTANCE_DATA,Dữ liệu phản xạ bề mặt trung gian,Vai trò: OUT. Nhóm đầu ra: GIS_DATASET – Bộ dữ liệu / lớp GIS.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+VEGETATION_INDEX_MAP,Bản đồ / chuỗi chỉ số thực vật,Vai trò: OUT. Nhóm đầu ra: MONITORING_MAP – Bản đồ chỉ số / hiện trạng một kỳ.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+SOIL_MOISTURE_MAP,Bản đồ độ ẩm đất / chỉ số ẩm thảm thực vật,Vai trò: OUT. Nhóm đầu ra: MONITORING_MAP – Bản đồ chỉ số / hiện trạng một kỳ.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CANOPY_MOISTURE_MAP,Bản đồ độ ẩm tán (FMC) / trạng thái nước của tán,Vai trò: OUT. Nhóm đầu ra: MONITORING_MAP – Bản đồ chỉ số / hiện trạng một kỳ.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+DROUGHT_ZONE_MAP,Bản đồ phân vùng khô hạn / bất thường độ ẩm,Vai trò: OUT. Nhóm đầu ra: RISK_MAP – Bản đồ phân vùng nguy cơ.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+DROUGHT_FORECAST,Bản đồ và báo cáo dự báo hạn,Vai trò: OUT. Nhóm đầu ra: FORECAST – Dự báo.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+FIRE_RISK_MAP,Bản đồ / xếp hạng nguy cơ cháy,Vai trò: OUT. Nhóm đầu ra: RISK_MAP – Bản đồ phân vùng nguy cơ.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CHANGE_MAP,Bản đồ / báo cáo biến động giữa các kỳ,Vai trò: OUT. Nhóm đầu ra: CHANGE_ANALYSIS – Phân tích biến động nhiều kỳ.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+GAS_CONCENTRATION_MAP,Bản đồ nồng độ khí (CO₂ / CH₄),Vai trò: OUT. Nhóm đầu ra: EMISSION_MAP – Bản đồ nồng độ / nguồn phát thải.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+EMISSION_SOURCE_MAP,Bản đồ ranh giới kiểm kê và nguồn phát thải,Vai trò: OUT. Nhóm đầu ra: EMISSION_MAP – Bản đồ nồng độ / nguồn phát thải.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+GAS_FLOW_DIAGRAM,Sơ đồ luồng khí và quỹ đạo bay,Vai trò: OUT. Nhóm đầu ra: EMISSION_MAP – Bản đồ nồng độ / nguồn phát thải.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+EMISSION_HOTSPOTS,Điểm nóng phát thải kèm tọa độ,Vai trò: OUT. Nhóm đầu ra: HOTSPOT_LIST – Danh sách điểm nóng / vị trí ưu tiên kiểm tra.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+PRIORITY_INSPECTION_LIST,Danh sách khu vực / điểm ưu tiên kiểm tra,Vai trò: OUT. Nhóm đầu ra: HOTSPOT_LIST – Danh sách điểm nóng / vị trí ưu tiên kiểm tra.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+EMISSION_FLUX,Thông lượng phát thải kèm dải bất định,"Vai trò: OUT. Nhóm đầu ra: EMISSION_QUANTIFICATION – Định lượng phát thải, quy đổi tCO₂e.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+EMISSION_REDUCTION_RESULT,"Kết quả so sánh trước – sau, quy đổi tCO₂e","Vai trò: OUT. Nhóm đầu ra: EMISSION_QUANTIFICATION – Định lượng phát thải, quy đổi tCO₂e.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+LFG_COLLECTION_EFFICIENCY,Ước tính hiệu suất thu gom khí bãi rác,"Vai trò: OUT. Nhóm đầu ra: EMISSION_QUANTIFICATION – Định lượng phát thải, quy đổi tCO₂e.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CO2E_TABLE,"Bảng CO₂e theo khu vực / nguồn, có provenance","Vai trò: OUT. Nhóm đầu ra: EMISSION_QUANTIFICATION – Định lượng phát thải, quy đổi tCO₂e.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CH4_POINT_FLUX_TABLE,Bảng nồng độ và thông lượng CH₄ tại điểm đo,"Vai trò: OUT. Nhóm đầu ra: EMISSION_QUANTIFICATION – Định lượng phát thải, quy đổi tCO₂e.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+SEASONAL_CH4_EMISSION,"Phát thải CH₄ mùa vụ, quy đổi CO₂e","Vai trò: OUT. Nhóm đầu ra: EMISSION_QUANTIFICATION – Định lượng phát thải, quy đổi tCO₂e.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+INTERVENTION_COMPARISON,Báo cáo so sánh can thiệp canh tác (AWD / baseline),"Vai trò: OUT. Nhóm đầu ra: EMISSION_QUANTIFICATION – Định lượng phát thải, quy đổi tCO₂e.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CARBON_SINK_LAYER,Lớp carbon sink / thảm thực vật,Vai trò: OUT. Nhóm đầu ra: CARBON_STOCK – Trữ lượng / sinh khối carbon.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+TREE_LAYER,"Lớp cây đơn lẻ / bản đồ theo cây, ô",Vai trò: OUT. Nhóm đầu ra: CARBON_STOCK – Trữ lượng / sinh khối carbon.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+AGB_CARBON_STOCK_MAP,"Bản đồ AGB và trữ lượng carbon (tấn C/ha, tCO₂e/ha)",Vai trò: OUT. Nhóm đầu ra: CARBON_STOCK – Trữ lượng / sinh khối carbon.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+MONITORING_NETWORK_ASSESSMENT,Đánh giá mạng quan trắc,Vai trò: OUT. Nhóm đầu ra: ASSESSMENT_REPORT – Báo cáo đánh giá hiện trạng.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+MRV_REPORT,Báo cáo MRV theo mẫu chương trình,Vai trò: OUT. Nhóm đầu ra: MRV_REPORT – Báo cáo MRV và kế hoạch giám sát.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+MONITORING_PLAN,Kế hoạch giám sát,Vai trò: OUT. Nhóm đầu ra: MRV_REPORT – Báo cáo MRV và kế hoạch giám sát.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+QUANTIFICATION_WORKBOOK,Bảng tính định lượng kèm dữ liệu gốc,"Vai trò: OUT. Nhóm đầu ra: EMISSION_QUANTIFICATION – Định lượng phát thải, quy đổi tCO₂e.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+VERIFICATION_RESPONSE,Bản giải trình đáp ứng phát hiện của đơn vị thẩm định,Vai trò: OUT. Nhóm đầu ra: MRV_SUPPORT – Hồ sơ hỗ trợ MRV / thẩm định.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+VERIFICATION_EVIDENCE,"Bộ bằng chứng / hồ sơ dữ liệu hỗ trợ MRV, thẩm định",Vai trò: OUT. Nhóm đầu ra: MRV_SUPPORT – Hồ sơ hỗ trợ MRV / thẩm định.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+DEFECT_TABLE,Bảng chỉ tiêu hình học và khuyết tật,"Vai trò: OUT. Nhóm đầu ra: DATA_TABLE – Bảng số liệu, thống kê.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+CONDITION_REPORT,"Báo cáo đánh giá hiện trạng, cảnh báo nguy cơ",Vai trò: OUT. Nhóm đầu ra: ASSESSMENT_REPORT – Báo cáo đánh giá hiện trạng.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+MEASUREMENT_DATA_QC,Dữ liệu đo đã QA/QC,"Vai trò: OUT. Nhóm đầu ra: DATA_TABLE – Bảng số liệu, thống kê.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+STATISTICS_TABLE,"Bảng thống kê / dữ liệu theo điểm, lô, AOI","Vai trò: OUT. Nhóm đầu ra: DATA_TABLE – Bảng số liệu, thống kê.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+TECHNICAL_REPORT,Báo cáo kỹ thuật / phương pháp / sai số,"Vai trò: OUT. Nhóm đầu ra: TECHNICAL_REPORT – Báo cáo kỹ thuật, phương pháp, sai số.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+QAQC_REPORT,"Báo cáo QA/QC, hiệu chuẩn, nhật ký truy vết","Vai trò: OUT. Nhóm đầu ra: QAQC_REPORT – Báo cáo QA/QC, hiệu chuẩn, truy vết.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+ACCURACY_DATA,Dữ liệu kiểm định và chỉ số độ chính xác,"Vai trò: OUT. Nhóm đầu ra: QAQC_REPORT – Báo cáo QA/QC, hiệu chuẩn, truy vết.",INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+GIS_LAYER,Lớp / gói dữ liệu GIS,Vai trò: OUT. Nhóm đầu ra: GIS_DATASET – Bộ dữ liệu / lớp GIS.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+METADATA_PACKAGE,"Siêu dữ liệu cảm biến, thời gian, điều kiện đo",Vai trò: OUT. Nhóm đầu ra: METADATA – Siêu dữ liệu.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT
+DASHBOARD,Dashboard / WebGIS / API,Vai trò: OUT. Nhóm đầu ra: DASHBOARD – Dashboard / WebGIS / API.,INTERNAL,VERIFIED,SV3_D2_Taxonomy/05_DATA_OBJECT

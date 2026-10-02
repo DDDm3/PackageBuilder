@@ -1,0 +1,299 @@
+﻿service_code,tag_code
+S0269,CLIMATE_RESEARCH
+S0269,RESEARCH_ACADEMIA
+S0269,GOVERNMENT_AGENCY
+S0269,CARBON_PROJECT_DEVELOPER
+S0269,MIXED_LAND_COVER
+S0269,URBAN_AREA
+S0269,FOREST
+S0269,albedo
+S0269,climate-research
+S0269,multispectral
+S0269,độ phản xạ bề mặt
+S0269,surface albedo
+S0269,broadband shortwave albedo
+S0269,uav albedo mapping
+S0269,camera đa phổ
+S0269,albedometer
+S0269,narrow-to-broadband
+S0269,hiệu chuẩn bức xạ
+S0269,nghiên cứu khí hậu
+S0269,cân bằng năng lượng bề mặt
+S0269,mrv
+S0269,tín chỉ carbon
+S0270,DROUGHT_WATER_STRESS
+S0270,CLIMATE_RESEARCH
+S0270,AGRICULTURE
+S0270,GOVERNMENT_AGENCY
+S0270,RESEARCH_ACADEMIA
+S0270,CROPLAND
+S0270,FOREST
+S0270,drought
+S0270,soil-moisture
+S0270,multispectral
+S0270,thermal
+S0270,uav độ ẩm đất
+S0270,cảnh báo hạn hán
+S0270,dự báo khô hạn
+S0270,cảm biến in-situ vwc
+S0270,bản đồ độ ẩm đất
+S0270,ai nông nghiệp
+S0270,viễn thám đa phổ
+S0270,ảnh nhiệt lst
+S0270,random forest
+S0270,lstm hạn hán
+S0270,tưới tiêu chính xác
+S0270,stress nước cây trồng
+S0271,GHG_EMISSION_MEASUREMENT
+S0271,EMISSION_REDUCTION_VERIFICATION
+S0271,GHG_INVENTORY_SUPPORT
+S0271,WASTE_MANAGEMENT
+S0271,CARBON_PROJECT_DEVELOPER
+S0271,GOVERNMENT_AGENCY
+S0271,LANDFILL
+S0271,methane
+S0271,ghg
+S0271,landfill
+S0271,gas-sensor
+S0271,carbon
+S0271,đo giảm phát thải co2
+S0271,measuring co2 emission reduction
+S0271,uav đo methane bãi rác
+S0271,landfill methane monitoring
+S0271,khảo sát ch4 bãi chôn lấp
+S0271,bản đồ phát thải methane
+S0271,rò rỉ khí bãi rác
+S0271,kiểm kê khí nhà kính bãi rác
+S0271,mrv methane bãi rác
+S0271,hiệu suất thu gom khí bãi rác
+S0271,drone methane inspection
+S0271,quy đổi co2e
+S0271,mass balance methane flux
+S0271,inverse dispersion methane
+S0271,iso 14064-2 waste
+S0272,CARBON_FOOTPRINT_MAPPING
+S0272,GHG_INVENTORY_SUPPORT
+S0272,ESG_NETZERO
+S0272,EMISSION_REDUCTION_VERIFICATION
+S0272,INDUSTRIAL_MANUFACTURING
+S0272,CORPORATE_ESG
+S0272,WASTE_MANAGEMENT
+S0272,ENERGY_HEAVY_INDUSTRY
+S0272,INDUSTRIAL_SITE
+S0272,URBAN_AREA
+S0272,carbon
+S0272,ghg
+S0272,co2
+S0272,industrial
+S0272,esg
+S0272,rgb
+S0272,carbon footprint mapping
+S0272,bản đồ carbon footprint
+S0272,carbon map
+S0272,bản đồ phát thải
+S0272,uav carbon mapping
+S0272,carbon hotspot
+S0272,kiểm kê khí nhà kính
+S0272,ghg inventory
+S0272,scope 1 2 3
+S0272,spatial carbon
+S0272,carbon source map
+S0272,carbon sink mapping
+S0272,net zero
+S0272,mrv
+S0272,orthomosaic
+S0272,gis carbon
+S0272,qđ 42/2026
+S0273,GHG_EMISSION_MEASUREMENT
+S0273,EMISSION_REDUCTION_VERIFICATION
+S0273,CARBON_CREDIT_MRV
+S0273,AGRICULTURE
+S0273,CARBON_PROJECT_DEVELOPER
+S0273,GOVERNMENT_AGENCY
+S0273,RICE_FIELD
+S0273,methane
+S0273,ghg
+S0273,rice
+S0273,mrv
+S0273,multispectral
+S0273,s0273
+S0273,đo nồng độ methane từ ruộng lúa
+S0273,methane ruộng lúa
+S0273,ch₄
+S0273,uav đa phổ
+S0273,rtk
+S0273,buồng đo đóng
+S0273,thông lượng methane
+S0273,bản đồ phát thải
+S0273,awd
+S0274,GHG_EMISSION_MEASUREMENT
+S0274,GHG_INVENTORY_SUPPORT
+S0274,GOVERNMENT_AGENCY
+S0274,RESEARCH_ACADEMIA
+S0274,ENERGY_HEAVY_INDUSTRY
+S0274,WASTE_MANAGEMENT
+S0274,URBAN_AREA
+S0274,INDUSTRIAL_SITE
+S0274,ghg
+S0274,co2
+S0274,methane
+S0274,urban
+S0274,gas-sensor
+S0274,khí nhà kính đô thị
+S0274,uav ghg survey
+S0274,đo co₂
+S0274,đo ch₄
+S0274,bản đồ phân bố ghg
+S0274,khảo sát hotspot
+S0274,quan trắc khí quyển đô thị
+S0274,hỗ trợ kiểm kê ghg
+S0282,FIRE_RISK_PREVENTION
+S0282,DROUGHT_WATER_STRESS
+S0282,FIRE_SAFETY_AUTHORITY
+S0282,GOVERNMENT_AGENCY
+S0282,URBAN_AREA
+S0282,fire-risk
+S0282,soil-moisture
+S0282,urban
+S0282,thermal
+S0282,multispectral
+S0282,giám sát độ ẩm đô thị
+S0282,urban humidity monitoring
+S0282,uav cảm biến môi trường
+S0282,environmental uav
+S0282,uav multispectral thermal
+S0282,bản đồ độ ẩm
+S0282,soil moisture mapping
+S0282,phân vùng khô hạn
+S0282,dry zone mapping
+S0282,nguy cơ cháy đô thị
+S0282,urban fire risk
+S0282,phát hiện sớm nguy cơ cháy
+S0282,pccc đô thị
+S0282,giám sát định kỳ pccc
+S0283,VEGETATION_CHANGE_MONITORING
+S0283,CARBON_CREDIT_MRV
+S0283,FORESTRY
+S0283,CONSERVATION
+S0283,AGRICULTURE
+S0283,CARBON_PROJECT_DEVELOPER
+S0283,FOREST
+S0283,MIXED_LAND_COVER
+S0283,vegetation
+S0283,forest
+S0283,multispectral
+S0283,rgb
+S0283,theo dõi thảm thực vật
+S0283,biến động thảm thực vật
+S0283,uav đa phổ
+S0283,ndvi
+S0283,ndre
+S0283,change detection
+S0283,orthomosaic
+S0283,gis
+S0283,rtk/ppk
+S0283,giám sát sinh thái
+S0284,DROUGHT_WATER_STRESS
+S0284,FIRE_RISK_PREVENTION
+S0284,VEGETATION_CHANGE_MONITORING
+S0284,CLIMATE_RESEARCH
+S0284,FORESTRY
+S0284,CONSERVATION
+S0284,FIRE_SAFETY_AUTHORITY
+S0284,RESEARCH_ACADEMIA
+S0284,FOREST
+S0284,canopy-moisture
+S0284,forest
+S0284,fire-risk
+S0284,drought
+S0284,multispectral
+S0284,thermal
+S0284,đo độ ẩm tán rừng
+S0284,canopy moisture monitoring
+S0284,foliar moisture content
+S0284,fmc
+S0284,live fuel moisture content
+S0284,lfmc
+S0284,uav cảm biến đa phổ
+S0284,uav thermal forest
+S0284,viễn thám lâm nghiệp
+S0284,bản đồ độ ẩm tán lá
+S0284,phân vùng khô hạn rừng
+S0284,cháy rừng
+S0284,pcccr
+S0284,stress hạn cây rừng
+S0284,giám sát sức khỏe rừng
+S0284,tín chỉ carbon
+S0284,forest canopy water content
+S0284,cwc
+S0284,nghị định 288/2025/nđ-cp
+S0284,luật lâm nghiệp 2017
+S0285-S0287,CARBON_STOCK_ASSESSMENT
+S0285-S0287,VEGETATION_CHANGE_MONITORING
+S0285-S0287,CARBON_CREDIT_MRV
+S0285-S0287,ESG_NETZERO
+S0285-S0287,FORESTRY
+S0285-S0287,CONSERVATION
+S0285-S0287,CARBON_PROJECT_DEVELOPER
+S0285-S0287,CORPORATE_ESG
+S0285-S0287,FOREST
+S0285-S0287,carbon
+S0285-S0287,biomass
+S0285-S0287,forest
+S0285-S0287,lidar
+S0285-S0287,mrv
+S0285-S0287,trữ lượng carbon rừng
+S0285-S0287,sinh khối trên mặt đất
+S0285-S0287,uav lidar
+S0285-S0287,viễn thám lâm nghiệp
+S0285-S0287,tín chỉ carbon
+S0285-S0287,chm
+S0285-S0287,dtm
+S0285-S0287,allometric
+S0285-S0287,nghị định 180/2026/nđ-cp
+S0285-S0287,tco2e
+S0285-S0287,bản đồ carbon
+S0286,CARBON_CREDIT_MRV
+S0286,GHG_INVENTORY_SUPPORT
+S0286,EMISSION_REDUCTION_VERIFICATION
+S0286,CARBON_PROJECT_DEVELOPER
+S0286,FORESTRY
+S0286,AGRICULTURE
+S0286,WASTE_MANAGEMENT
+S0286,ENERGY_HEAVY_INDUSTRY
+S0286,CARBON_INVESTOR
+S0286,FOREST
+S0286,CROPLAND
+S0286,LANDFILL
+S0286,INDUSTRIAL_SITE
+S0286,mrv
+S0286,carbon
+S0286,ghg
+S0286,lidar
+S0286,gas-sensor
+S0286,báo cáo mrv
+S0286,mrv report
+S0286,tín chỉ các-bon
+S0286,carbon credit
+S0286,đo đạc báo cáo thẩm định
+S0286,kiểm kê khí nhà kính
+S0286,đường cơ sở
+S0286,giám sát phát thải
+S0286,thẩm định độc lập
+S0286,hạn ngạch phát thải
+S0288,STRUCTURAL_INSPECTION
+S0288,FIRE_RISK_PREVENTION
+S0288,INDUSTRIAL_MANUFACTURING
+S0288,REAL_ESTATE_BUILDING
+S0288,BUILDING
+S0288,building
+S0288,fire-risk
+S0288,lidar
+S0288,thermal
+S0288,uav lidar
+S0288,structural inspection
+S0288,building deterioration
+S0288,aging materials
+S0288,fire risk
+S0288,defect detection
+S0288,structural assessment

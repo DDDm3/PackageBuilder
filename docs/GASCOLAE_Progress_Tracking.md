@@ -4,7 +4,7 @@
 - **Dự án**: GASCOLAE Service Package Builder (MVP 4 Tuần)
 - **Tài liệu kế hoạch**: [GASCOLAE_Implementation_Plan_4Weeks.md](./GASCOLAE_Implementation_Plan_4Weeks.md)
 - **Quy chuẩn lập trình**: [.agents/skills/package-builder-conventions/SKILL.md](../.agents/skills/package-builder-conventions/SKILL.md)
-- **Cập nhật lần cuối**: 2026-09-30 (Bắt đầu Giai đoạn 0)
+- **Cập nhật lần cuối**: 2026-10-01 (Hoàn tất 100% Tuần 1, đã test thông luồng Landing Page -> Sales Admin B1, commit `2ef5435` lên nhánh `customer`)
 
 ---
 
@@ -14,11 +14,11 @@
 | :--- | :---: | :---: | :--- |
 | **0. Khởi tạo & Quy chuẩn nền tảng** | 🟢 **ĐÃ XONG** | **100%** | Đã đọc hiểu MVP, DB V2, lập skill conventions, kế hoạch 4 tuần |
 | **Giai đoạn 0: Dọn dẹp & Đồng bộ nền tảng** | 🟢 **ĐÃ XONG** | **100%** | Sửa Swagger GET, gỡ annotation thừa Controller, update RoleName |
-| **Tuần 1: Customer & Requirement** | 🟢 **ĐÃ XONG** | **100%** | **Đã hoàn thành Module Customer & Module Requirement (Data-Only CRUD)** |
-| **Tuần 2: Service Catalog & Recommendation** | 🟡 **TIẾP THEO** | **0%** | Catalog 12 dịch vụ, Data Items, Tags, Matching Engine |
+| **Tuần 1: Customer & Requirement** | 🟢 **ĐÃ XONG** | **100%** | **Hoàn thành 100%**: Customer, Requirement CRUD, Public Landing Form, Admin B1, xử lý linh hoạt mọi kiểu dữ liệu |
+| **Tuần 2: Service Catalog & Recommendation** | 🟡 **ĐANG TIẾN HÀNH** | **60%** | Hoàn thành 100% Service Catalog & Master Data 10 bảng, Seeder tự động; chuẩn bị Matching Engine |
 | **Tuần 3: Package Builder & Validation Engine** | ⚪ CHƯA BẮT ĐẦU | **0%** | Gói dịch vụ, phân phase, Rule Engine quét Gap/Dependency |
 | **Tuần 4: Summary, E2E Testing & Demo** | ⚪ CHƯA BẮT ĐẦU | **0%** | Báo cáo bàn giao Sales-to-Ops, Test 3 kịch bản, Docker deploy |
-| **TỔNG THỂ MVP BACKEND** | 🟡 **ĐANG TIẾN HÀNH** | **~40%** | Hoàn thành Auth + Customer + Customer Requirement CRUD |
+| **TỔNG THỂ MVP BACKEND** | 🟡 **ĐANG TIẾN HÀNH** | **~60%** | Hoàn thành Customer, Requirement, Catalog Master Data 10 bảng; sẵn sàng Recommendation Engine |
 
 ---
 
@@ -58,32 +58,53 @@
 - [x] Controller: `CustomerController` (`POST`, `GET` list/detail/code, `PUT` update, `PUT` update-status).
 - [x] Bổ sung mã lỗi: `CUSTOMER_NOT_FOUND`, `CUSTOMER_CODE_EXISTED`, `CUSTOMER_EMAIL_EXISTED` vào `ErrorCode.java`.
 
-#### 2. Module Requirement (gộp trong `customer/`) - [ĐÃ HOÀN THÀNH 100% (Data-Only)]:
+#### 2. Module Requirement (gộp trong `customer/`) - [ĐÃ HOÀN THÀNH 100%]:
 - [x] Enums: `RequirementStatus` (`DRAFT`, `CONFIRMED`, `ARCHIVED`), `OutputPriority` (`LOW`, `NORMAL`, `HIGH`, `REQUIRED`).
-- [x] Entity `CustomerRequirement` (UUID PK, requirementCode unique, liên kết Customer, diện tích, môi trường, mục tiêu, JPA Auditing).
+- [x] Entity `CustomerRequirement` (UUID PK, requirementCode unique, liên kết Customer, diện tích `areaValue`, đơn vị `areaUnit`, khu vực theo dõi `locationDescription` AOI, dữ liệu sẵn có `providedInputsRaw`, tần suất `monitoringFrequencyRaw`, mục tiêu, JPA Auditing).
 - [x] Entity `RequirementExpectedOutput` (đầu ra kỳ vọng, priority, quan hệ @ManyToOne với CustomerRequirement).
-- [x] Repositories: `CustomerRequirementRepository` (tìm kiếm, lọc status, customerId, phân trang), `RequirementExpectedOutputRepository`.
-- [x] DTOs & Mapper: `RequirementCreateRequest`, `RequirementUpdateRequest`, `ExpectedOutputRequest`, `RequirementResponse`, `ExpectedOutputResponse`, `RequirementMapper`.
-- [x] Service: `RequirementService` & `RequirementServiceImpl` (tạo mới, sửa, xóa, tìm kiếm, xác nhận `DRAFT` -> `CONFIRMED`).
-- [x] Controller: `RequirementController` (`POST`, `GET` list/detail/code/customer, `PUT` update/confirm, `DELETE`).
-- [x] Bổ sung mã lỗi: `REQUIREMENT_NOT_FOUND`, `REQUIREMENT_CODE_EXISTED`, `REQUIREMENT_ALREADY_CONFIRMED` vào `ErrorCode.java`.
+- [x] Repositories: `CustomerRequirementRepository` (tối ưu tìm kiếm keyword đa trường, phân trang, lọc status, customerId), `RequirementExpectedOutputRepository`.
+- [x] DTOs & Mapper: `LandingLeadRequest`, `RequirementCreateRequest`, `RequirementUpdateRequest`, `ExpectedOutputRequest`, `RequirementResponse`, `ExpectedOutputResponse`, `RequirementMapper`.
+- [x] **Xử lý linh hoạt dữ liệu đầu vào (Defensive Deserialization)**:
+  - [x] Parse diện tích tự động từ Số, Chuỗi có đơn vị (`"20 ha"`, `"20ha"`, `"20.5 ha"`, `"1000 m2"`), Object `{ "value": 2000, "unit": "ha" }`, hoặc rỗng `{}` / `""`.
+  - [x] Parse đầu ra kỳ vọng linh hoạt từ chuỗi rỗng `""`, chuỗi đa dòng text-area (`"A\nB"`), mảng chuỗi `["A", "B"]`, hoặc mảng object có cấu trúc.
+- [x] Service: `RequirementService` & `RequirementServiceImpl`:
+  - [x] `submitLandingLead`: Tự động tìm/tạo Customer theo email/phone, sinh mã `CUST-` và `REQ-`, tạo hồ sơ `DRAFT`.
+  - [x] `createRequirement`, `updateRequirement` (cho phép Sales hiệu chỉnh cả tên doanh nghiệp/khách hàng ngay tại màn hình B1), `confirmRequirement` (`DRAFT` -> `CONFIRMED`), `deleteRequirement`.
+  - [x] `searchRequirements`: Phân nhánh tối ưu, gọi `findAll` khi không có bộ lọc để tránh lỗi PostgreSQL `lower(bytea)`.
+- [x] Controller & Security:
+  - [x] `POST /requirements/public/lead` (Public API, `permitAll()` không cần token cho khách vãng lai).
+  - [x] `GET /requirements`, `GET /requirements/{id}`, `PUT /requirements/{id}`, `PUT /requirements/{id}/confirm` (Bảo vệ bằng JWT cho Sales Admin).
+- [x] Bổ sung mã lỗi: `REQUIREMENT_NOT_FOUND`, `REQUIREMENT_CODE_EXISTED`, `REQUIREMENT_ALREADY_CONFIRMED`, `CONTACT_INFO_REQUIRED` vào `ErrorCode.java`.
+- [x] **Đã kiểm thử thực tế trên Postman & Docker, commit mã nguồn `2ef5435` lên nhánh `customer`**.
 
 ---
 
-### Tuần 2: Service Catalog, Taxonomy & Recommendation (Ngày 8 - Ngày 14) - [0%]
+### Tuần 2: Service Catalog, Taxonomy & Recommendation (Ngày 8 - Ngày 14) - [ĐANG TIẾN HÀNH 60%]
 
-#### 1. Service Catalog & Taxonomy Master Data (`catalog/`):
-- [ ] Entity & Repository `Tag`, `ServiceTag` (phân loại `OBJECTIVE`, `INDUSTRY`, `ENVIRONMENT`, `TOPIC`).
-- [ ] Entity & Repository `DataItem` (taxonomy trung tâm cho inputs, outputs, deliverables).
-- [ ] Entity & Repository `Service` (thông tin 12+ dịch vụ GASCOLAE, category, use cases).
-- [ ] Entity & Repository `ServiceInput` (đầu vào kèm cờ `required` và `provided_by`).
-- [ ] Entity & Repository `ServiceOutput` (đầu ra sinh ra bởi dịch vụ).
-- [ ] Entity & Repository `ServiceDeliverable`, `ServiceDeliverableItem` (sản phẩm bàn giao).
-- [ ] Entity & Repository `ServiceRelation` (quan hệ `PROVIDES_INPUT_FOR`, `RECOMMENDED_WITH`, `ALTERNATIVE_TO`, `OVERLAPS_WITH` kèm `via_data_item_id`).
-- [ ] DTOs, Mappers, Services, Controllers quản lý Catalog.
-- [ ] `CatalogDataInitializer`: Nạp Seed Data 12 dịch vụ mẫu và quan hệ dependency.
+#### 1. Service Catalog & Taxonomy Master Data (`catalog/`) - [ĐÃ HOÀN THÀNH 100%]:
+- [x] Entity & Repository `Tag`, `ServiceTag` (phân loại `OBJECTIVE`, `INDUSTRY`, `ENVIRONMENT`, `TOPIC`, hỗ trợ phân cấp `parentTag`).
+- [x] Entity & Repository `DataItem` (taxonomy trung tâm 91 loại dữ liệu cho inputs, outputs, deliverables).
+- [x] Entity & Repository `Service` (thông tin 12 dịch vụ GASCOLAE, category, use cases, customer problems, technologies).
+- [x] Entity & Repository `ServiceLevel` (36 cấp độ chi tiết, 3 level cho mỗi dịch vụ).
+- [x] Entity & Repository `ServiceInput` (94 đầu vào kèm cờ `required` và `provided_by`: `CUSTOMER`, `GASCOLAE`, `AUTHORITY`, `THIRD_PARTY`).
+- [x] Entity & Repository `ServiceOutput` (94 đầu ra sinh ra bởi dịch vụ).
+- [x] Entity & Repository `ServiceDeliverable`, `ServiceDeliverableItem` (86 deliverables bàn giao và 94 mapping với data items).
+- [x] Entity & Repository `ServiceRelation` (quan hệ `PROVIDES_INPUT_FOR`, `RECOMMENDED_WITH` kèm `viaDataItem`).
+- [x] DTOs, Mappers, Services, Controllers quản lý Catalog:
+  - `GET /catalog/services`: Tra cứu dịch vụ, phân trang, lọc theo keyword, category, tagCode (Public).
+  - `GET /catalog/services/{idOrCode}`: Chi tiết dịch vụ đầy đủ (inputs, outputs, deliverables, levels, tags, relations) (Public).
+  - `POST /catalog/services`: Tạo mới dịch vụ kèm gán tag (Admin, Request DTO `ServiceCreateRequest`).
+  - `PUT /catalog/services/{id}`: Hiệu chỉnh thông tin dịch vụ & cập nhật tags (Admin, Request DTO `ServiceUpdateRequest`).
+  - `PUT /catalog/services/{id}/status`: Bật/tắt trạng thái hoạt động dịch vụ (`active: true/false`).
+  - `DELETE /catalog/services/{id}`: Tạm dừng / xóa mềm dịch vụ.
+  - `GET /catalog/categories`: Danh sách category của các dịch vụ.
+  - `GET /catalog/data-items`: Danh sách taxonomy inputs/outputs.
+  - `GET /catalog/tags`: Danh mục tag phân loại.
+- [x] `SimpleCsvParser`: Tiện ích bóc tách RFC-4180 CSV siêu tốc (đã có unit test pass 100% cả 10 file seed).
+- [x] `CatalogDataInitializer`: Runner tự động nạp toàn bộ 10 bảng dữ liệu Master Data từ CSV khi khởi động ứng dụng.
+- [x] Cấu hình Security: Mở public GET cho `/catalog/**` cho phép Frontend tra cứu danh mục dịch vụ, bảo vệ các thao tác ghi (POST/PUT/DELETE) bằng JWT Bearer Token.
 
-#### 2. Recommendation Engine (`recommendation/`):
+#### 2. Recommendation Engine (`recommendation/`) - [TIẾP THEO]:
 - [ ] Entity & Repository `ServiceRecommendation`.
 - [ ] Thuật toán tính điểm khớp nhu cầu có trọng số (Weighted Matching Engine):
   $$\text{Score} = w_{\text{obj}} \cdot S_{\text{obj}} + w_{\text{usecase}} \cdot S_{\text{usecase}} + w_{\text{ind}} \cdot S_{\text{ind}} + w_{\text{output}} \cdot S_{\text{output}} + w_{\text{tag}} \cdot S_{\text{tag}}$$
@@ -131,3 +152,6 @@
 | **2026-09-30** | Antigravity | **Hoàn thành Module Customer**: <br>1. Enum `CustomerStatus` (`ACTIVE`, `INACTIVE`).<br>2. Entity `Customer` (UUID, customerCode unique, JPA Auditing).<br>3. `CustomerRepository` (tìm kiếm, lọc status, phân trang).<br>4. DTOs: `CustomerCreateRequest`, `CustomerUpdateRequest`, `CustomerResponse`.<br>5. `CustomerMapper` (MapStruct ignore auto fields).<br>6. `CustomerService` & `CustomerServiceImpl`.<br>7. `CustomerController` (REST APIs: POST, GET search/detail/code, PUT update/status).<br>8. Bổ sung `CUSTOMER_NOT_FOUND`, `CUSTOMER_CODE_EXISTED`, `CUSTOMER_EMAIL_EXISTED` vào `ErrorCode.java`.<br>9. Biên dịch `./mvnw test-compile` thành công 100% (49 source files). | Đạt mốc **~30%** tiến độ tổng thể. Sẵn sàng cho Module Requirement. |
 | **2026-09-30** | Antigravity | **Hoàn thành Module Requirement (Data-Only CRUD)**: <br>1. Enums `RequirementStatus`, `OutputPriority`.<br>2. Entity `CustomerRequirement`, `RequirementExpectedOutput` (CascadeType.ALL, OrphanRemoval, Auditing).<br>3. `CustomerRequirementRepository` (search keyword, status, customerId, paging) & `RequirementExpectedOutputRepository`.<br>4. DTOs: `RequirementCreateRequest`, `RequirementUpdateRequest`, `ExpectedOutputRequest`, `RequirementResponse`, `ExpectedOutputResponse`.<br>5. `RequirementMapper` (MapStruct mappings).<br>6. `RequirementService` & `RequirementServiceImpl` (xử lý CRUD, sinh mã tự động nếu trống, kiểm tra confirm, lock sửa khi confirmed, confirm API).<br>7. `RequirementController` (REST APIs đầy đủ).<br>8. Bổ sung `REQUIREMENT_NOT_FOUND`, `REQUIREMENT_CODE_EXISTED`, `REQUIREMENT_ALREADY_CONFIRMED` vào `ErrorCode.java`.<br>9. Biên dịch `./mvnw test-compile` thành công 100% (64 source files). | **Hoàn thành 100% Tuần 1**, đạt mốc **~40%** tiến độ tổng thể. |
 | **2026-10-01** | Antigravity | **Hoàn thiện luồng Landing Page $\rightarrow$ Sales Admin**: <br>1. Thêm DTO `LandingLeadRequest` hỗ trợ nhận form Landing Page (liên hệ + dự án + AOI + dữ liệu sẵn có + expected outputs dạng text/DTO).<br>2. Thêm trường `locationDescription`, `providedInputsRaw`, `monitoringFrequencyRaw` vào `CustomerRequirement`.<br>3. Viết hàm `submitLandingLead` trong `RequirementServiceImpl`: tự động liên kết/tạo Customer theo email/phone, tự sinh mã code, tạo Requirement DRAFT.<br>4. Mở API Public `POST /requirements/public/lead` (không cần Bearer token).<br>5. Bổ sung `contactEmail`, `contactPhone`, `locationDescription`, `providedInputsRaw` vào `RequirementResponse` phục vụ màn hình Admin B1.<br>6. Hỗ trợ cập nhật tên doanh nghiệp/khách hàng trực tiếp qua `PUT /requirements/{id}`.<br>7. Biên dịch `./mvnw test-compile` thành công 100% (65 source files). | Hoàn thiện luồng kết nối Form Landing Page $\rightarrow$ Admin B1. |
+| **2026-10-01** | Antigravity & User | **Kiểm thử E2E Postman & Vá lỗi Runtime**: <br>1. **Fix lỗi Jackson MismatchedInputException (`BigDecimal`)**: Đổi `areaValue` sang kiểu `Object` kết hợp bóc tách thông minh; tự động nhận số, chuỗi, hoặc chuỗi có đơn vị (`"20 ha"`, `"20ha"`, `"20.5 ha"`, `"1000 m2"`) thành số và đơn vị chuẩn.<br>2. **Fix lỗi Jackson no String-argument constructor (`ExpectedOutputRequest`)**: Bổ sung `@JsonCreator` constructor 1 tham số String cho phép nhận cả mảng chuỗi `["A", "B"]` và mảng object.<br>3. **Fix lỗi Jackson ValueString (`expectedOutputs: ""`)**: Đổi sang `Object expectedOutputs` kèm bộ bóc tách chuỗi rỗng và chuỗi textarea đa dòng `\n`.<br>4. **Fix lỗi PostgreSQL SQLGrammarException `lower(bytea)`**: Tối ưu `searchRequirements` và `searchCustomers` gọi trực tiếp `findAll(pageable)` khi không có bộ lọc và bọc lowercase `%` ở tầng Java.<br>5. **Đã commit `2ef5435` và push thành công lên `origin/customer`**. | Hoàn tất 100% Tuần 1, sẵn sàng cho Tuần 2 (Service Catalog). |
+| **2026-10-01** | Antigravity | **Triển khai Service Catalog Master Data & Seeder (Nhánh `serviceCatalog`)**: <br>1. Tiếp nhận bộ seed SV3 V2-final (10 bảng CSV + 2 JSON).<br>2. Tạo 6 Enums: `DataClassification`, `VerificationStatus`, `TagType`, `LifecycleStatus`, `ProvidedBy`, `RelationType`.<br>3. Tạo 10 Entities/Embeddables: `DataItem`, `Tag`, `Service`, `ServiceLevel`, `ServiceInput`, `ServiceOutput`, `ServiceDeliverable`, `ServiceDeliverableItem`, `ServiceTag`, `ServiceRelation`.<br>4. Tạo 10 Repositories Spring Data JPA.<br>5. Xây dựng tiện ích RFC-4180 `SimpleCsvParser` & kiểm thử unit test `SimpleCsvParserTest` pass 100% cả 10 file seed.<br>6. Viết `CatalogDataInitializer` tự động nạp dữ liệu Master Data từ CSV vào database khi khởi động.<br>7. Tạo DTOs & `CatalogMapper` (MapStruct), `CatalogService` & `CatalogServiceImpl`, `CatalogController` REST APIs.<br>8. Mở public GET cho `/catalog/**` trong `SecurityConfig.java`.<br>9. Biên dịch `./mvnw test-compile` thành công 100% (108 source files). | Hoàn thành **100% Service Catalog Master Data**, đạt mốc **~60%** tiến độ tổng thể. Sẵn sàng cho Recommendation Engine. |
+

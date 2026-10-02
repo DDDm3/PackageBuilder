@@ -48,6 +48,12 @@ public enum ErrorCode {
     REQUIREMENT_NOT_FOUND(1401, "Không tìm thấy yêu cầu của khách hàng", HttpStatus.NOT_FOUND),
     REQUIREMENT_CODE_EXISTED(1402, "Mã yêu cầu dự án đã tồn tại", HttpStatus.BAD_REQUEST),
     REQUIREMENT_ALREADY_CONFIRMED(1403, "Yêu cầu đã được xác nhận, không thể chỉnh sửa", HttpStatus.BAD_REQUEST),
+
+    // 15xx - Catalog
+    SERVICE_NOT_FOUND(1501, "Dịch vụ không tồn tại trong hệ thống", HttpStatus.NOT_FOUND),
+    DATA_ITEM_NOT_FOUND(1502, "Dữ liệu taxonomy không tồn tại trong hệ thống", HttpStatus.NOT_FOUND),
+    TAG_NOT_FOUND(1503, "Tag không tồn tại trong hệ thống", HttpStatus.NOT_FOUND),
+    SERVICE_CODE_EXISTED(1504, "Mã dịch vụ đã tồn tại trong hệ thống", HttpStatus.BAD_REQUEST),
     ;
     private int code;
     private String message;

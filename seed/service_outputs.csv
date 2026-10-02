@@ -1,0 +1,95 @@
+﻿service_code,data_code,description,verification_status,source_ref
+S0269,ALBEDO_VALUES,Giá trị albedo theo khu vực và loại bề mặt. Nhóm đầu ra: DATA_TABLE. Có từ Level 1.,VERIFIED,S0269/04/muc10;S0269/03/D006
+S0269,ALBEDO_MAP,Bản đồ phân bố albedo. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0269/04/muc10;S0269/03/D006
+S0269,ACCURACY_DATA,Dữ liệu kiểm định và chỉ số độ chính xác. Nhóm đầu ra: QAQC_REPORT. Có từ Level 1.,VERIFIED,S0269/04/muc10;S0269/03/D006
+S0269,TECHNICAL_REPORT,Báo cáo kỹ thuật / phương pháp / sai số. Nhóm đầu ra: TECHNICAL_REPORT. Có từ Level 1.,VERIFIED,S0269/04/muc10;S0269/03/D006
+S0269,METADATA_PACKAGE,"Siêu dữ liệu cảm biến, thời gian, điều kiện đo. Nhóm đầu ra: METADATA. Có từ Level 1.",VERIFIED,S0269/04/muc10;S0269/03/D006
+S0269,REFLECTANCE_DATA,Dữ liệu phản xạ bề mặt trung gian. Nhóm đầu ra: GIS_DATASET. Có từ Level 1.,NEED_VERIFY,S0269/04/muc10;S0269/03/D006
+S0270,ORTHOMOSAIC,Ảnh trực giao (orthomosaic). Nhóm đầu ra: BASE_MAP. Có từ Level 1.,VERIFIED,S0270/04/muc10;S0270/03/D006
+S0270,SURFACE_TEMPERATURE_MAP,Bản đồ nhiệt độ bề mặt / nhiệt tán. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0270/04/muc10;S0270/03/D006
+S0270,SOIL_MOISTURE_MAP,Bản đồ độ ẩm đất / chỉ số ẩm thảm thực vật. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0270/04/muc10;S0270/03/D006
+S0270,DROUGHT_ZONE_MAP,Bản đồ phân vùng khô hạn / bất thường độ ẩm. Nhóm đầu ra: RISK_MAP. Có từ Level 1.,VERIFIED,S0270/04/muc10;S0270/03/D006
+S0270,DROUGHT_FORECAST,Bản đồ và báo cáo dự báo hạn. Nhóm đầu ra: FORECAST. Có từ Level 3.,VERIFIED,S0270/04/muc10;S0270/03/D006
+S0270,TECHNICAL_REPORT,Báo cáo kỹ thuật / phương pháp / sai số. Nhóm đầu ra: TECHNICAL_REPORT. Có từ Level 1.,VERIFIED,S0270/04/muc10;S0270/03/D006
+S0270,DASHBOARD,Dashboard / WebGIS / API. Nhóm đầu ra: DASHBOARD. Có từ Level 2.,VERIFIED,S0270/04/muc10;S0270/03/D006
+S0271,GAS_CONCENTRATION_MAP,Bản đồ nồng độ khí (CO₂ / CH₄). Nhóm đầu ra: EMISSION_MAP. Có từ Level 1.,VERIFIED,S0271/04/muc10;S0271/03/D006
+S0271,EMISSION_HOTSPOTS,Điểm nóng phát thải kèm tọa độ. Nhóm đầu ra: HOTSPOT_LIST. Có từ Level 1.,VERIFIED,S0271/04/muc10;S0271/03/D006
+S0271,GAS_FLOW_DIAGRAM,Sơ đồ luồng khí và quỹ đạo bay. Nhóm đầu ra: EMISSION_MAP. Có từ Level 1.,VERIFIED,S0271/04/muc10;S0271/03/D006
+S0271,QAQC_REPORT,"Báo cáo QA/QC, hiệu chuẩn, nhật ký truy vết. Nhóm đầu ra: QAQC_REPORT. Có từ Level 1.",VERIFIED,S0271/04/muc10;S0271/03/D006
+S0271,EMISSION_FLUX,Thông lượng phát thải kèm dải bất định. Nhóm đầu ra: EMISSION_QUANTIFICATION. Có từ Level 2.,VERIFIED,S0271/04/muc10;S0271/03/D006
+S0271,EMISSION_REDUCTION_RESULT,"Kết quả so sánh trước – sau, quy đổi tCO₂e. Nhóm đầu ra: EMISSION_QUANTIFICATION. Có từ Level 2.",VERIFIED,S0271/04/muc10;S0271/03/D006
+S0271,LFG_COLLECTION_EFFICIENCY,Ước tính hiệu suất thu gom khí bãi rác. Nhóm đầu ra: EMISSION_QUANTIFICATION. Có từ Level 1.,VERIFIED,S0271/04/muc10;S0271/03/D006
+S0271,GIS_LAYER,Lớp / gói dữ liệu GIS. Nhóm đầu ra: GIS_DATASET. Có từ Level 1.,VERIFIED,S0271/04/muc10;S0271/03/D006
+S0271,VERIFICATION_EVIDENCE,"Bộ bằng chứng / hồ sơ dữ liệu hỗ trợ MRV, thẩm định. Nhóm đầu ra: MRV_SUPPORT. Có từ Level 3.",VERIFIED,S0271/04/muc10;S0271/03/D006
+S0272,EMISSION_SOURCE_LIST,Danh sách / tọa độ nguồn phát thải hoặc khu vực nghi ngờ. Nhóm đầu ra: EMISSION_MAP. Có từ Level 1.,VERIFIED,S0272/04/muc10;S0272/03/D006
+S0272,ORTHOMOSAIC,Ảnh trực giao (orthomosaic). Nhóm đầu ra: BASE_MAP. Có từ Level 1.,VERIFIED,S0272/04/muc10;S0272/03/D006
+S0272,EMISSION_SOURCE_MAP,Bản đồ ranh giới kiểm kê và nguồn phát thải. Nhóm đầu ra: EMISSION_MAP. Có từ Level 1.,VERIFIED,S0272/04/muc10;S0272/03/D006
+S0272,EMISSION_HOTSPOTS,Điểm nóng phát thải kèm tọa độ. Nhóm đầu ra: HOTSPOT_LIST. Có từ Level 1.,VERIFIED,S0272/04/muc10;S0272/03/D006
+S0272,CO2E_TABLE,"Bảng CO₂e theo khu vực / nguồn, có provenance. Nhóm đầu ra: EMISSION_QUANTIFICATION. Có từ Level 1.",VERIFIED,S0272/04/muc10;S0272/03/D006
+S0272,GIS_LAYER,Lớp / gói dữ liệu GIS. Nhóm đầu ra: GIS_DATASET. Có từ Level 1.,VERIFIED,S0272/04/muc10;S0272/03/D006
+S0272,TECHNICAL_REPORT,Báo cáo kỹ thuật / phương pháp / sai số. Nhóm đầu ra: TECHNICAL_REPORT. Có từ Level 1.,VERIFIED,S0272/04/muc10;S0272/03/D006
+S0272,CHANGE_MAP,Bản đồ / báo cáo biến động giữa các kỳ. Nhóm đầu ra: CHANGE_ANALYSIS. Có từ Level 2.,VERIFIED,S0272/04/muc10;S0272/03/D006
+S0272,DASHBOARD,Dashboard / WebGIS / API. Nhóm đầu ra: DASHBOARD. Có từ Level 2.,VERIFIED,S0272/04/muc10;S0272/03/D006
+S0272,CARBON_SINK_LAYER,Lớp carbon sink / thảm thực vật. Nhóm đầu ra: CARBON_STOCK. Có từ Level 1.,VERIFIED,S0272/04/muc10;S0272/03/D006
+S0273,ORTHOMOSAIC,Ảnh trực giao (orthomosaic). Nhóm đầu ra: BASE_MAP. Có từ Level 1.,VERIFIED,S0273/04/muc10;S0273/03/D006
+S0273,VEGETATION_INDEX_MAP,Bản đồ / chuỗi chỉ số thực vật. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0273/04/muc10;S0273/03/D006
+S0273,CH4_POINT_FLUX_TABLE,Bảng nồng độ và thông lượng CH₄ tại điểm đo. Nhóm đầu ra: EMISSION_QUANTIFICATION. Có từ Level 1.,VERIFIED,S0273/04/muc10;S0273/03/D006
+S0273,GAS_CONCENTRATION_MAP,Bản đồ nồng độ khí (CO₂ / CH₄). Nhóm đầu ra: EMISSION_MAP. Có từ Level 1.,VERIFIED,S0273/04/muc10;S0273/03/D006
+S0273,SEASONAL_CH4_EMISSION,"Phát thải CH₄ mùa vụ, quy đổi CO₂e. Nhóm đầu ra: EMISSION_QUANTIFICATION. Có từ Level 1.",VERIFIED,S0273/04/muc10;S0273/03/D006
+S0273,INTERVENTION_COMPARISON,Báo cáo so sánh can thiệp canh tác (AWD / baseline). Nhóm đầu ra: EMISSION_QUANTIFICATION. Có từ Level 1.,VERIFIED,S0273/04/muc10;S0273/03/D006
+S0273,VERIFICATION_EVIDENCE,"Bộ bằng chứng / hồ sơ dữ liệu hỗ trợ MRV, thẩm định. Nhóm đầu ra: MRV_SUPPORT. Có từ Level 3.",VERIFIED,S0273/04/muc10;S0273/03/D006
+S0273,DASHBOARD,Dashboard / WebGIS / API. Nhóm đầu ra: DASHBOARD. Có từ Level 3.,VERIFIED,S0273/04/muc10;S0273/03/D006
+S0274,MEASUREMENT_DATA_QC,Dữ liệu đo đã QA/QC. Nhóm đầu ra: DATA_TABLE. Có từ Level 1.,VERIFIED,S0274/04/muc10;S0274/03/D006
+S0274,GAS_CONCENTRATION_MAP,Bản đồ nồng độ khí (CO₂ / CH₄). Nhóm đầu ra: EMISSION_MAP. Có từ Level 1.,VERIFIED,S0274/04/muc10;S0274/03/D006
+S0274,GIS_LAYER,Lớp / gói dữ liệu GIS. Nhóm đầu ra: GIS_DATASET. Có từ Level 1.,VERIFIED,S0274/04/muc10;S0274/03/D006
+S0274,EMISSION_HOTSPOTS,Điểm nóng phát thải kèm tọa độ. Nhóm đầu ra: HOTSPOT_LIST. Có từ Level 1.,VERIFIED,S0274/04/muc10;S0274/03/D006
+S0274,STATISTICS_TABLE,"Bảng thống kê / dữ liệu theo điểm, lô, AOI. Nhóm đầu ra: DATA_TABLE. Có từ Level 1.",VERIFIED,S0274/04/muc10;S0274/03/D006
+S0274,MONITORING_NETWORK_ASSESSMENT,Đánh giá mạng quan trắc. Nhóm đầu ra: ASSESSMENT_REPORT. Có từ Level 1.,VERIFIED,S0274/04/muc10;S0274/03/D006
+S0274,TECHNICAL_REPORT,Báo cáo kỹ thuật / phương pháp / sai số. Nhóm đầu ra: TECHNICAL_REPORT. Có từ Level 1.,VERIFIED,S0274/04/muc10;S0274/03/D006
+S0274,CO2E_TABLE,"Bảng CO₂e theo khu vực / nguồn, có provenance. Nhóm đầu ra: EMISSION_QUANTIFICATION. Có từ Level 1.",NEED_VERIFY,S0274/04/muc10;S0274/03/D006
+S0282,ORTHOMOSAIC,Ảnh trực giao (orthomosaic). Nhóm đầu ra: BASE_MAP. Có từ Level 1.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0282,ELEVATION_MODEL,Mô hình độ cao DTM / DSM / CHM. Nhóm đầu ra: BASE_MAP. Có từ Level 1.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0282,SURFACE_TEMPERATURE_MAP,Bản đồ nhiệt độ bề mặt / nhiệt tán. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0282,SOIL_MOISTURE_MAP,Bản đồ độ ẩm đất / chỉ số ẩm thảm thực vật. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0282,DROUGHT_ZONE_MAP,Bản đồ phân vùng khô hạn / bất thường độ ẩm. Nhóm đầu ra: RISK_MAP. Có từ Level 1.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0282,FIRE_RISK_MAP,Bản đồ / xếp hạng nguy cơ cháy. Nhóm đầu ra: RISK_MAP. Có từ Level 3.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0282,GIS_LAYER,Lớp / gói dữ liệu GIS. Nhóm đầu ra: GIS_DATASET. Có từ Level 1.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0282,PRIORITY_INSPECTION_LIST,Danh sách khu vực / điểm ưu tiên kiểm tra. Nhóm đầu ra: HOTSPOT_LIST. Có từ Level 1.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0282,TECHNICAL_REPORT,Báo cáo kỹ thuật / phương pháp / sai số. Nhóm đầu ra: TECHNICAL_REPORT. Có từ Level 1.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0282,CHANGE_MAP,Bản đồ / báo cáo biến động giữa các kỳ. Nhóm đầu ra: CHANGE_ANALYSIS. Có từ Level 3.,VERIFIED,S0282/04/muc10;S0282/03/D006
+S0283,ORTHOMOSAIC,Ảnh trực giao (orthomosaic). Nhóm đầu ra: BASE_MAP. Có từ Level 1.,VERIFIED,S0283/04/muc10;S0283/03/D006
+S0283,VEGETATION_INDEX_MAP,Bản đồ / chuỗi chỉ số thực vật. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0283/04/muc10;S0283/03/D006
+S0283,CHANGE_MAP,Bản đồ / báo cáo biến động giữa các kỳ. Nhóm đầu ra: CHANGE_ANALYSIS. Có từ Level 1.,VERIFIED,S0283/04/muc10;S0283/03/D006
+S0283,STATISTICS_TABLE,"Bảng thống kê / dữ liệu theo điểm, lô, AOI. Nhóm đầu ra: DATA_TABLE. Có từ Level 1.",VERIFIED,S0283/04/muc10;S0283/03/D006
+S0283,PRIORITY_INSPECTION_LIST,Danh sách khu vực / điểm ưu tiên kiểm tra. Nhóm đầu ra: HOTSPOT_LIST. Có từ Level 1.,VERIFIED,S0283/04/muc10;S0283/03/D006
+S0283,TECHNICAL_REPORT,Báo cáo kỹ thuật / phương pháp / sai số. Nhóm đầu ra: TECHNICAL_REPORT. Có từ Level 1.,VERIFIED,S0283/04/muc10;S0283/03/D006
+S0283,QAQC_REPORT,"Báo cáo QA/QC, hiệu chuẩn, nhật ký truy vết. Nhóm đầu ra: QAQC_REPORT. Có từ Level 1.",VERIFIED,S0283/04/muc10;S0283/03/D006
+S0283,DASHBOARD,Dashboard / WebGIS / API. Nhóm đầu ra: DASHBOARD. Có từ Level 3.,VERIFIED,S0283/04/muc10;S0283/03/D006
+S0284,ORTHOMOSAIC,Ảnh trực giao (orthomosaic). Nhóm đầu ra: BASE_MAP. Có từ Level 1.,VERIFIED,S0284/04/muc10;S0284/03/D006
+S0284,CANOPY_MOISTURE_MAP,Bản đồ độ ẩm tán (FMC) / trạng thái nước của tán. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0284/04/muc10;S0284/03/D006
+S0284,TREE_LAYER,"Lớp cây đơn lẻ / bản đồ theo cây, ô. Nhóm đầu ra: CARBON_STOCK. Có từ Level 1.",VERIFIED,S0284/04/muc10;S0284/03/D006
+S0284,SURFACE_TEMPERATURE_MAP,Bản đồ nhiệt độ bề mặt / nhiệt tán. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0284/04/muc10;S0284/03/D006
+S0284,STATISTICS_TABLE,"Bảng thống kê / dữ liệu theo điểm, lô, AOI. Nhóm đầu ra: DATA_TABLE. Có từ Level 1.",VERIFIED,S0284/04/muc10;S0284/03/D006
+S0284,TECHNICAL_REPORT,Báo cáo kỹ thuật / phương pháp / sai số. Nhóm đầu ra: TECHNICAL_REPORT. Có từ Level 1.,VERIFIED,S0284/04/muc10;S0284/03/D006
+S0284,METADATA_PACKAGE,"Siêu dữ liệu cảm biến, thời gian, điều kiện đo. Nhóm đầu ra: METADATA. Có từ Level 1.",VERIFIED,S0284/04/muc10;S0284/03/D006
+S0284,PRIORITY_INSPECTION_LIST,Danh sách khu vực / điểm ưu tiên kiểm tra. Nhóm đầu ra: HOTSPOT_LIST. Có từ Level 1.,VERIFIED,S0284/04/muc10;S0284/03/D006
+S0285-S0287,POINT_CLOUD,Đám mây điểm đã xử lý / phân loại. Nhóm đầu ra: MODEL_3D. Có từ Level 1.,VERIFIED,S0285-S0287/04/muc10;S0285-S0287/03/D006
+S0285-S0287,ELEVATION_MODEL,Mô hình độ cao DTM / DSM / CHM. Nhóm đầu ra: BASE_MAP. Có từ Level 1.,VERIFIED,S0285-S0287/04/muc10;S0285-S0287/03/D006
+S0285-S0287,TREE_LAYER,"Lớp cây đơn lẻ / bản đồ theo cây, ô. Nhóm đầu ra: CARBON_STOCK. Có từ Level 2.",VERIFIED,S0285-S0287/04/muc10;S0285-S0287/03/D006
+S0285-S0287,AGB_CARBON_STOCK_MAP,"Bản đồ AGB và trữ lượng carbon (tấn C/ha, tCO₂e/ha). Nhóm đầu ra: CARBON_STOCK. Có từ Level 1.",VERIFIED,S0285-S0287/04/muc10;S0285-S0287/03/D006
+S0285-S0287,TECHNICAL_REPORT,Báo cáo kỹ thuật / phương pháp / sai số. Nhóm đầu ra: TECHNICAL_REPORT. Có từ Level 1.,VERIFIED,S0285-S0287/04/muc10;S0285-S0287/03/D006
+S0285-S0287,CHANGE_MAP,Bản đồ / báo cáo biến động giữa các kỳ. Nhóm đầu ra: CHANGE_ANALYSIS. Có từ Level 3.,VERIFIED,S0285-S0287/04/muc10;S0285-S0287/03/D006
+S0285-S0287,GIS_LAYER,Lớp / gói dữ liệu GIS. Nhóm đầu ra: GIS_DATASET. Có từ Level 3.,NEED_VERIFY,S0285-S0287/04/muc10;S0285-S0287/03/D006
+S0285-S0287,DASHBOARD,Dashboard / WebGIS / API. Nhóm đầu ra: DASHBOARD. Có từ Level 3.,NEED_VERIFY,S0285-S0287/04/muc10;S0285-S0287/03/D006
+S0286,MRV_REPORT,Báo cáo MRV theo mẫu chương trình. Nhóm đầu ra: MRV_REPORT. Có từ Level 1.,VERIFIED,S0286/04/muc10;S0286/03/D006
+S0286,MONITORING_PLAN,Kế hoạch giám sát. Nhóm đầu ra: MRV_REPORT. Có từ Level 1.,VERIFIED,S0286/04/muc10;S0286/03/D006
+S0286,QUANTIFICATION_WORKBOOK,Bảng tính định lượng kèm dữ liệu gốc. Nhóm đầu ra: EMISSION_QUANTIFICATION. Có từ Level 1.,VERIFIED,S0286/04/muc10;S0286/03/D006
+S0286,GIS_LAYER,Lớp / gói dữ liệu GIS. Nhóm đầu ra: GIS_DATASET. Có từ Level 1.,VERIFIED,S0286/04/muc10;S0286/03/D006
+S0286,QAQC_REPORT,"Báo cáo QA/QC, hiệu chuẩn, nhật ký truy vết. Nhóm đầu ra: QAQC_REPORT. Có từ Level 1.",VERIFIED,S0286/04/muc10;S0286/03/D006
+S0286,VERIFICATION_RESPONSE,Bản giải trình đáp ứng phát hiện của đơn vị thẩm định. Nhóm đầu ra: MRV_SUPPORT. Có từ Level 1.,VERIFIED,S0286/04/muc10;S0286/03/D006
+S0288,POINT_CLOUD,Đám mây điểm đã xử lý / phân loại. Nhóm đầu ra: MODEL_3D. Có từ Level 1.,VERIFIED,S0288/04/muc10;S0288/03/D006
+S0288,ORTHOMOSAIC,Ảnh trực giao (orthomosaic). Nhóm đầu ra: BASE_MAP. Có từ Level 1.,VERIFIED,S0288/04/muc10;S0288/03/D006
+S0288,SURFACE_TEMPERATURE_MAP,Bản đồ nhiệt độ bề mặt / nhiệt tán. Nhóm đầu ra: MONITORING_MAP. Có từ Level 1.,VERIFIED,S0288/04/muc10;S0288/03/D006
+S0288,DEFECT_TABLE,Bảng chỉ tiêu hình học và khuyết tật. Nhóm đầu ra: DATA_TABLE. Có từ Level 1.,VERIFIED,S0288/04/muc10;S0288/03/D006
+S0288,CONDITION_REPORT,"Báo cáo đánh giá hiện trạng, cảnh báo nguy cơ. Nhóm đầu ra: ASSESSMENT_REPORT. Có từ Level 1.",VERIFIED,S0288/04/muc10;S0288/03/D006
+S0288,BIM_MODEL,Mô hình Scan-to-BIM. Nhóm đầu ra: MODEL_3D. Có từ Level 3.,VERIFIED,S0288/04/muc10;S0288/03/D006

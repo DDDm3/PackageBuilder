@@ -1,0 +1,5893 @@
+{
+ "version": "v1",
+ "generated": "2026-09-22",
+ "note": "Seed SV3 – 12 service Nhóm 9. Dữ liệu trích từ Service Assets 02/03/04; phân loại OBJECTIVE/INDUSTRY/ENVIRONMENT/TOPIC chờ Don duyệt.",
+ "services": [
+  {
+   "service_id": "S0269",
+   "service_name_vi": "Đánh giá độ phản xạ mặt đất cho nghiên cứu khí hậu",
+   "service_name_en": "Evaluating ground reflectance for climate research",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-04",
+   "subsector_name_vi": "Nghiên cứu khí hậu & carbon",
+   "service_type": "Dịch vụ kỹ thuật đo đạc, viễn thám và lập bản đồ số",
+   "short_description": "Dịch vụ đo và lập bản đồ albedo bề mặt bằng UAV camera đa phổ kết hợp điểm đo albedometer mặt đất, phục vụ nghiên cứu khí hậu và phân tích cân bằng năng lượng bề mặt.",
+   "technologies": "UAV camera đa phổ; cảm biến bức xạ tới; albedometer mặt đất; tấm chuẩn phản xạ; chuyển đổi Narrow-to-Broadband",
+   "customer_segments": "Viện và trung tâm nghiên cứu khí tượng, thủy văn, môi trường và biến đổi khí hậu; cơ quan quản lý nhà nước về viễn thám và tài nguyên môi trường; chủ dự án và đơn vị tư vấn thuộc diện đo đạc, báo cáo, thẩm định hoặc tham gia cơ chế tín chỉ carbon; trường đại học và nhóm nghiên cứu viễn thám, địa lý, môi trường; đơn vị nghiên cứu vi khí hậu đô thị và quy hoạch đô thị",
+   "customer_problems": "Thiếu dữ liệu albedo bề mặt độ phân giải cao tại khu vực nghiên cứu; sản phẩm albedo vệ tinh ở độ phân giải 500 m và phụ thuộc điều kiện mây; đo tại mặt đất chính xác theo điểm nhưng khó mở rộng không gian; thiếu số liệu albedo thực địa cho hồ sơ MRV và tín chỉ carbon",
+   "use_cases": "Lập bản đồ và giám sát albedo bề mặt; đối chiếu và kiểm chứng sản phẩm albedo vệ tinh; nghiên cứu cân bằng năng lượng bề mặt; nghiên cứu vi khí hậu và đảo nhiệt đô thị; theo dõi thay đổi lớp phủ đất trống, cây xanh, bê tông, nhựa đường, mái và nước; nghiên cứu nông nghiệp và sinh thái cần dữ liệu phổ; theo dõi thay đổi bề mặt theo thời gian cho nghiên cứu khí hậu dài hạn",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "VERIFIED",
+   "is_demo": false,
+   "source_ref": "S0269/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0269/02/header"
+  },
+  {
+   "service_id": "S0270",
+   "service_name_vi": "Dự báo và cảnh báo hạn hán bằng UAV cảm biến độ ẩm đất + AI phân tích xu hướng khô hạn",
+   "service_name_en": "AI-based drought early warning via UAV soil moisture sensors and temporal data analysis",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-04",
+   "subsector_name_vi": "Nghiên cứu khí hậu & carbon",
+   "service_type": "Giám sát viễn thám & Phân tích dữ liệu AI (Data & AI Analytics / Remote Sensing Survey)",
+   "short_description": "Dịch vụ tích hợp cảm biến đo độ ẩm đất in-situ và UAV viễn thám đa phổ/nhiệt với dữ liệu thời tiết và thuật toán AI nhằm lập bản đồ phân bố độ ẩm đất độ phân giải cao, nhận diện bất thường khô hạn và phát cảnh báo sớm hạn hán theo thời gian phục vụ nông nghiệp và quản lý tài nguyên nước.",
+   "technologies": "UAV (Multispectral/Thermal/RGB), Cảm biến in-situ độ ẩm đất (VWC/EC/Nhiệt độ), AI/Machine Learning (Random Forest, XGBoost, LSTM/Transformer), Viễn thám vệ tinh & GIS",
+   "customer_segments": "Cơ quan quản lý nông nghiệp và tài nguyên nước; Viện/trường nghiên cứu khí hậu, thủy văn; Ban quản lý trang trại/vùng sản xuất lớn; Dự án biến đổi khí hậu; Doanh nghiệp nông nghiệp số",
+   "customer_problems": "Khó phát hiện sớm vùng thiếu nước cục bộ; Thiếu công cụ theo dõi diễn biến độ ẩm theo không gian và thời gian; Thiếu căn cứ định lượng để điều tiết nước và ra quyết định ứng phó; Sai số lớn khi mở rộng quy mô từ điểm đo đơn lẻ",
+   "use_cases": "Cảnh báo khô hạn theo ruộng/vùng; Lập bản đồ độ ẩm đất sau mưa/tưới; Theo dõi stress nước của cây trồng; Dự báo nguy cơ hạn hán 1–4 tuần; Điều tiết nước và lập lịch tưới chính xác; Đánh giá rủi ro suy giảm năng suất cây trồng do hạn",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "VERIFIED",
+   "is_demo": false,
+   "source_ref": "S0270/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0270/02/header"
+  },
+  {
+   "service_id": "S0271",
+   "service_name_vi": "Đo hiệu quả giảm phát thải CO₂",
+   "service_name_en": "Measuring CO₂ emission reduction efficiency",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-04",
+   "subsector_name_vi": "Nghiên cứu khí hậu & carbon",
+   "service_type": "Measurement, Reporting & Verification (MRV) & Emission Monitoring",
+   "short_description": "Dịch vụ sử dụng UAV mang cảm biến CH₄, cảm biến gió và GNSS/RTK để lập bản đồ phát tán methane tại bãi chôn lấp, đo trước–sau biện pháp khắc phục và quy đổi lượng CH₄ giảm sang CO₂e khi đủ điều kiện định lượng.",
+   "technologies": "UAV mang cảm biến CH₄ (laser/optical); cảm biến gió/trạm khí tượng; GNSS/RTK; data logger đồng bộ thời gian; mô hình định lượng Mass Balance / Inverse Dispersion; khí chuẩn.",
+   "customer_segments": "Chủ và đơn vị vận hành bãi chôn lấp chất thải rắn; Công ty môi trường đô thị (URENCO); Đơn vị xử lý chất thải; Doanh nghiệp phát triển dự án thu hồi khí bãi rác và phát điện; Đơn vị tư vấn carbon & tổ chức thẩm định KNK độc lập; Cơ quan quản lý môi trường địa phương.",
+   "customer_problems": "Nguồn methane phân tán trên diện rộng không có ống dẫn cố định; Khảo sát mặt đất theo Method 21 chỉ đo điểm, tần suất theo quý, đi bộ chậm và dễ sai sót; Không định vị được rò rỉ để ưu tiên sửa chữa; Thiếu bằng chứng trước–sau chứng minh hiệu quả đầu tư can thiệp; Số liệu tự khai không đủ căn cứ khi báo cáo kiểm kê KNK hoặc thẩm định bên thứ ba.",
+   "use_cases": "Khảo sát nền trước can thiệp (Baseline survey); Định vị điểm phát thải cao (Hotspot detection quanh bạt phủ, giếng thu, đường ống); Bay xác nhận sau khắc phục (Before-After verification); Ước tính hiệu suất thu gom thực tế của hệ thống giếng thu (so với lượng thoát bề mặt); Kiểm tra tính hợp lý của hệ số mặc định đang khai kiểm kê; Điều tra bất thường sau sự kiện vận hành hoặc khiếu nại mùi hôi.",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "NEED_VERIFY",
+   "is_demo": false,
+   "source_ref": "S0271/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0271/02/header"
+  },
+  {
+   "service_id": "S0272",
+   "service_name_vi": "Dịch vụ lập bản đồ carbon footprint",
+   "service_name_en": "Mapping carbon footprints",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-04",
+   "subsector_name_vi": "Nghiên cứu khí hậu & carbon",
+   "service_type": "Giám sát viễn thám & Phân tích dữ liệu AI (Data & AI Analytics / Remote Sensing Survey)",
+   "short_description": "Lập bản đồ carbon footprint theo không gian bằng cách kết hợp dữ liệu UAV, activity data của khách hàng và emission factor trên nền GIS để hiển thị CO₂e theo khu vực và theo kỳ.",
+   "technologies": "UAV RTK + RGB; GNSS/RTK/GCP; photogrammetry; GIS; carbon calculation engine; database/dashboard. Add-on theo KPI: multispectral, LiDAR, thermal, gas sensor CO₂/CH₄. AI/CV.",
+   "customer_segments": "khu công nghiệp/nhà máy lớn; cơ sở thuộc diện kiểm kê GHG; doanh nghiệp ESG/Net Zero; bãi rác, xử lý nước thải, dầu khí có nguồn phát thải phân tán; nông-lâm nghiệp cần bản đồ sink/biomass; đô thị/campus/đơn vị quản lý nhiều tài sản. \nƯu tiên B2B/B2G với diện tích đủ lớn để UAV tạo lợi thế so với khảo sát mặt đất.",
+   "customer_problems": "Mục đích chính là trả lời “phát thải ở đâu, nguồn nào, khu vực nào cần ưu tiên”. GHG Protocol yêu cầu xác định nguồn phát thải, activity data và emission factors. Dịch vụ bổ sung lớp spatial evidence bằng cách khoanh vùng carbon hotspot; hợp nhất dữ liệu hiện trường với dữ liệu vận hành; theo dõi thay đổi giữa các kỳ; và tạo dữ liệu trực quan phục vụ ESG/Net Zero/MRV nội bộ.",
+   "use_cases": "1. baseline carbon map cho nhà máy/KCN; \n2. lập bản đồ nguồn phát thải tĩnh và tuyến vận tải nội bộ; \n3. theo dõi thay đổi sau dự án giảm phát thải; \n4. xác định vùng cây xanh/carbon sink; \n5. mapping biomass/carbon stock khi có multispectral/LiDAR + ground truth; \n6. methane/khí điểm nóng khi dùng sensor chuyên dụng; \n7. hỗ trợ MRV bằng spatial evidence; \n8. multi-site dashboard. Lưu ý: biomass/carbon stock không đồng nghĩa với corporate carbon footprint.",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "NEED_VERIFY",
+   "is_demo": false,
+   "source_ref": "S0272/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0272/02/header"
+  },
+  {
+   "service_id": "S0273",
+   "service_name_vi": "Đo nồng độ methane từ ruộng lúa",
+   "service_name_en": "Measuring methane concentration from rice fields",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-04",
+   "subsector_name_vi": "Nghiên cứu khí hậu & carbon",
+   "service_type": "Đo đạc và lập bản đồ phát thải methane ruộng lúa",
+   "short_description": "Kết hợp ảnh UAV đa phổ và RTK với phép đo CH₄ bằng buồng đo đóng và máy phân tích khí tại mặt đất để lập bản đồ nồng độ, ước tính thông lượng phát thải methane ruộng lúa theo không gian và thời gian phục vụ quản lý canh tác và MRV.",
+   "technologies": "UAV đa phổ + RTK/GNSS; buồng đo đóng; máy phân tích CH₄ mặt đất; GIS; mô hình học máy",
+   "customer_segments": "Nhà phát triển dự án carbon và tư vấn MRV; doanh nghiệp nông nghiệp/xuất khẩu lúa gạo; cơ quan quản lý/ban quản lý dự án; hợp tác xã nông nghiệp quy mô lớn",
+   "customer_problems": "Thiếu dữ liệu phát thải theo thửa và mùa vụ; khó đánh giá AWD so với ngập liên tục; thiếu chứng cứ số hóa cho MRV; tốn công đo thủ công dày đặc",
+   "use_cases": "Lập bản đồ baseline; so sánh AWD và ngập liên tục; theo dõi biến động theo mùa vụ; tối ưu vị trí buồng đo; ước tính kg CH₄/ha/vụ; cung cấp dữ liệu hỗ trợ MRV",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "NEED_VERIFY",
+   "is_demo": false,
+   "source_ref": "S0273/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0273/02/header"
+  },
+  {
+   "service_id": "S0274",
+   "service_name_vi": "Theo dõi khí nhà kính (GHG) tại khu đô thị",
+   "service_name_en": "Low-altitude UAV survey of urban greenhouse gas (GHG)",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-04",
+   "subsector_name_vi": "Nghiên cứu khí hậu & carbon",
+   "service_type": "Khảo sát và quan trắc môi trường; hỗ trợ kiểm kê GHG đô thị theo phạm vi dịch vụ.",
+   "short_description": "Dịch vụ dùng UAV bay thấp đo CO₂ và CH₄ tại khu đô thị, đồng bộ dữ liệu theo tọa độ–độ cao–thời gian và phân tích GIS để lập bản đồ phân bố, nhận diện khu vực nồng độ cao và hỗ trợ đối chiếu với inventory khi đủ dữ liệu.",
+   "technologies": "UAV bay thấp; hệ đo/lấy mẫu CO₂ và CH₄; GNSS/thời gian/độ cao; dữ liệu khí tượng; GIS và phân tích không gian; mô hình khí quyển khi thuộc scope.",
+   "customer_segments": "Chính quyền đô thị/địa phương; cơ quan môi trường và khí tượng; ban quản lý khu đô thị/khu công nghiệp; đơn vị hạ tầng, năng lượng, chất thải; viện/trường và tổ chức nghiên cứu khí hậu.",
+   "customer_problems": "Thiếu độ phủ không gian của quan trắc GHG đô thị; khó nhận diện khu vực nồng độ GHG cao; khó bổ sung/kiểm chứng inventory bằng quan trắc; khó đánh giá độ đại diện của mạng quan trắc; khó so sánh thay đổi theo chiến dịch.",
+   "use_cases": "Lập bản đồ CO₂/CH₄; khảo sát khu vực nồng độ cao (hotspot); đánh giá mạng quan trắc; bổ trợ và kiểm chứng inventory.",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "NEED_VERIFY",
+   "is_demo": false,
+   "source_ref": "S0274/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0274/02/header"
+  },
+  {
+   "service_id": "S0282",
+   "service_name_vi": "Giám sát độ ẩm đô thị bằng UAV cảm biến môi trường phát hiện khu vực khô hạn có nguy cơ cháy cao trong khu đô thị",
+   "service_name_en": "Urban humidity monitoring using environmental UAVs identifies dry, fire-prone zones within urban environments",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-06",
+   "subsector_name_vi": "Tín chỉ carbon & giám sát sinh thái",
+   "service_type": "Dịch vụ theo dõi, viễn thám và phát hiện hỏa hoạn",
+   "short_description": "Dịch vụ sử dụng UAV tích hợp cảm biến môi trường (RGB, multispectral, thermal) để giám sát định kỳ độ ẩm bề mặt trong khu đô thị, qua đó xác định các khu vực khô hạn có nguy cơ cháy cao và cung cấp dữ liệu hỗ trợ cảnh báo sớm cho công tác phòng cháy chữa cháy.",
+   "technologies": "UAV/UAS (RTK/PPK khi cần); camera RGB; camera multispectral (NIR/Red-edge); camera thermal/TIR; cảm biến môi trường; cảm biến độ ẩm đất mặt; phần mềm photogrammetry/orthomosaic và GIS; mô hình ML.",
+   "customer_segments": "Cơ quan/Công an PCCC; UBND xã/phường, chính quyền địa phương; Cơ quan quản lý đô thị",
+   "customer_problems": "Khó giám sát độ ẩm theo không gian trong khu đô thị; khó phát hiện sớm các khu vực có điều kiện khô hạn làm gia tăng nguy cơ cháy; cung cấp dữ liệu độ ẩm theo khu vực để hỗ trợ lực lượng PCCC và đơn vị quản lý đô thị xác định các khu vực cần ưu tiên kiểm tra, giám sát và phòng ngừa cháy.",
+   "use_cases": "Giám sát định kỳ độ ẩm tại các khu vực đô thị; lập bản đồ phân bố độ ẩm để xác định khu vực khô hạn; xác định các khu vực cần ưu tiên kiểm tra, giám sát PCCC dựa trên dữ liệu độ ẩm kết hợp với các yếu tố nguy cơ cháy; giám sát lại các khu vực có nguy cơ để theo dõi sự thay đổi theo thời gian.",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "NEED_VERIFY",
+   "is_demo": false,
+   "source_ref": "S0282/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0282/02/header"
+  },
+  {
+   "service_id": "S0283",
+   "service_name_vi": "Theo dõi sự thay đổi thảm thực vật",
+   "service_name_en": "Monitoring vegetation change",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-06",
+   "subsector_name_vi": "Tín chỉ carbon & giám sát sinh thái",
+   "service_type": "Dịch vụ giám sát và phân tích dữ liệu UAV",
+   "short_description": "Khảo sát lặp bằng UAV RGB và đa phổ, kết hợp RTK/PPK và phân tích GIS để lập bản đồ, định lượng và khoanh vùng thay đổi thảm thực vật.",
+   "technologies": "UAV RGB và đa phổ; RTK/PPK; photogrammetry; GIS",
+   "customer_segments": "Chủ rừng/rừng trồng; ban quản lý khu bảo tồn; doanh nghiệp nông-lâm nghiệp; dự án phục hồi sinh thái/hoàn nguyên/carbon; chuyên viên GIS và môi trường",
+   "customer_problems": "Thiếu dữ liệu chi tiết theo thời gian; khó định lượng khu vực biến động; phát hiện điểm nóng chậm; dữ liệu giữa các kỳ thiếu nhất quán; thiếu bằng chứng GIS có thể truy vết",
+   "use_cases": "Theo dõi rừng trồng và tái sinh; phát hiện mất/suy giảm tán; đánh giá phục hồi sau tác động; theo dõi hoàn nguyên và cây xanh; hỗ trợ hồ sơ carbon/MRV",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "VERIFIED",
+   "is_demo": false,
+   "source_ref": "S0283/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0283/02/header"
+  },
+  {
+   "service_id": "S0284",
+   "service_name_vi": "Đo độ ẩm tán rừng bằng cảm biến UAV",
+   "service_name_en": "Measuring forest canopy humidity using UAV sensors",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-06",
+   "subsector_name_vi": "Tín chỉ carbon & giám sát sinh thái",
+   "service_type": "Forestry Remote Sensing, Ecological Monitoring & Wildfire Risk Assessment",
+   "short_description": "Dịch vụ sử dụng thiết bị bay không người lái (UAV) tích hợp cảm biến quang học đa phổ và cảm biến nhiệt radiometric để thu thập dữ liệu phản xạ phổ và phát xạ nhiệt bề mặt tán cây, kết hợp mẫu kiểm chứng mặt đất nhằm ước tính hàm lượng ẩm của lá (FMC) và lập bản đồ phân vùng khô hạn, hỗ trợ quản lý sức khỏe rừng và phòng ngừa nguy cơ cháy rừng.",
+   "technologies": "UAV/UAS RTK/PPK; Camera đa phổ Multispectral (NIR/Red-Edge/Red/Green); Camera nhiệt Radiometric Thermal (LWIR 8–14 $\\mu$m); Tấm chuẩn phản xạ (Calibration Panel); Thiết bị sấy mẫu lá phòng lab; Phần mềm photogrammetry và GIS; Machine Learning (Random Forest, Mask R-CNN).",
+   "customer_segments": "(1) Ban quản lý rừng đặc dụng / phòng hộ / sản xuất và chủ rừng;\n(2) Đơn vị quản lý, giám sát phòng cháy chữa cháy rừng;\n(3) Viện / trường / nhóm nghiên cứu lâm nghiệp, sinh thái, khí hậu;\n(4) Đơn vị tư vấn quản lý rừng, đánh giá tài nguyên và rủi ro cháy;\n(5) Dự án phục hồi rừng, thích ứng hạn và giám sát sức khỏe rừng.",
+   "customer_problems": "Thiếu dữ liệu độ ẩm tán rừng diện rộng có độ phân giải cao; Khó phát hiện sớm hiện tượng stress nước và cây khô héo; Hạn chế của phương pháp sấy mẫu thủ công truyền thống; Thiếu dữ liệu số hóa phục vụ quản lý sức khỏe rừng và PCCC.",
+   "use_cases": "(1) Lập bản đồ độ ẩm tán rừng (FMC) theo cây hoặc ô rừng;\n(2) Theo dõi biến động stress nước theo mùa và chu kỳ hạn hán;\n(3) Hỗ trợ đánh giá điều kiện nhiên liệu sống phục vụ phòng ngừa cháy rừng;\n(4) Theo dõi phục hồi sau hạn hoặc đánh giá tác động biện pháp lâm sinh;\n(5) Tạo dữ liệu độ phân giải cao kiểm chứng mô hình viễn thám quy mô lớn;\n(6) Khoanh vùng các khu vực rừng có độ ẩm tán thấp phục vụ ưu tiên kiểm tra.",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "NEED_VERIFY",
+   "is_demo": false,
+   "source_ref": "S0284/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0284/02/header"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "service_name_vi": "Đánh giá và lập bản đồ hấp thụ carbon trong sinh khối rừng",
+   "service_name_en": "Forest Biomass Carbon Assessment and Mapping",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-06",
+   "subsector_name_vi": "Tín chỉ carbon & giám sát sinh thái",
+   "service_type": "Dịch vụ kỹ thuật đo đạc, viễn thám và lập bản đồ số",
+   "short_description": "Dịch vụ dùng UAV mang LiDAR kết hợp camera RGB hoặc đa phổ và đo ô tiêu chuẩn mặt đất để ước tính sinh khối trên mặt đất theo phương trình allometric, tạo ra bản đồ trữ lượng các-bon rừng theo lô kèm bảng sai số.",
+   "technologies": "UAV mang LiDAR; Camera RGB/đa phổ; GNSS RTK/PPK; GIS; Mô hình học máy hồi quy AGB",
+   "customer_segments": "Ban quản lý rừng phòng hộ và đặc dụng; Công ty lâm nghiệp; Chủ rừng là tổ chức quy mô lớn; Doanh nghiệp trồng rừng nguyên liệu; Đơn vị phát triển dự án các-bon; Quỹ Bảo vệ và Phát triển rừng cấp tỉnh; Doanh nghiệp có cam kết ESG/net-zero",
+   "customer_problems": "Chưa lượng hóa được trữ lượng các-bon rừng; Điều tra thủ công tốn công và tỷ lệ rút mẫu thấp (0.01 - 0.1%); Không có phân bố không gian của trữ lượng theo lô; Nghĩa vụ pháp lý mới khi tham gia thị trường các-bon (Nghị định 180/2026/NĐ-CP)",
+   "use_cases": "Lập bản đồ trữ lượng các-bon nền; Sàng lọc tiềm năng các-bon vùng rừng; Giám sát biến động sinh khối theo chu kỳ; Cung cấp dữ liệu đầu vào cho đơn vị lập báo cáo MRV; Hỗ trợ định giá rừng và quy hoạch lâm sinh",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "VERIFIED",
+   "is_demo": false,
+   "source_ref": "S0285-S0287/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0285-S0287/02/header"
+  },
+  {
+   "service_id": "S0286",
+   "service_name_vi": "Báo cáo MRV cho dự án tín chỉ carbon",
+   "service_name_en": "MRV report for carbon credit project",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-06",
+   "subsector_name_vi": "Tín chỉ carbon & giám sát sinh thái",
+   "service_type": "MRV Reporting & Verification Support",
+   "short_description": "Báo cáo MRV cho dự án tín chỉ carbon sử dụng UAV kết hợp đo mặt đất và phương pháp luận đã được chương trình tín chỉ công nhận để định lượng phát thải kỳ đường cơ sở và kỳ dự án, tạo ra bộ hồ sơ MRV sẵn sàng nộp cho đơn vị thẩm định độc lập.",
+   "technologies": "UAV LiDAR; UAV đa phổ và RGB; UAV mang cảm biến khí; buồng kín và máy phân tích khí đặt tại mặt đất; GNSS RTK/PPK; GIS; Machine Learning; nền tảng quản lý dữ liệu MRV",
+   "customer_segments": "Chủ dự án tín chỉ các-bon; đơn vị phát triển dự án; cơ sở thuộc danh mục phải kiểm kê khí nhà kính; chủ rừng và công ty lâm nghiệp; doanh nghiệp và hợp tác xã vùng lúa; đơn vị vận hành bãi chôn lấp; doanh nghiệp nhiệt điện, xi măng, sắt thép; quỹ và nhà đầu tư mua tín chỉ",
+   "customer_problems": "Chưa chọn được phương pháp luận phù hợp; thiếu dữ liệu định lượng kỳ đường cơ sở; số liệu giám sát rời rạc và không truy vết được; hồ sơ bị đơn vị thẩm định trả lại nhiều vòng; nghĩa vụ báo cáo trong nước có mốc thời gian cố định",
+   "use_cases": "Lập hồ sơ định lượng kỳ đường cơ sở; lập báo cáo giám sát cho kỳ tín chỉ; lập báo cáo giảm nhẹ phát thải cấp cơ sở; chuẩn bị hồ sơ và giải trình phục vụ thẩm định độc lập; rà soát báo cáo MRV do bên khác lập",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "NEED_VERIFY",
+   "is_demo": false,
+   "source_ref": "S0286/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0286/02/header"
+  },
+  {
+   "service_id": "S0288",
+   "service_name_vi": "Kiểm tra công trình cũ bằng UAV LiDAR đánh giá kết cấu xuống cấp để phát hiện nguy cơ cháy do lão hóa vật liệu",
+   "service_name_en": "Structural inspection using LiDAR UAVs scans aging buildings to identify fire hazards caused by material deterioration",
+   "sector_code": "D009",
+   "sector_name_vi": "Môi trường, sinh thái và kinh tế xanh",
+   "subsector_code": "D009-06",
+   "subsector_name_vi": "Tín chỉ carbon & giám sát sinh thái",
+   "service_type": "Dịch vụ theo dõi, viễn thám và phát hiện hỏa hoạn",
+   "short_description": "Kiểm tra công trình cũ bằng UAV LiDAR đánh giá kết cấu xuống cấp để phát hiện nguy cơ cháy do lão hóa vật liệu.",
+   "technologies": "UAV LiDAR",
+   "customer_segments": "Nhà máy/nhà xưởng và doanh nghiệp quản lý các công trình công nghiệp cũ, doanh nghiệp quản lý tòa nhà, chung cư cũ, kho bãi hóa chất.",
+   "customer_problems": "Phát hiện sớm các dấu hiệu xuống cấp; Giảm phụ thuộc vào kiểm tra thủ công tại các vị trí khó tiếp cận, vốn có thể tốn thời gian, chi phí và tiềm ẩn rủi ro cho người kiểm tra.",
+   "use_cases": "Kiểm tra định kỳ công trình cũ; khảo sát các khu vực cao, khó tiếp cận;\nPhát hiện và lập bản đồ các dấu hiệu xuống cấp như nứt, biến dạng, hư hỏng bề mặt;",
+   "lifecycle_status": "DRAFT",
+   "data_classification": "INTERNAL",
+   "verification_status": "NEED_VERIFY",
+   "is_demo": false,
+   "source_ref": "S0288/03/01_SERVICE_MASTER;02_DISCOVERY_TAGS;S0288/02/header"
+  }
+ ],
+ "service_levels": [
+  {
+   "service_id": "S0269",
+   "level_no": 1,
+   "level_name": "Bản đồ albedo cơ bản",
+   "level_description": "",
+   "source_ref": "S0269/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0269",
+   "level_no": 2,
+   "level_name": "Giám sát albedo theo thời gian",
+   "level_description": "",
+   "source_ref": "S0269/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0269",
+   "level_no": 3,
+   "level_name": "Albedo chuẩn nghiên cứu và quy đổi khí hậu",
+   "level_description": "",
+   "source_ref": "S0269/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0270",
+   "level_no": 1,
+   "level_name": "Khảo sát hiện trạng cơ bản (Basic Survey)",
+   "level_description": "",
+   "source_ref": "S0270/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0270",
+   "level_no": 2,
+   "level_name": "Giám sát định kỳ & phân vùng khô hạn (Periodic Monitoring)",
+   "level_description": "",
+   "source_ref": "S0270/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0270",
+   "level_no": 3,
+   "level_name": "Dự báo hạn bằng AI & tích hợp đa nguồn (AI Drought Forecasting)",
+   "level_description": "",
+   "source_ref": "S0270/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0271",
+   "level_no": 1,
+   "level_name": "Emission Screening & Source Mapping",
+   "level_description": "1 khu vực, 1 kỳ đo, lập bản đồ nồng độ CH₄, khoanh hotspot và danh sách kiểm tra, báo cáo QA/QC, KHÔNG quy đổi tCO₂e",
+   "source_ref": "S0271/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0271",
+   "level_no": 2,
+   "level_name": "Quantification & Before–After",
+   "level_description": "toàn bãi, tuyến bay rèm cuối gió nhiều lớp độ cao, đo 2 kỳ (nền và xác nhận), ước tính flux (kg/h), hiệu suất thu gom, lượng CH₄ giảm và quy đổi tCO₂e kèm dải bất định",
+   "source_ref": "S0271/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0271",
+   "level_no": 3,
+   "level_name": "Multi-site Monitoring & Verification Support",
+   "level_description": "đa bãi, đo định kỳ, tích hợp SCADA/đồng hồ đo khí thu hồi, phân tích bất định và cung cấp bộ bằng chứng hỗ trợ thẩm định độc lập",
+   "source_ref": "S0271/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0272",
+   "level_no": 1,
+   "level_name": "Bay và đánh giá cơ bản (PILOT/BASIC)",
+   "level_description": "",
+   "source_ref": "S0272/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0272",
+   "level_no": 2,
+   "level_name": "Bay và theo dõi ngắn hạn (STANDARD)",
+   "level_description": "",
+   "source_ref": "S0272/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0272",
+   "level_no": 3,
+   "level_name": "Bay, phân tích chi tiết và theo dõi trong năm (ADVANCED/ENTERPRISE)",
+   "level_description": "",
+   "source_ref": "S0272/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0273",
+   "level_no": 1,
+   "level_name": "Baseline Mapping & Ground Calibration (≤10 ha, 2 lần bay, 3 đợt đo)",
+   "level_description": "",
+   "source_ref": "S0273/03/D004",
+   "verification_status": "NEED_VERIFY"
+  },
+  {
+   "service_id": "S0273",
+   "level_no": 2,
+   "level_name": "Seasonal Emission Mapping & AWD Comparison (≤50 ha, 5 lần bay, 5 đợt đo)",
+   "level_description": "",
+   "source_ref": "S0273/03/D004",
+   "verification_status": "NEED_VERIFY"
+  },
+  {
+   "service_id": "S0273",
+   "level_no": 3,
+   "level_name": "AI Spatial Model & MRV Data Support (≤100 ha, 8 lần bay, 8 đợt đo)",
+   "level_description": "quy mô/tần suất đề xuất, cần xác minh",
+   "source_ref": "S0273/03/D004",
+   "verification_status": "NEED_VERIFY"
+  },
+  {
+   "service_id": "S0274",
+   "level_no": 1,
+   "level_name": "Khảo sát cơ bản",
+   "level_description": "",
+   "source_ref": "S0274/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0274",
+   "level_no": 2,
+   "level_name": "Bản đồ không gian & Hotspot",
+   "level_description": "",
+   "source_ref": "S0274/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0274",
+   "level_no": 3,
+   "level_name": "Giám sát tích hợp & Hỗ trợ kiểm kê",
+   "level_description": "",
+   "source_ref": "S0274/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0282",
+   "level_no": 1,
+   "level_name": "Giám sát cơ bản (Basic Environmental Survey)",
+   "level_description": "UAV + RGB + cảm biến khí tượng; orthomosaic RGB và số liệu nhiệt độ – độ ẩm – áp suất",
+   "source_ref": "S0282/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0282",
+   "level_no": 2,
+   "level_name": "Bản đồ độ ẩm & phân vùng khô hạn (Moisture Mapping & Dry-Zone Zoning)",
+   "level_description": "thêm multispectral (NIR/Red-edge) + thermal/TIR + ground-truth; bản đồ nhiệt độ bề mặt, bản đồ độ ẩm, bản đồ phân vùng khô hạn, lớp GIS",
+   "source_ref": "S0282/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0282",
+   "level_no": 3,
+   "level_name": "Giám sát định kỳ, mô hình nguy cơ cháy & cảnh báo (Periodic Monitoring + Fire-Risk Model)",
+   "level_description": "thêm mô hình ML và dashboard theo chuỗi thời gian; bản đồ/xếp hạng nguy cơ cháy, báo cáo biến động, danh sách khu vực ưu tiên. Cấu hình theo tần suất (áp dụng cho cả 3 Level): gói theo đợt / gói theo mùa khô / gói định kỳ gắn với chu kỳ kiểm tra PCCC",
+   "source_ref": "S0282/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0283",
+   "level_no": 1,
+   "level_name": "Pilot / Basic",
+   "level_description": "",
+   "source_ref": "S0283/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0283",
+   "level_no": 2,
+   "level_name": "Standard",
+   "level_description": "",
+   "source_ref": "S0283/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0283",
+   "level_no": 3,
+   "level_name": "Advanced / Enterprise",
+   "level_description": "",
+   "source_ref": "S0283/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0284",
+   "level_no": 1,
+   "level_name": "Khảo sát cơ bản (Basic Survey)",
+   "level_description": "UAV + Camera RGB + Cảm biến đa phổ cơ bản (hoặc nhiệt); Orthomosaic RGB/NIR, bản đồ chỉ số thực vật, báo cáo hiện trạng quang phổ tán cây",
+   "source_ref": "S0284/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0284",
+   "level_no": 2,
+   "level_name": "Bản đồ độ ẩm & phân vùng khô hạn (FMC Mapping & Dry-Zone Zoning) [Gói đề xuất khởi điểm]",
+   "level_description": "Level 1 + Cảm biến đa phổ chuyên sâu + Lấy mẫu Ground-truth mặt đất cân sấy phòng lab + Mô hình hiệu chuẩn theo loài; Bản đồ FMC, bản đồ nhiệt độ tán, lớp GIS, danh mục tọa độ điểm nóng, báo cáo sai số RMSE",
+   "source_ref": "S0284/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0284",
+   "level_no": 3,
+   "level_name": "Giám sát chu kỳ & AI nâng cao (Advanced AI & Periodic Monitoring)",
+   "level_description": "Level 2 + Cảm biến nhiệt radiometric + AI phân đoạn cây riêng lẻ (Mask R-CNN) + Mô hình ML chuỗi thời gian + Dashboard Web GIS; Bản đồ phân cấp độ ẩm theo cây/ô, bản đồ nguy cơ cháy đa yếu tố, báo cáo biến động theo mùa, tài khoản Web Dashboard. Cấu hình theo tần suất: Gói khảo sát đơn lẻ / Gói theo mùa khô / Gói quan trắc định kỳ nhiều năm",
+   "source_ref": "S0284/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "level_no": 1,
+   "level_name": "Bản đồ các-bon nền 01 kỳ (LiDAR + RGB)",
+   "level_description": "",
+   "source_ref": "S0285-S0287/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "level_no": 2,
+   "level_name": "Bản đồ chi tiết theo cây đơn lẻ 01 kỳ (LiDAR + RGB + Đa phổ)",
+   "level_description": "",
+   "source_ref": "S0285-S0287/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "level_no": 3,
+   "level_name": "Giám sát hấp thụ đa kỳ (chu kỳ 2-3 năm trở lên)",
+   "level_description": "Add-on  Gói chuẩn hóa MRV, mở rộng ảnh vệ tinh Sentinel, hosting GIS dashboard",
+   "source_ref": "S0285-S0287/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0286",
+   "level_no": 1,
+   "level_name": "Baseline Quantification & MRV Readiness",
+   "level_description": "",
+   "source_ref": "S0286/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0286",
+   "level_no": 2,
+   "level_name": "Monitoring Report & Verification Support",
+   "level_description": "",
+   "source_ref": "S0286/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0286",
+   "level_no": 3,
+   "level_name": "Multi-period Digital MRV & Registry Support",
+   "level_description": "",
+   "source_ref": "S0286/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0288",
+   "level_no": 1,
+   "level_name": "Khảo sát cơ bản - Scan & 3D Point Cloud",
+   "level_description": "",
+   "source_ref": "S0288/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0288",
+   "level_no": 2,
+   "level_name": "Đánh giá kết hợp nhiệt - Scan & Thermal Defect Assessment",
+   "level_description": "",
+   "source_ref": "S0288/03/D004",
+   "verification_status": "VERIFIED"
+  },
+  {
+   "service_id": "S0288",
+   "level_no": 3,
+   "level_name": "Chẩn đoán chuyên sâu & Đánh giá rủi ro cháy toàn diện - Advanced Digital Twin & Fire Risk Audit",
+   "level_description": "",
+   "source_ref": "S0288/03/D004",
+   "verification_status": "VERIFIED"
+  }
+ ],
+ "service_inputs": [
+  {
+   "service_id": "S0269",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Khu vực nghiên cứu và phạm vi bay",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/03/D005"
+  },
+  {
+   "service_id": "S0269",
+   "input_no": 2,
+   "input_code": "SURFACE_TYPE_LIST",
+   "input_name_raw": "loại bề mặt cần đánh giá",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/03/D005"
+  },
+  {
+   "service_id": "S0269",
+   "input_no": 3,
+   "input_code": "UAV_IMAGERY",
+   "input_name_raw": "dữ liệu phản xạ và bức xạ thu từ UAV",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/03/D005"
+  },
+  {
+   "service_id": "S0269",
+   "input_no": 4,
+   "input_code": "INCIDENT_RADIATION",
+   "input_name_raw": "dữ liệu bức xạ mặt trời chiếu xuống tại thời điểm khảo sát",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/03/D005"
+  },
+  {
+   "service_id": "S0269",
+   "input_no": 5,
+   "input_code": "CALIBRATION_DATA",
+   "input_name_raw": "dữ liệu hiệu chuẩn từ tấm chuẩn phản xạ",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/03/D005"
+  },
+  {
+   "service_id": "S0269",
+   "input_no": 6,
+   "input_code": "FLIGHT_METADATA",
+   "input_name_raw": "điều kiện quan sát gồm thời gian, chiếu sáng và tư thế cảm biến",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/03/D005"
+  },
+  {
+   "service_id": "S0269",
+   "input_no": 7,
+   "input_code": "REFERENCE_VALIDATION_DATA",
+   "input_name_raw": "dữ liệu đo bức xạ mặt đất hoặc dữ liệu vệ tinh làm tham chiếu khi cần kiểm định",
+   "provided_by": "THIRD_PARTY",
+   "is_required": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/03/D005"
+  },
+  {
+   "service_id": "S0270",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Ranh giới KML/CAD",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/03/D005"
+  },
+  {
+   "service_id": "S0270",
+   "input_no": 2,
+   "input_code": "SOIL_INSITU_DATA",
+   "input_name_raw": "Số liệu đo VWC/EC/nhiệt độ đất in-situ",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/03/D005"
+  },
+  {
+   "service_id": "S0270",
+   "input_no": 3,
+   "input_code": "UAV_IMAGERY",
+   "input_name_raw": "Ảnh UAV (RGB, Multispectral Red/NIR/Red-edge, Thermal TIR)",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/03/D005"
+  },
+  {
+   "service_id": "S0270",
+   "input_no": 4,
+   "input_code": "WEATHER_DATA",
+   "input_name_raw": "Dữ liệu thời tiết (Mưa, nhiệt độ, độ ẩm không khí, bức xạ, gió)",
+   "provided_by": "THIRD_PARTY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/03/D005"
+  },
+  {
+   "service_id": "S0270",
+   "input_no": 5,
+   "input_code": "SATELLITE_HISTORY",
+   "input_name_raw": "Dữ liệu viễn thám vệ tinh & lịch sử khí hậu",
+   "provided_by": "THIRD_PARTY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/03/D005"
+  },
+  {
+   "service_id": "S0271",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Ranh giới bãi và mô hình số độ cao (DEM)",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/03/D005"
+  },
+  {
+   "service_id": "S0271",
+   "input_no": 1,
+   "input_code": "DEM",
+   "input_name_raw": "Ranh giới bãi và mô hình số độ cao (DEM)",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/03/D005"
+  },
+  {
+   "service_id": "S0271",
+   "input_no": 2,
+   "input_code": "LFG_SYSTEM_LAYOUT",
+   "input_name_raw": "Sơ đồ mạng lưới giếng thu khí, đường ống gom và trạm flare",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/03/D005"
+  },
+  {
+   "service_id": "S0271",
+   "input_no": 3,
+   "input_code": "OPERATION_HISTORY",
+   "input_name_raw": "Lịch sử vận hành và mốc thời gian can thiệp kỹ thuật",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/03/D005"
+  },
+  {
+   "service_id": "S0271",
+   "input_no": 4,
+   "input_code": "LFG_METER_DATA",
+   "input_name_raw": "Dữ liệu đồng hồ đo khí thu hồi/đốt flare nếu có",
+   "provided_by": "CUSTOMER",
+   "is_required": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/03/D005"
+  },
+  {
+   "service_id": "S0271",
+   "input_no": 5,
+   "input_code": "WEATHER_DATA",
+   "input_name_raw": "Dữ liệu thời tiết và vector gió liên tục",
+   "provided_by": "THIRD_PARTY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/03/D005"
+  },
+  {
+   "service_id": "S0271",
+   "input_no": 6,
+   "input_code": "CALIBRATION_DATA",
+   "input_name_raw": "Hồ sơ hiệu chuẩn cảm biến bằng khí chuẩn",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/03/D005"
+  },
+  {
+   "service_id": "S0271",
+   "input_no": 7,
+   "input_code": "FLIGHT_PERMIT",
+   "input_name_raw": "Giấy phép bay hợp lệ theo NĐ 288/2025/NĐ-CP",
+   "provided_by": "AUTHORITY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Từ khách hàng: ranh giới site",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 2,
+   "input_code": "SITE_ASSET_LAYOUT",
+   "input_name_raw": "Từ khách hàng: layout/tài sản",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 3,
+   "input_code": "ACTIVITY_DATA",
+   "input_name_raw": "Từ khách hàng: điện/nhiên liệu, sản lượng, phương tiện, chất thải, refrigerant, dữ liệu Scope 1/2/3 liên quan",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 4,
+   "input_code": "EMISSION_FACTORS",
+   "input_name_raw": "Từ khách hàng: emission factors được chấp nhận",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 5,
+   "input_code": "SCOPE_OBJECTIVE",
+   "input_name_raw": "Từ khách hàng: kỳ báo cáo",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 6,
+   "input_code": "UAV_IMAGERY",
+   "input_name_raw": "Từ UAV: ảnh RGB geotag/RTK",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 7,
+   "input_code": "UAV_OPTIONAL_SENSORS",
+   "input_name_raw": "optional multispectral/LiDAR/thermal/gas",
+   "provided_by": "GASCOLAE",
+   "is_required": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 8,
+   "input_code": "GROUND_CONTROL",
+   "input_name_raw": "Ground truth: GCP/check point",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 9,
+   "input_code": "FOREST_PLOT_DATA",
+   "input_name_raw": "Ground truth: plot đo rừng nếu ước tính biomass",
+   "provided_by": "CUSTOMER",
+   "is_required": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 10,
+   "input_code": "EMISSION_SOURCE_LIST",
+   "input_name_raw": "Ground truth: tọa độ nguồn phát thải",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0272",
+   "input_no": 11,
+   "input_code": "FLIGHT_METADATA",
+   "input_name_raw": "Metadata: thời gian bay, thời tiết, CRS, flight log, calibration",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/03/D005"
+  },
+  {
+   "service_id": "S0273",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Ranh giới và tọa độ ruộng",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/03/D005"
+  },
+  {
+   "service_id": "S0273",
+   "input_no": 2,
+   "input_code": "CROP_CALENDAR",
+   "input_name_raw": "lịch mùa vụ/giống",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/03/D005"
+  },
+  {
+   "service_id": "S0273",
+   "input_no": 3,
+   "input_code": "WATER_REGIME",
+   "input_name_raw": "chế độ nước và sự kiện AWD",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/03/D005"
+  },
+  {
+   "service_id": "S0273",
+   "input_no": 4,
+   "input_code": "UAV_IMAGERY",
+   "input_name_raw": "ảnh UAV đa phổ/RGB và dữ liệu RTK",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/03/D005"
+  },
+  {
+   "service_id": "S0273",
+   "input_no": 4,
+   "input_code": "GROUND_CONTROL",
+   "input_name_raw": "ảnh UAV đa phổ/RGB và dữ liệu RTK",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/03/D005"
+  },
+  {
+   "service_id": "S0273",
+   "input_no": 5,
+   "input_code": "CHAMBER_CH4_SERIES",
+   "input_name_raw": "chuỗi nồng độ CH₄ tại buồng đo kèm kích thước buồng, thời gian, nhiệt độ/áp suất",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/03/D005"
+  },
+  {
+   "service_id": "S0273",
+   "input_no": 6,
+   "input_code": "WEATHER_DATA",
+   "input_name_raw": "thông tin thời tiết và mực nước",
+   "provided_by": "THIRD_PARTY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/03/D005"
+  },
+  {
+   "service_id": "S0273",
+   "input_no": 6,
+   "input_code": "WATER_REGIME",
+   "input_name_raw": "thông tin thời tiết và mực nước",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/03/D005"
+  },
+  {
+   "service_id": "S0274",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Ranh giới và mục tiêu khảo sát",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/03/D005"
+  },
+  {
+   "service_id": "S0274",
+   "input_no": 1,
+   "input_code": "SCOPE_OBJECTIVE",
+   "input_name_raw": "Ranh giới và mục tiêu khảo sát",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/03/D005"
+  },
+  {
+   "service_id": "S0274",
+   "input_no": 2,
+   "input_code": "EMISSION_SOURCE_LIST",
+   "input_name_raw": "danh sách khu vực/nguồn nghi ngờ",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/03/D005"
+  },
+  {
+   "service_id": "S0274",
+   "input_no": 3,
+   "input_code": "FLIGHT_PLAN",
+   "input_name_raw": "kế hoạch bay",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/03/D005"
+  },
+  {
+   "service_id": "S0274",
+   "input_no": 4,
+   "input_code": "WEATHER_DATA",
+   "input_name_raw": "dữ liệu khí tượng",
+   "provided_by": "THIRD_PARTY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/03/D005"
+  },
+  {
+   "service_id": "S0274",
+   "input_no": 5,
+   "input_code": "BASELINE_DATA",
+   "input_name_raw": "dữ liệu nền/baseline",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/03/D005"
+  },
+  {
+   "service_id": "S0274",
+   "input_no": 6,
+   "input_code": "BASEMAP_GIS",
+   "input_name_raw": "bản đồ hạ tầng và land-use",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/03/D005"
+  },
+  {
+   "service_id": "S0274",
+   "input_no": 7,
+   "input_code": "ACTIVITY_DATA",
+   "input_name_raw": "activity data/inventory khi phạm vi yêu cầu",
+   "provided_by": "CUSTOMER",
+   "is_required": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/03/D005"
+  },
+  {
+   "service_id": "S0274",
+   "input_no": 7,
+   "input_code": "GHG_INVENTORY",
+   "input_name_raw": "activity data/inventory khi phạm vi yêu cầu",
+   "provided_by": "CUSTOMER",
+   "is_required": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/03/D005"
+  },
+  {
+   "service_id": "S0282",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Ranh giới/khu vực khảo sát",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/03/D005"
+  },
+  {
+   "service_id": "S0282",
+   "input_no": 2,
+   "input_code": "SCOPE_OBJECTIVE",
+   "input_name_raw": "mục tiêu và lịch khảo sát",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/03/D005"
+  },
+  {
+   "service_id": "S0282",
+   "input_no": 3,
+   "input_code": "UAV_IMAGERY",
+   "input_name_raw": "dữ liệu UAV RGB/multispectral/thermal",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/03/D005"
+  },
+  {
+   "service_id": "S0282",
+   "input_no": 4,
+   "input_code": "ENV_SENSOR_DATA",
+   "input_name_raw": "dữ liệu cảm biến môi trường",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/03/D005"
+  },
+  {
+   "service_id": "S0282",
+   "input_no": 5,
+   "input_code": "GROUND_TRUTH",
+   "input_name_raw": "điểm đo ground-truth độ ẩm đất/nhiên liệu và nhiệt độ",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/03/D005"
+  },
+  {
+   "service_id": "S0282",
+   "input_no": 6,
+   "input_code": "GROUND_CONTROL",
+   "input_name_raw": "GCP/RTK khi cần",
+   "provided_by": "GASCOLAE",
+   "is_required": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/03/D005"
+  },
+  {
+   "service_id": "S0282",
+   "input_no": 7,
+   "input_code": "BASEMAP_GIS",
+   "input_name_raw": "dữ liệu GIS nền (đường, công trình, cây xanh)",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/03/D005"
+  },
+  {
+   "service_id": "S0282",
+   "input_no": 8,
+   "input_code": "WEATHER_DATA",
+   "input_name_raw": "thời tiết và gió",
+   "provided_by": "THIRD_PARTY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/03/D005"
+  },
+  {
+   "service_id": "S0282",
+   "input_no": 9,
+   "input_code": "FIRE_SENSITIVE_POI",
+   "input_name_raw": "thông tin các điểm/đối tượng nhạy cảm cháy",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/03/D005"
+  },
+  {
+   "service_id": "S0283",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "AOI/ranh giới",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/03/D005"
+  },
+  {
+   "service_id": "S0283",
+   "input_no": 2,
+   "input_code": "MULTI_PERIOD_IMAGERY",
+   "input_name_raw": "baseline và ảnh các kỳ",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/03/D005"
+  },
+  {
+   "service_id": "S0283",
+   "input_no": 3,
+   "input_code": "FLIGHT_METADATA",
+   "input_name_raw": "thông số bay/cảm biến",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/03/D005"
+  },
+  {
+   "service_id": "S0283",
+   "input_no": 4,
+   "input_code": "GROUND_CONTROL",
+   "input_name_raw": "RTK/PPK hoặc GCP/checkpoint",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/03/D005"
+  },
+  {
+   "service_id": "S0283",
+   "input_no": 5,
+   "input_code": "CALIBRATION_DATA",
+   "input_name_raw": "tấm phản xạ",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/03/D005"
+  },
+  {
+   "service_id": "S0283",
+   "input_no": 6,
+   "input_code": "WEATHER_DATA",
+   "input_name_raw": "thời tiết/ánh sáng",
+   "provided_by": "THIRD_PARTY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/03/D005"
+  },
+  {
+   "service_id": "S0283",
+   "input_no": 7,
+   "input_code": "OPERATION_HISTORY",
+   "input_name_raw": "lịch tác động",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/03/D005"
+  },
+  {
+   "service_id": "S0283",
+   "input_no": 8,
+   "input_code": "GROUND_TRUTH",
+   "input_name_raw": "ground truth",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/03/D005"
+  },
+  {
+   "service_id": "S0283",
+   "input_no": 9,
+   "input_code": "CRS_SPEC",
+   "input_name_raw": "hệ tọa độ",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/03/D005"
+  },
+  {
+   "service_id": "S0284",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Ranh giới tiểu khu/khoảnh rừng khảo sát (KML/Shapefile)",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/03/D005"
+  },
+  {
+   "service_id": "S0284",
+   "input_no": 2,
+   "input_code": "SCOPE_OBJECTIVE",
+   "input_name_raw": "mục tiêu và lịch khảo sát",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/03/D005"
+  },
+  {
+   "service_id": "S0284",
+   "input_no": 3,
+   "input_code": "FLIGHT_PERMIT",
+   "input_name_raw": "giấy phép bay Cục Tác chiến",
+   "provided_by": "AUTHORITY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/03/D005"
+  },
+  {
+   "service_id": "S0284",
+   "input_no": 4,
+   "input_code": "UAV_IMAGERY",
+   "input_name_raw": "dữ liệu ảnh UAV đa phổ & nhiệt thô",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/03/D005"
+  },
+  {
+   "service_id": "S0284",
+   "input_no": 5,
+   "input_code": "CALIBRATION_DATA",
+   "input_name_raw": "ảnh calibration panel",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/03/D005"
+  },
+  {
+   "service_id": "S0284",
+   "input_no": 6,
+   "input_code": "LEAF_SAMPLES",
+   "input_name_raw": "tập mẫu lá ground-truth (khối lượng tươi/khô)",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/03/D005"
+  },
+  {
+   "service_id": "S0284",
+   "input_no": 7,
+   "input_code": "WEATHER_DATA",
+   "input_name_raw": "dữ liệu khí tượng/nắng gió tại thời điểm bay",
+   "provided_by": "THIRD_PARTY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/03/D005"
+  },
+  {
+   "service_id": "S0284",
+   "input_no": 8,
+   "input_code": "BASEMAP_GIS",
+   "input_name_raw": "lớp GIS lâm nghiệp nền (đường băng cản lửa, nguồn nước, khoảnh rừng)",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/03/D005"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Ranh giới lô/tiểu khu dạng số",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/03/D005"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "input_no": 2,
+   "input_code": "FOREST_STATUS_RECORDS",
+   "input_name_raw": "Hồ sơ hiện trạng rừng (trạng thái, loài ưu thế)",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/03/D005"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "input_no": 3,
+   "input_code": "FOREST_PLOT_DATA",
+   "input_name_raw": "Dữ liệu đo đạc ô tiêu chuẩn mặt đất (D1.3, Hvn)",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/03/D005"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "input_no": 4,
+   "input_code": "FOREST_INVENTORY_PREVIOUS",
+   "input_name_raw": "Kết quả kiểm kê rừng kỳ trước",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/03/D005"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "input_no": 5,
+   "input_code": "OWNER_CONSENT",
+   "input_name_raw": "Sự đồng ý của chủ rừng và cấp phép bay",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/03/D005"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "input_no": 5,
+   "input_code": "FLIGHT_PERMIT",
+   "input_name_raw": "Sự đồng ý của chủ rừng và cấp phép bay",
+   "provided_by": "AUTHORITY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/03/D005"
+  },
+  {
+   "service_id": "S0286",
+   "input_no": 1,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Ranh giới dự án dạng số",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/03/D005"
+  },
+  {
+   "service_id": "S0286",
+   "input_no": 2,
+   "input_code": "PROJECT_DESIGN_METHODOLOGY",
+   "input_name_raw": "tài liệu thiết kế dự án và phương pháp luận đã chọn",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/03/D005"
+  },
+  {
+   "service_id": "S0286",
+   "input_no": 3,
+   "input_code": "BASELINE_ACTIVITY_DATA",
+   "input_name_raw": "dữ liệu hoạt động kỳ đường cơ sở",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/03/D005"
+  },
+  {
+   "service_id": "S0286",
+   "input_no": 4,
+   "input_code": "FOREST_PLOT_DATA",
+   "input_name_raw": "dữ liệu ô mẫu và điểm đo mặt đất",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/03/D005"
+  },
+  {
+   "service_id": "S0286",
+   "input_no": 5,
+   "input_code": "EMISSION_FACTORS",
+   "input_name_raw": "hệ số phát thải địa phương",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/03/D005"
+  },
+  {
+   "service_id": "S0286",
+   "input_no": 6,
+   "input_code": "FLIGHT_PERMIT",
+   "input_name_raw": "giấy phép bay",
+   "provided_by": "AUTHORITY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/03/D005"
+  },
+  {
+   "service_id": "S0286",
+   "input_no": 7,
+   "input_code": "GHG_INVENTORY",
+   "input_name_raw": "báo cáo kiểm kê khí nhà kính kỳ gần nhất",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/03/D005"
+  },
+  {
+   "service_id": "S0288",
+   "input_no": 1,
+   "input_code": "AS_BUILT_DRAWINGS",
+   "input_name_raw": "Hồ sơ hoàn công và bản vẽ kiến trúc – kết cấu",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/03/D005"
+  },
+  {
+   "service_id": "S0288",
+   "input_no": 2,
+   "input_code": "CONSTRUCTION_HISTORY",
+   "input_name_raw": "Thông tin về xây dựng và lịch sử cải tạo",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/03/D005"
+  },
+  {
+   "service_id": "S0288",
+   "input_no": 3,
+   "input_code": "MAINTENANCE_RECORDS",
+   "input_name_raw": "Hồ sơ bảo trì, biên bản kiểm định và báo cáo đánh giá an toàn các kỳ trước",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/03/D005"
+  },
+  {
+   "service_id": "S0288",
+   "input_no": 4,
+   "input_code": "AOI_BOUNDARY",
+   "input_name_raw": "Ranh giới khu vực bay và thông tin vật cản",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/03/D005"
+  },
+  {
+   "service_id": "S0288",
+   "input_no": 4,
+   "input_code": "OBSTACLE_INFO",
+   "input_name_raw": "Ranh giới khu vực bay và thông tin vật cản",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/03/D005"
+  },
+  {
+   "service_id": "S0288",
+   "input_no": 5,
+   "input_code": "GROUND_CONTROL",
+   "input_name_raw": "Điểm khống chế trắc địa",
+   "provided_by": "GASCOLAE",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/03/D005"
+  },
+  {
+   "service_id": "S0288",
+   "input_no": 6,
+   "input_code": "FLIGHT_PERMIT",
+   "input_name_raw": "Giấy phép bay và văn bản đồng ý của chủ sở hữu",
+   "provided_by": "AUTHORITY",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/03/D005"
+  },
+  {
+   "service_id": "S0288",
+   "input_no": 6,
+   "input_code": "OWNER_CONSENT",
+   "input_name_raw": "Giấy phép bay và văn bản đồng ý của chủ sở hữu",
+   "provided_by": "CUSTOMER",
+   "is_required": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/03/D005"
+  }
+ ],
+ "service_outputs": [
+  {
+   "service_id": "S0269",
+   "output_code": "ALBEDO_VALUES",
+   "output_family": "DATA_TABLE",
+   "output_label_vi": "Giá trị albedo theo khu vực và loại bề mặt",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10;S0269/03/D006"
+  },
+  {
+   "service_id": "S0269",
+   "output_code": "ALBEDO_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ phân bố albedo",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10;S0269/03/D006"
+  },
+  {
+   "service_id": "S0269",
+   "output_code": "ACCURACY_DATA",
+   "output_family": "QAQC_REPORT",
+   "output_label_vi": "Dữ liệu kiểm định và chỉ số độ chính xác",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10;S0269/03/D006"
+  },
+  {
+   "service_id": "S0269",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "output_label_vi": "Báo cáo kỹ thuật / phương pháp / sai số",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10;S0269/03/D006"
+  },
+  {
+   "service_id": "S0269",
+   "output_code": "METADATA_PACKAGE",
+   "output_family": "METADATA",
+   "output_label_vi": "Siêu dữ liệu cảm biến, thời gian, điều kiện đo",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10;S0269/03/D006"
+  },
+  {
+   "service_id": "S0269",
+   "output_code": "REFLECTANCE_DATA",
+   "output_family": "GIS_DATASET",
+   "output_label_vi": "Dữ liệu phản xạ bề mặt trung gian",
+   "min_level": 1,
+   "verification_status": "NEED_VERIFY",
+   "source_ref": "S0269/04/muc10;S0269/03/D006"
+  },
+  {
+   "service_id": "S0270",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "output_label_vi": "Ảnh trực giao (orthomosaic)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10;S0270/03/D006"
+  },
+  {
+   "service_id": "S0270",
+   "output_code": "SURFACE_TEMPERATURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ nhiệt độ bề mặt / nhiệt tán",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10;S0270/03/D006"
+  },
+  {
+   "service_id": "S0270",
+   "output_code": "SOIL_MOISTURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ độ ẩm đất / chỉ số ẩm thảm thực vật",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10;S0270/03/D006"
+  },
+  {
+   "service_id": "S0270",
+   "output_code": "DROUGHT_ZONE_MAP",
+   "output_family": "RISK_MAP",
+   "output_label_vi": "Bản đồ phân vùng khô hạn / bất thường độ ẩm",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10;S0270/03/D006"
+  },
+  {
+   "service_id": "S0270",
+   "output_code": "DROUGHT_FORECAST",
+   "output_family": "FORECAST",
+   "output_label_vi": "Bản đồ và báo cáo dự báo hạn",
+   "min_level": 3,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10;S0270/03/D006"
+  },
+  {
+   "service_id": "S0270",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "output_label_vi": "Báo cáo kỹ thuật / phương pháp / sai số",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10;S0270/03/D006"
+  },
+  {
+   "service_id": "S0270",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "output_label_vi": "Dashboard / WebGIS / API",
+   "min_level": 2,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10;S0270/03/D006"
+  },
+  {
+   "service_id": "S0271",
+   "output_code": "GAS_CONCENTRATION_MAP",
+   "output_family": "EMISSION_MAP",
+   "output_label_vi": "Bản đồ nồng độ khí (CO₂ / CH₄)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10;S0271/03/D006"
+  },
+  {
+   "service_id": "S0271",
+   "output_code": "EMISSION_HOTSPOTS",
+   "output_family": "HOTSPOT_LIST",
+   "output_label_vi": "Điểm nóng phát thải kèm tọa độ",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10;S0271/03/D006"
+  },
+  {
+   "service_id": "S0271",
+   "output_code": "GAS_FLOW_DIAGRAM",
+   "output_family": "EMISSION_MAP",
+   "output_label_vi": "Sơ đồ luồng khí và quỹ đạo bay",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10;S0271/03/D006"
+  },
+  {
+   "service_id": "S0271",
+   "output_code": "QAQC_REPORT",
+   "output_family": "QAQC_REPORT",
+   "output_label_vi": "Báo cáo QA/QC, hiệu chuẩn, nhật ký truy vết",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10;S0271/03/D006"
+  },
+  {
+   "service_id": "S0271",
+   "output_code": "EMISSION_FLUX",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "output_label_vi": "Thông lượng phát thải kèm dải bất định",
+   "min_level": 2,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10;S0271/03/D006"
+  },
+  {
+   "service_id": "S0271",
+   "output_code": "EMISSION_REDUCTION_RESULT",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "output_label_vi": "Kết quả so sánh trước – sau, quy đổi tCO₂e",
+   "min_level": 2,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10;S0271/03/D006"
+  },
+  {
+   "service_id": "S0271",
+   "output_code": "LFG_COLLECTION_EFFICIENCY",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "output_label_vi": "Ước tính hiệu suất thu gom khí bãi rác",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10;S0271/03/D006"
+  },
+  {
+   "service_id": "S0271",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "output_label_vi": "Lớp / gói dữ liệu GIS",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10;S0271/03/D006"
+  },
+  {
+   "service_id": "S0271",
+   "output_code": "VERIFICATION_EVIDENCE",
+   "output_family": "MRV_SUPPORT",
+   "output_label_vi": "Bộ bằng chứng / hồ sơ dữ liệu hỗ trợ MRV, thẩm định",
+   "min_level": 3,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10;S0271/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "EMISSION_SOURCE_LIST",
+   "output_family": "EMISSION_MAP",
+   "output_label_vi": "Danh sách / tọa độ nguồn phát thải hoặc khu vực nghi ngờ",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "output_label_vi": "Ảnh trực giao (orthomosaic)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "EMISSION_SOURCE_MAP",
+   "output_family": "EMISSION_MAP",
+   "output_label_vi": "Bản đồ ranh giới kiểm kê và nguồn phát thải",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "EMISSION_HOTSPOTS",
+   "output_family": "HOTSPOT_LIST",
+   "output_label_vi": "Điểm nóng phát thải kèm tọa độ",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "CO2E_TABLE",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "output_label_vi": "Bảng CO₂e theo khu vực / nguồn, có provenance",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "output_label_vi": "Lớp / gói dữ liệu GIS",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "output_label_vi": "Báo cáo kỹ thuật / phương pháp / sai số",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "CHANGE_MAP",
+   "output_family": "CHANGE_ANALYSIS",
+   "output_label_vi": "Bản đồ / báo cáo biến động giữa các kỳ",
+   "min_level": 2,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "output_label_vi": "Dashboard / WebGIS / API",
+   "min_level": 2,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0272",
+   "output_code": "CARBON_SINK_LAYER",
+   "output_family": "CARBON_STOCK",
+   "output_label_vi": "Lớp carbon sink / thảm thực vật",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10;S0272/03/D006"
+  },
+  {
+   "service_id": "S0273",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "output_label_vi": "Ảnh trực giao (orthomosaic)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10;S0273/03/D006"
+  },
+  {
+   "service_id": "S0273",
+   "output_code": "VEGETATION_INDEX_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ / chuỗi chỉ số thực vật",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10;S0273/03/D006"
+  },
+  {
+   "service_id": "S0273",
+   "output_code": "CH4_POINT_FLUX_TABLE",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "output_label_vi": "Bảng nồng độ và thông lượng CH₄ tại điểm đo",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10;S0273/03/D006"
+  },
+  {
+   "service_id": "S0273",
+   "output_code": "GAS_CONCENTRATION_MAP",
+   "output_family": "EMISSION_MAP",
+   "output_label_vi": "Bản đồ nồng độ khí (CO₂ / CH₄)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10;S0273/03/D006"
+  },
+  {
+   "service_id": "S0273",
+   "output_code": "SEASONAL_CH4_EMISSION",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "output_label_vi": "Phát thải CH₄ mùa vụ, quy đổi CO₂e",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10;S0273/03/D006"
+  },
+  {
+   "service_id": "S0273",
+   "output_code": "INTERVENTION_COMPARISON",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "output_label_vi": "Báo cáo so sánh can thiệp canh tác (AWD / baseline)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10;S0273/03/D006"
+  },
+  {
+   "service_id": "S0273",
+   "output_code": "VERIFICATION_EVIDENCE",
+   "output_family": "MRV_SUPPORT",
+   "output_label_vi": "Bộ bằng chứng / hồ sơ dữ liệu hỗ trợ MRV, thẩm định",
+   "min_level": 3,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10;S0273/03/D006"
+  },
+  {
+   "service_id": "S0273",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "output_label_vi": "Dashboard / WebGIS / API",
+   "min_level": 3,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10;S0273/03/D006"
+  },
+  {
+   "service_id": "S0274",
+   "output_code": "MEASUREMENT_DATA_QC",
+   "output_family": "DATA_TABLE",
+   "output_label_vi": "Dữ liệu đo đã QA/QC",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10;S0274/03/D006"
+  },
+  {
+   "service_id": "S0274",
+   "output_code": "GAS_CONCENTRATION_MAP",
+   "output_family": "EMISSION_MAP",
+   "output_label_vi": "Bản đồ nồng độ khí (CO₂ / CH₄)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10;S0274/03/D006"
+  },
+  {
+   "service_id": "S0274",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "output_label_vi": "Lớp / gói dữ liệu GIS",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10;S0274/03/D006"
+  },
+  {
+   "service_id": "S0274",
+   "output_code": "EMISSION_HOTSPOTS",
+   "output_family": "HOTSPOT_LIST",
+   "output_label_vi": "Điểm nóng phát thải kèm tọa độ",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10;S0274/03/D006"
+  },
+  {
+   "service_id": "S0274",
+   "output_code": "STATISTICS_TABLE",
+   "output_family": "DATA_TABLE",
+   "output_label_vi": "Bảng thống kê / dữ liệu theo điểm, lô, AOI",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10;S0274/03/D006"
+  },
+  {
+   "service_id": "S0274",
+   "output_code": "MONITORING_NETWORK_ASSESSMENT",
+   "output_family": "ASSESSMENT_REPORT",
+   "output_label_vi": "Đánh giá mạng quan trắc",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10;S0274/03/D006"
+  },
+  {
+   "service_id": "S0274",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "output_label_vi": "Báo cáo kỹ thuật / phương pháp / sai số",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10;S0274/03/D006"
+  },
+  {
+   "service_id": "S0274",
+   "output_code": "CO2E_TABLE",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "output_label_vi": "Bảng CO₂e theo khu vực / nguồn, có provenance",
+   "min_level": 1,
+   "verification_status": "NEED_VERIFY",
+   "source_ref": "S0274/04/muc10;S0274/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "output_label_vi": "Ảnh trực giao (orthomosaic)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "ELEVATION_MODEL",
+   "output_family": "BASE_MAP",
+   "output_label_vi": "Mô hình độ cao DTM / DSM / CHM",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "SURFACE_TEMPERATURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ nhiệt độ bề mặt / nhiệt tán",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "SOIL_MOISTURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ độ ẩm đất / chỉ số ẩm thảm thực vật",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "DROUGHT_ZONE_MAP",
+   "output_family": "RISK_MAP",
+   "output_label_vi": "Bản đồ phân vùng khô hạn / bất thường độ ẩm",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "FIRE_RISK_MAP",
+   "output_family": "RISK_MAP",
+   "output_label_vi": "Bản đồ / xếp hạng nguy cơ cháy",
+   "min_level": 3,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "output_label_vi": "Lớp / gói dữ liệu GIS",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "PRIORITY_INSPECTION_LIST",
+   "output_family": "HOTSPOT_LIST",
+   "output_label_vi": "Danh sách khu vực / điểm ưu tiên kiểm tra",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "output_label_vi": "Báo cáo kỹ thuật / phương pháp / sai số",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0282",
+   "output_code": "CHANGE_MAP",
+   "output_family": "CHANGE_ANALYSIS",
+   "output_label_vi": "Bản đồ / báo cáo biến động giữa các kỳ",
+   "min_level": 3,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10;S0282/03/D006"
+  },
+  {
+   "service_id": "S0283",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "output_label_vi": "Ảnh trực giao (orthomosaic)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10;S0283/03/D006"
+  },
+  {
+   "service_id": "S0283",
+   "output_code": "VEGETATION_INDEX_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ / chuỗi chỉ số thực vật",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10;S0283/03/D006"
+  },
+  {
+   "service_id": "S0283",
+   "output_code": "CHANGE_MAP",
+   "output_family": "CHANGE_ANALYSIS",
+   "output_label_vi": "Bản đồ / báo cáo biến động giữa các kỳ",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10;S0283/03/D006"
+  },
+  {
+   "service_id": "S0283",
+   "output_code": "STATISTICS_TABLE",
+   "output_family": "DATA_TABLE",
+   "output_label_vi": "Bảng thống kê / dữ liệu theo điểm, lô, AOI",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10;S0283/03/D006"
+  },
+  {
+   "service_id": "S0283",
+   "output_code": "PRIORITY_INSPECTION_LIST",
+   "output_family": "HOTSPOT_LIST",
+   "output_label_vi": "Danh sách khu vực / điểm ưu tiên kiểm tra",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10;S0283/03/D006"
+  },
+  {
+   "service_id": "S0283",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "output_label_vi": "Báo cáo kỹ thuật / phương pháp / sai số",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10;S0283/03/D006"
+  },
+  {
+   "service_id": "S0283",
+   "output_code": "QAQC_REPORT",
+   "output_family": "QAQC_REPORT",
+   "output_label_vi": "Báo cáo QA/QC, hiệu chuẩn, nhật ký truy vết",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10;S0283/03/D006"
+  },
+  {
+   "service_id": "S0283",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "output_label_vi": "Dashboard / WebGIS / API",
+   "min_level": 3,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10;S0283/03/D006"
+  },
+  {
+   "service_id": "S0284",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "output_label_vi": "Ảnh trực giao (orthomosaic)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10;S0284/03/D006"
+  },
+  {
+   "service_id": "S0284",
+   "output_code": "CANOPY_MOISTURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ độ ẩm tán (FMC) / trạng thái nước của tán",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10;S0284/03/D006"
+  },
+  {
+   "service_id": "S0284",
+   "output_code": "TREE_LAYER",
+   "output_family": "CARBON_STOCK",
+   "output_label_vi": "Lớp cây đơn lẻ / bản đồ theo cây, ô",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10;S0284/03/D006"
+  },
+  {
+   "service_id": "S0284",
+   "output_code": "SURFACE_TEMPERATURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ nhiệt độ bề mặt / nhiệt tán",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10;S0284/03/D006"
+  },
+  {
+   "service_id": "S0284",
+   "output_code": "STATISTICS_TABLE",
+   "output_family": "DATA_TABLE",
+   "output_label_vi": "Bảng thống kê / dữ liệu theo điểm, lô, AOI",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10;S0284/03/D006"
+  },
+  {
+   "service_id": "S0284",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "output_label_vi": "Báo cáo kỹ thuật / phương pháp / sai số",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10;S0284/03/D006"
+  },
+  {
+   "service_id": "S0284",
+   "output_code": "METADATA_PACKAGE",
+   "output_family": "METADATA",
+   "output_label_vi": "Siêu dữ liệu cảm biến, thời gian, điều kiện đo",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10;S0284/03/D006"
+  },
+  {
+   "service_id": "S0284",
+   "output_code": "PRIORITY_INSPECTION_LIST",
+   "output_family": "HOTSPOT_LIST",
+   "output_label_vi": "Danh sách khu vực / điểm ưu tiên kiểm tra",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10;S0284/03/D006"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "output_code": "POINT_CLOUD",
+   "output_family": "MODEL_3D",
+   "output_label_vi": "Đám mây điểm đã xử lý / phân loại",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10;S0285-S0287/03/D006"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "output_code": "ELEVATION_MODEL",
+   "output_family": "BASE_MAP",
+   "output_label_vi": "Mô hình độ cao DTM / DSM / CHM",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10;S0285-S0287/03/D006"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "output_code": "TREE_LAYER",
+   "output_family": "CARBON_STOCK",
+   "output_label_vi": "Lớp cây đơn lẻ / bản đồ theo cây, ô",
+   "min_level": 2,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10;S0285-S0287/03/D006"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "output_code": "AGB_CARBON_STOCK_MAP",
+   "output_family": "CARBON_STOCK",
+   "output_label_vi": "Bản đồ AGB và trữ lượng carbon (tấn C/ha, tCO₂e/ha)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10;S0285-S0287/03/D006"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "output_label_vi": "Báo cáo kỹ thuật / phương pháp / sai số",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10;S0285-S0287/03/D006"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "output_code": "CHANGE_MAP",
+   "output_family": "CHANGE_ANALYSIS",
+   "output_label_vi": "Bản đồ / báo cáo biến động giữa các kỳ",
+   "min_level": 3,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10;S0285-S0287/03/D006"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "output_label_vi": "Lớp / gói dữ liệu GIS",
+   "min_level": 3,
+   "verification_status": "NEED_VERIFY",
+   "source_ref": "S0285-S0287/04/muc10;S0285-S0287/03/D006"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "output_label_vi": "Dashboard / WebGIS / API",
+   "min_level": 3,
+   "verification_status": "NEED_VERIFY",
+   "source_ref": "S0285-S0287/04/muc10;S0285-S0287/03/D006"
+  },
+  {
+   "service_id": "S0286",
+   "output_code": "MRV_REPORT",
+   "output_family": "MRV_REPORT",
+   "output_label_vi": "Báo cáo MRV theo mẫu chương trình",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10;S0286/03/D006"
+  },
+  {
+   "service_id": "S0286",
+   "output_code": "MONITORING_PLAN",
+   "output_family": "MRV_REPORT",
+   "output_label_vi": "Kế hoạch giám sát",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10;S0286/03/D006"
+  },
+  {
+   "service_id": "S0286",
+   "output_code": "QUANTIFICATION_WORKBOOK",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "output_label_vi": "Bảng tính định lượng kèm dữ liệu gốc",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10;S0286/03/D006"
+  },
+  {
+   "service_id": "S0286",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "output_label_vi": "Lớp / gói dữ liệu GIS",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10;S0286/03/D006"
+  },
+  {
+   "service_id": "S0286",
+   "output_code": "QAQC_REPORT",
+   "output_family": "QAQC_REPORT",
+   "output_label_vi": "Báo cáo QA/QC, hiệu chuẩn, nhật ký truy vết",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10;S0286/03/D006"
+  },
+  {
+   "service_id": "S0286",
+   "output_code": "VERIFICATION_RESPONSE",
+   "output_family": "MRV_SUPPORT",
+   "output_label_vi": "Bản giải trình đáp ứng phát hiện của đơn vị thẩm định",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10;S0286/03/D006"
+  },
+  {
+   "service_id": "S0288",
+   "output_code": "POINT_CLOUD",
+   "output_family": "MODEL_3D",
+   "output_label_vi": "Đám mây điểm đã xử lý / phân loại",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10;S0288/03/D006"
+  },
+  {
+   "service_id": "S0288",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "output_label_vi": "Ảnh trực giao (orthomosaic)",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10;S0288/03/D006"
+  },
+  {
+   "service_id": "S0288",
+   "output_code": "SURFACE_TEMPERATURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "output_label_vi": "Bản đồ nhiệt độ bề mặt / nhiệt tán",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10;S0288/03/D006"
+  },
+  {
+   "service_id": "S0288",
+   "output_code": "DEFECT_TABLE",
+   "output_family": "DATA_TABLE",
+   "output_label_vi": "Bảng chỉ tiêu hình học và khuyết tật",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10;S0288/03/D006"
+  },
+  {
+   "service_id": "S0288",
+   "output_code": "CONDITION_REPORT",
+   "output_family": "ASSESSMENT_REPORT",
+   "output_label_vi": "Báo cáo đánh giá hiện trạng, cảnh báo nguy cơ",
+   "min_level": 1,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10;S0288/03/D006"
+  },
+  {
+   "service_id": "S0288",
+   "output_code": "BIM_MODEL",
+   "output_family": "MODEL_3D",
+   "output_label_vi": "Mô hình Scan-to-BIM",
+   "min_level": 3,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10;S0288/03/D006"
+  }
+ ],
+ "service_deliverables": [
+  {
+   "service_id": "S0269",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Giá trị albedo sóng ngắn dải rộng theo khu vực và loại bề mặt",
+   "output_code": "ALBEDO_VALUES",
+   "output_family": "DATA_TABLE",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10#1",
+   "source_asset_ref": "Q10; SRC-08"
+  },
+  {
+   "service_id": "S0269",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Bản đồ phân bố albedo",
+   "output_code": "ALBEDO_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10#2",
+   "source_asset_ref": "Q10"
+  },
+  {
+   "service_id": "S0269",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Dữ liệu kiểm định và chỉ số độ chính xác",
+   "output_code": "ACCURACY_DATA",
+   "output_family": "QAQC_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10#3",
+   "source_asset_ref": "Q10"
+  },
+  {
+   "service_id": "S0269",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Báo cáo kỹ thuật kèm thuyết minh sai số",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10#4",
+   "source_asset_ref": "Q10"
+  },
+  {
+   "service_id": "S0269",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Siêu dữ liệu mô tả nội dung, nguồn gốc và chất lượng dữ liệu",
+   "output_code": "METADATA_PACKAGE",
+   "output_family": "METADATA",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0269/04/muc10#5",
+   "source_asset_ref": "SRC-23"
+  },
+  {
+   "service_id": "S0269",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Dữ liệu phản xạ bề mặt trung gian, chỉ bàn giao khi hợp đồng có yêu cầu",
+   "output_code": "REFLECTANCE_DATA",
+   "output_family": "GIS_DATASET",
+   "min_level": 1,
+   "is_conditional": true,
+   "verification_status": "NEED_VERIFY",
+   "source_ref": "S0269/04/muc10#6",
+   "source_asset_ref": "Q01; Q20 — Cần xác minh: GASCOLAE"
+  },
+  {
+   "service_id": "S0270",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Ảnh trực giao Orthomosaic & Nền nhiệt bề mặt",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10#1",
+   "source_asset_ref": "SRC-01, SRC-04"
+  },
+  {
+   "service_id": "S0270",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Ảnh trực giao Orthomosaic & Nền nhiệt bề mặt",
+   "output_code": "SURFACE_TEMPERATURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10#1",
+   "source_asset_ref": "SRC-01, SRC-04"
+  },
+  {
+   "service_id": "S0270",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Bản đồ phân bố độ ẩm đất (Soil Moisture Map)",
+   "output_code": "SOIL_MOISTURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10#2",
+   "source_asset_ref": "SRC-01, SRC-03"
+  },
+  {
+   "service_id": "S0270",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Bản đồ phân vùng khô hạn & Bất thường độ ẩm (Anomaly Map)",
+   "output_code": "DROUGHT_ZONE_MAP",
+   "output_family": "RISK_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10#3",
+   "source_asset_ref": "SRC-01, SRC-04"
+  },
+  {
+   "service_id": "S0270",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Bản đồ & Báo cáo dự báo nguy cơ hạn hán (Level 3)",
+   "output_code": "DROUGHT_FORECAST",
+   "output_family": "FORECAST",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10#4",
+   "source_asset_ref": "SRC-02, SRC-04"
+  },
+  {
+   "service_id": "S0270",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Báo cáo kỹ thuật & Bảng kiểm soát sai số",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10#5",
+   "source_asset_ref": "SRC-01, SRC-05"
+  },
+  {
+   "service_id": "S0270",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Tài khoản Web GIS Dashboard (Level 2 & 3)",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "min_level": 2,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0270/04/muc10#6",
+   "source_asset_ref": "SRC-01, SRC-04"
+  },
+  {
+   "service_id": "S0271",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Bản đồ phân bố nồng độ bề mặt (GeoTIFF/PDF)",
+   "output_code": "GAS_CONCENTRATION_MAP",
+   "output_family": "EMISSION_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10#1",
+   "source_asset_ref": "SRC-05; SRC-07; Q10"
+  },
+  {
+   "service_id": "S0271",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Danh sách điểm nóng rò rỉ (Hotspots) (Excel/CSV)",
+   "output_code": "EMISSION_HOTSPOTS",
+   "output_family": "HOTSPOT_LIST",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10#2",
+   "source_asset_ref": "SRC-05; SRC-07; Q10"
+  },
+  {
+   "service_id": "S0271",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Sơ đồ luồng khí & Quỹ đạo bay (Shapefile/PDF)",
+   "output_code": "GAS_FLOW_DIAGRAM",
+   "output_family": "EMISSION_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10#3",
+   "source_asset_ref": "SRC-04; Q10"
+  },
+  {
+   "service_id": "S0271",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Báo cáo QA/QC & Hiệu chuẩn thiết bị (PDF)",
+   "output_code": "QAQC_REPORT",
+   "output_family": "QAQC_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10#4",
+   "source_asset_ref": "SRC-04; Q10"
+  },
+  {
+   "service_id": "S0271",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Báo cáo tính toán thông lượng phát thải (Flux) (PDF)",
+   "output_code": "EMISSION_FLUX",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "min_level": 2,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10#5",
+   "source_asset_ref": "SRC-04; SRC-05; Q10"
+  },
+  {
+   "service_id": "S0271",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Báo cáo so sánh trước–sau & Quy đổi (PDF)",
+   "output_code": "EMISSION_REDUCTION_RESULT",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "min_level": 2,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10#6",
+   "source_asset_ref": "SRC-02; SRC-17; Q10"
+  },
+  {
+   "service_id": "S0271",
+   "deliverable_no": 7,
+   "deliverable_name_raw": "Báo cáo ước tính hiệu suất thu gom khí (PDF)",
+   "output_code": "LFG_COLLECTION_EFFICIENCY",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "min_level": 1,
+   "is_conditional": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10#7",
+   "source_asset_ref": "SRC-03; SRC-15; Q10"
+  },
+  {
+   "service_id": "S0271",
+   "deliverable_no": 8,
+   "deliverable_name_raw": "Lớp dữ liệu GIS hoàn chỉnh tích hợp Metadata",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10#8",
+   "source_asset_ref": "Q10"
+  },
+  {
+   "service_id": "S0271",
+   "deliverable_no": 9,
+   "deliverable_name_raw": "Bộ bằng chứng hỗ trợ thẩm định (Level 3)",
+   "output_code": "VERIFICATION_EVIDENCE",
+   "output_family": "MRV_SUPPORT",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0271/04/muc10#9",
+   "source_asset_ref": "SRC-02; Q10"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Bản đồ ranh giới kiểm kê và danh mục nguồn phát thải",
+   "output_code": "EMISSION_SOURCE_LIST",
+   "output_family": "EMISSION_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#1",
+   "source_asset_ref": "SRC-02"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Orthomosaic và bản đồ nền",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#2",
+   "source_asset_ref": "SRC-05"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Carbon Source Map",
+   "output_code": "EMISSION_SOURCE_MAP",
+   "output_family": "EMISSION_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#3",
+   "source_asset_ref": "SRC-02; SRC-05"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Carbon hotspot map",
+   "output_code": "EMISSION_HOTSPOTS",
+   "output_family": "HOTSPOT_LIST",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#4",
+   "source_asset_ref": "SRC-02; SRC-05"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Bảng CO₂e có provenance",
+   "output_code": "CO2E_TABLE",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#5",
+   "source_asset_ref": "SRC-02"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "GIS dataset",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#6",
+   "source_asset_ref": "SRC-05"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 7,
+   "deliverable_name_raw": "Báo cáo kỹ thuật",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#7",
+   "source_asset_ref": "SRC-02"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 8,
+   "deliverable_name_raw": "Change map (áp dụng từ Level 2)",
+   "output_code": "CHANGE_MAP",
+   "output_family": "CHANGE_ANALYSIS",
+   "min_level": 2,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#8",
+   "source_asset_ref": "SRC-02; SRC-05"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 9,
+   "deliverable_name_raw": "Dashboard hoặc WebGIS (áp dụng theo Level 2–3)",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "min_level": 2,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#9",
+   "source_asset_ref": "SRC-02; SRC-05"
+  },
+  {
+   "service_id": "S0272",
+   "deliverable_no": 10,
+   "deliverable_name_raw": "Lớp carbon sink/vegetation (nếu thuộc scope)",
+   "output_code": "CARBON_SINK_LAYER",
+   "output_family": "CARBON_STOCK",
+   "min_level": 1,
+   "is_conditional": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0272/04/muc10#10",
+   "source_asset_ref": "SRC-05; SRC-06"
+  },
+  {
+   "service_id": "S0273",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Ảnh trực giao và bản đồ ranh giới thửa (GeoTIFF/Shapefile)",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10#1",
+   "source_asset_ref": "Profile, Key Deliverables; SRC-03; SRC-07"
+  },
+  {
+   "service_id": "S0273",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Chuỗi dữ liệu chỉ số thực vật theo số lần bay thực tế",
+   "output_code": "VEGETATION_INDEX_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10#2",
+   "source_asset_ref": "Profile, Key Deliverables; SRC-03; SRC-19"
+  },
+  {
+   "service_id": "S0273",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Bảng nồng độ và thông lượng CH₄ tại điểm đo kèm metadata",
+   "output_code": "CH4_POINT_FLUX_TABLE",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10#3",
+   "source_asset_ref": "Profile, Key Deliverables; SRC-01; SRC-02"
+  },
+  {
+   "service_id": "S0273",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Bản đồ nồng độ và thông lượng phát thải methane kèm ghi chú mô hình",
+   "output_code": "GAS_CONCENTRATION_MAP",
+   "output_family": "EMISSION_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10#4",
+   "source_asset_ref": "Knowledge Base, Deliverables; SRC-03; SRC-04"
+  },
+  {
+   "service_id": "S0273",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Bản đồ và báo cáo phát thải mùa vụ kèm quy đổi CO₂e theo phạm vi Level",
+   "output_code": "SEASONAL_CH4_EMISSION",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10#5",
+   "source_asset_ref": "Profile, Service Levels/Deliverables; SRC-01; SRC-04"
+  },
+  {
+   "service_id": "S0273",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Báo cáo so sánh can thiệp canh tác kèm QA/QC, RMSE/Bias và độ không chắc chắn",
+   "output_code": "INTERVENTION_COMPARISON",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10#6",
+   "source_asset_ref": "Knowledge Base, Quality/Deliverables; SRC-04; SRC-16"
+  },
+  {
+   "service_id": "S0273",
+   "deliverable_no": 7,
+   "deliverable_name_raw": "Hồ sơ dữ liệu hỗ trợ MRV và dashboard, chỉ trong phạm vi Level 3",
+   "output_code": "VERIFICATION_EVIDENCE",
+   "output_family": "MRV_SUPPORT",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10#7",
+   "source_asset_ref": "Knowledge Base, Service Levels/Deliverables; SRC-04; SRC-10"
+  },
+  {
+   "service_id": "S0273",
+   "deliverable_no": 7,
+   "deliverable_name_raw": "Hồ sơ dữ liệu hỗ trợ MRV và dashboard, chỉ trong phạm vi Level 3",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0273/04/muc10#7",
+   "source_asset_ref": "Knowledge Base, Service Levels/Deliverables; SRC-04; SRC-10"
+  },
+  {
+   "service_id": "S0274",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Dữ liệu đo đã QA/QC",
+   "output_code": "MEASUREMENT_DATA_QC",
+   "output_family": "DATA_TABLE",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10#1",
+   "source_asset_ref": "SRC-02; SRC-03; SRC-12"
+  },
+  {
+   "service_id": "S0274",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Bản đồ phân bố CO₂/CH₄ và lớp GIS",
+   "output_code": "GAS_CONCENTRATION_MAP",
+   "output_family": "EMISSION_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10#2",
+   "source_asset_ref": "SRC-03"
+  },
+  {
+   "service_id": "S0274",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Bản đồ phân bố CO₂/CH₄ và lớp GIS",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10#2",
+   "source_asset_ref": "SRC-03"
+  },
+  {
+   "service_id": "S0274",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Phân tích hotspot và thống kê",
+   "output_code": "EMISSION_HOTSPOTS",
+   "output_family": "HOTSPOT_LIST",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10#3",
+   "source_asset_ref": "SRC-02; SRC-03; SRC-09"
+  },
+  {
+   "service_id": "S0274",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Phân tích hotspot và thống kê",
+   "output_code": "STATISTICS_TABLE",
+   "output_family": "DATA_TABLE",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10#3",
+   "source_asset_ref": "SRC-02; SRC-03; SRC-09"
+  },
+  {
+   "service_id": "S0274",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Đánh giá mạng quan trắc",
+   "output_code": "MONITORING_NETWORK_ASSESSMENT",
+   "output_family": "ASSESSMENT_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10#4",
+   "source_asset_ref": "SRC-02; SRC-10"
+  },
+  {
+   "service_id": "S0274",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Báo cáo phương pháp và chất lượng",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0274/04/muc10#5",
+   "source_asset_ref": "SRC-02; SRC-05; SRC-12"
+  },
+  {
+   "service_id": "S0274",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Ước lượng/đối chiếu phát thải (nếu thuộc scope)",
+   "output_code": "CO2E_TABLE",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "min_level": 1,
+   "is_conditional": true,
+   "verification_status": "NEED_VERIFY",
+   "source_ref": "S0274/04/muc10#6",
+   "source_asset_ref": "SRC-02; SRC-04; SRC-08 – CẦN XÁC MINH"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Orthomosaic RGB (và DSM khi cần) — GeoTIFF",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#1",
+   "source_asset_ref": "SRC-04; Q10"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Orthomosaic RGB (và DSM khi cần) — GeoTIFF",
+   "output_code": "ELEVATION_MODEL",
+   "output_family": "BASE_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#1",
+   "source_asset_ref": "SRC-04; Q10"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Bản đồ nhiệt độ bề mặt (LST) — GeoTIFF",
+   "output_code": "SURFACE_TEMPERATURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#2",
+   "source_asset_ref": "SRC-04; SRC-07; S0282_Research_Workbook (Q10)"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Bản đồ độ ẩm đất / chỉ số ẩm thảm thực vật — GeoTIFF",
+   "output_code": "SOIL_MOISTURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#3",
+   "source_asset_ref": "SRC-04; SRC-05; SRC-13; S0282_Research_Workbook (Q10)"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Bản đồ phân vùng khô hạn — GeoTIFF / Shapefile",
+   "output_code": "DROUGHT_ZONE_MAP",
+   "output_family": "RISK_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#4",
+   "source_asset_ref": "S0282_Research_Workbook (Q10; Q15)"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Bản đồ / xếp hạng nguy cơ cháy (Level 3) — Shapefile",
+   "output_code": "FIRE_RISK_MAP",
+   "output_family": "RISK_MAP",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#5",
+   "source_asset_ref": "SRC-02; S0282_Research_Workbook (Q10; Q15)"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Lớp GIS kèm metadata",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#6",
+   "source_asset_ref": "S0282_Research_Workbook (Q10)"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 7,
+   "deliverable_name_raw": "Danh sách khu vực ưu tiên kiểm tra kèm tọa độ",
+   "output_code": "PRIORITY_INSPECTION_LIST",
+   "output_family": "HOTSPOT_LIST",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#7",
+   "source_asset_ref": "S0282_Research_Workbook (Q10; Q18)"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 8,
+   "deliverable_name_raw": "Báo cáo kỹ thuật kèm sai số, điều kiện áp dụng và giới hạn dịch vụ",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#8",
+   "source_asset_ref": "S0282_Research_Workbook (Q10; Q14)"
+  },
+  {
+   "service_id": "S0282",
+   "deliverable_no": 9,
+   "deliverable_name_raw": "Báo cáo biến động giữa các đợt giám sát (Level 3)",
+   "output_code": "CHANGE_MAP",
+   "output_family": "CHANGE_ANALYSIS",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0282/04/muc10#9",
+   "source_asset_ref": "SRC-27; S0282_Research_Workbook (Q15)"
+  },
+  {
+   "service_id": "S0283",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Orthomosaic RGB và đa phổ theo từng kỳ; GeoTIFF; CRS thống nhất.",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10#1",
+   "source_asset_ref": "SRC-03; SRC-04"
+  },
+  {
+   "service_id": "S0283",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Bản đồ chỉ số thực vật (NDVI và chỉ số bổ sung phù hợp); GeoTIFF/PDF.",
+   "output_code": "VEGETATION_INDEX_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10#2",
+   "source_asset_ref": "SRC-02; SRC-04"
+  },
+  {
+   "service_id": "S0283",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Bản đồ biến động tăng, ổn định, giảm, không xác định; raster/vector.",
+   "output_code": "CHANGE_MAP",
+   "output_family": "CHANGE_ANALYSIS",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10#3",
+   "source_asset_ref": "SRC-06; SRC-07"
+  },
+  {
+   "service_id": "S0283",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Thống kê diện tích và tỷ lệ theo AOI/lô; XLSX/CSV.",
+   "output_code": "STATISTICS_TABLE",
+   "output_family": "DATA_TABLE",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10#4",
+   "source_asset_ref": "SRC-07"
+  },
+  {
+   "service_id": "S0283",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Danh sách/lớp điểm nóng có mức ưu tiên; GeoPackage/GeoJSON.",
+   "output_code": "PRIORITY_INSPECTION_LIST",
+   "output_family": "HOTSPOT_LIST",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10#5",
+   "source_asset_ref": "SRC-06; SRC-07"
+  },
+  {
+   "service_id": "S0283",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Báo cáo kỹ thuật và QA/QC; DOCX/PDF; nêu sai số và giới hạn.",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10#6",
+   "source_asset_ref": "SRC-06; SRC-07"
+  },
+  {
+   "service_id": "S0283",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Báo cáo kỹ thuật và QA/QC; DOCX/PDF; nêu sai số và giới hạn.",
+   "output_code": "QAQC_REPORT",
+   "output_family": "QAQC_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10#6",
+   "source_asset_ref": "SRC-06; SRC-07"
+  },
+  {
+   "service_id": "S0283",
+   "deliverable_no": 7,
+   "deliverable_name_raw": "Dashboard/API và mô hình AI nếu thuộc Level 3/add-on đã phê duyệt.",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "min_level": 3,
+   "is_conditional": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0283/04/muc10#7",
+   "source_asset_ref": "SRC-05; File 01/02 mục 7-8"
+  },
+  {
+   "service_id": "S0284",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Orthomosaic / ảnh đã hiệu chỉnh — GeoTIFF",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10#1",
+   "source_asset_ref": "Asset 01 (KB Mục 8, D1); Asset 02 (Profile Mục 8); SRC-01, SRC-16"
+  },
+  {
+   "service_id": "S0284",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Bản đồ FMC hoặc lớp chỉ số / trạng thái nước của tán — GeoTIFF",
+   "output_code": "CANOPY_MOISTURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10#2",
+   "source_asset_ref": "Asset 01 (KB Mục 8, D2); Asset 02 (Profile Mục 8); SRC-01, SRC-02"
+  },
+  {
+   "service_id": "S0284",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Bản đồ theo cây / ô (nếu đủ độ phân giải) — GeoTIFF / Shapefile",
+   "output_code": "TREE_LAYER",
+   "output_family": "CARBON_STOCK",
+   "min_level": 1,
+   "is_conditional": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10#3",
+   "source_asset_ref": "Asset 01 (KB Mục 8, D3); Asset 02 (Profile Mục 8); SRC-01, SRC-16, SRC-27"
+  },
+  {
+   "service_id": "S0284",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Lớp nhiệt / Canopy temperature (nếu có thermal) — GeoTIFF",
+   "output_code": "SURFACE_TEMPERATURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": true,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10#4",
+   "source_asset_ref": "Asset 01 (KB Mục 8, D4); Asset 02 (Profile Mục 8); SRC-07, SRC-15"
+  },
+  {
+   "service_id": "S0284",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Bảng dữ liệu điểm / cây / ô — Excel / CSV",
+   "output_code": "STATISTICS_TABLE",
+   "output_family": "DATA_TABLE",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10#5",
+   "source_asset_ref": "Asset 01 (KB Mục 8, D5); Asset 02 (Profile Mục 8); SRC-16"
+  },
+  {
+   "service_id": "S0284",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Báo cáo phương pháp, mô hình, sai số và validation — PDF",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10#6",
+   "source_asset_ref": "Asset 01 (KB Mục 8, D6); Asset 02 (Profile Mục 8); SRC-02, SRC-06, SRC-12"
+  },
+  {
+   "service_id": "S0284",
+   "deliverable_no": 7,
+   "deliverable_name_raw": "Metadata về cảm biến, thời gian bay, điều kiện đo, calibration — XML / JSON / PDF",
+   "output_code": "METADATA_PACKAGE",
+   "output_family": "METADATA",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10#7",
+   "source_asset_ref": "Asset 01 (KB Mục 8, D7); Asset 02 (Profile Mục 8); SRC-06, SRC-13"
+  },
+  {
+   "service_id": "S0284",
+   "deliverable_no": 8,
+   "deliverable_name_raw": "Khuyến nghị khu vực cần kiểm tra thực địa — Shapefile + Excel",
+   "output_code": "PRIORITY_INSPECTION_LIST",
+   "output_family": "HOTSPOT_LIST",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0284/04/muc10#8",
+   "source_asset_ref": "Asset 01 (KB Mục 8, D8); Asset 02 (Profile Mục 8); SRC-03, SRC-16, SRC-23"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Đám mây điểm đã phân loại",
+   "output_code": "POINT_CLOUD",
+   "output_family": "MODEL_3D",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10#1",
+   "source_asset_ref": "SRC-13; SRC-17 (Q10)"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "DTM / DSM / CHM",
+   "output_code": "ELEVATION_MODEL",
+   "output_family": "BASE_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10#2",
+   "source_asset_ref": "SRC-17 (Q10)"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Lớp cây đơn lẻ (thuộc L2)",
+   "output_code": "TREE_LAYER",
+   "output_family": "CARBON_STOCK",
+   "min_level": 2,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10#3",
+   "source_asset_ref": "SRC-18 (Q10; Q15)"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Bản đồ AGB và trữ lượng các-bon theo lô (tấn C/ha và tCO2e/ha)",
+   "output_code": "AGB_CARBON_STOCK_MAP",
+   "output_family": "CARBON_STOCK",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10#4",
+   "source_asset_ref": "SRC-01; SRC-13; SRC-21 (Q10)"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Báo cáo phương pháp kèm bảng sai số",
+   "output_code": "TECHNICAL_REPORT",
+   "output_family": "TECHNICAL_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10#5",
+   "source_asset_ref": "SRC-13; SRC-17 (Q10)"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Bản đồ biến động và bảng thay đổi trữ lượng (thuộc L3)",
+   "output_code": "CHANGE_MAP",
+   "output_family": "CHANGE_ANALYSIS",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0285-S0287/04/muc10#6",
+   "source_asset_ref": "SRC-13; SRC-20 (Q10; Q15)"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "deliverable_no": 7,
+   "deliverable_name_raw": "Lớp GIS và dashboard theo dõi đa kỳ (thuộc L3)",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "NEED_VERIFY",
+   "source_ref": "S0285-S0287/04/muc10#7",
+   "source_asset_ref": "Cần xác minh: GASCOLAE (Q15; Q16)"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "deliverable_no": 7,
+   "deliverable_name_raw": "Lớp GIS và dashboard theo dõi đa kỳ (thuộc L3)",
+   "output_code": "DASHBOARD",
+   "output_family": "DASHBOARD",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "NEED_VERIFY",
+   "source_ref": "S0285-S0287/04/muc10#7",
+   "source_asset_ref": "Cần xác minh: GASCOLAE (Q15; Q16)"
+  },
+  {
+   "service_id": "S0286",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Báo cáo MRV theo mẫu chương trình",
+   "output_code": "MRV_REPORT",
+   "output_family": "MRV_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10#1",
+   "source_asset_ref": "SRC-16; SRC-11"
+  },
+  {
+   "service_id": "S0286",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Kế hoạch giám sát",
+   "output_code": "MONITORING_PLAN",
+   "output_family": "MRV_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10#2",
+   "source_asset_ref": "SRC-16"
+  },
+  {
+   "service_id": "S0286",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Bảng tính định lượng kèm dữ liệu gốc",
+   "output_code": "QUANTIFICATION_WORKBOOK",
+   "output_family": "EMISSION_QUANTIFICATION",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10#3",
+   "source_asset_ref": "SRC-11; SRC-16"
+  },
+  {
+   "service_id": "S0286",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Gói dữ liệu không gian",
+   "output_code": "GIS_LAYER",
+   "output_family": "GIS_DATASET",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10#4",
+   "source_asset_ref": "SRC-23; SRC-24"
+  },
+  {
+   "service_id": "S0286",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Nhật ký QA/QC và hồ sơ truy vết",
+   "output_code": "QAQC_REPORT",
+   "output_family": "QAQC_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10#5",
+   "source_asset_ref": "SRC-15; SRC-16"
+  },
+  {
+   "service_id": "S0286",
+   "deliverable_no": 6,
+   "deliverable_name_raw": "Bản giải trình đáp ứng phát hiện của đơn vị thẩm định",
+   "output_code": "VERIFICATION_RESPONSE",
+   "output_family": "MRV_SUPPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0286/04/muc10#6",
+   "source_asset_ref": "SRC-12; SRC-19"
+  },
+  {
+   "service_id": "S0288",
+   "deliverable_no": 1,
+   "deliverable_name_raw": "Đám mây điểm 3D (.LAS / .E57 / .PLY)",
+   "output_code": "POINT_CLOUD",
+   "output_family": "MODEL_3D",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10#1",
+   "source_asset_ref": "SRC-01, SRC-14"
+  },
+  {
+   "service_id": "S0288",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Bản đồ trực ảnh Orthomosaic RGB & Bản đồ nhiệt GeoTIFF",
+   "output_code": "ORTHOMOSAIC",
+   "output_family": "BASE_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10#2",
+   "source_asset_ref": "SRC-04, SRC-16"
+  },
+  {
+   "service_id": "S0288",
+   "deliverable_no": 2,
+   "deliverable_name_raw": "Bản đồ trực ảnh Orthomosaic RGB & Bản đồ nhiệt GeoTIFF",
+   "output_code": "SURFACE_TEMPERATURE_MAP",
+   "output_family": "MONITORING_MAP",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10#2",
+   "source_asset_ref": "SRC-04, SRC-16"
+  },
+  {
+   "service_id": "S0288",
+   "deliverable_no": 3,
+   "deliverable_name_raw": "Bảng chỉ tiêu hình học & Báo cáo khuyết tật",
+   "output_code": "DEFECT_TABLE",
+   "output_family": "DATA_TABLE",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10#3",
+   "source_asset_ref": "SRC-11, SRC-14"
+  },
+  {
+   "service_id": "S0288",
+   "deliverable_no": 4,
+   "deliverable_name_raw": "Báo cáo đánh giá hiện trạng & Cảnh báo nguy cơ cháy do lão hóa vật liệu",
+   "output_code": "CONDITION_REPORT",
+   "output_family": "ASSESSMENT_REPORT",
+   "min_level": 1,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10#4",
+   "source_asset_ref": "SRC-07, SRC-11, SRC-19"
+  },
+  {
+   "service_id": "S0288",
+   "deliverable_no": 5,
+   "deliverable_name_raw": "Mô hình Scan-to-BIM RVT/IFC (đối với gói Level 3)",
+   "output_code": "BIM_MODEL",
+   "output_family": "MODEL_3D",
+   "min_level": 3,
+   "is_conditional": false,
+   "verification_status": "VERIFIED",
+   "source_ref": "S0288/04/muc10#5",
+   "source_asset_ref": "SRC-27"
+  }
+ ],
+ "service_tags": [
+  {
+   "service_id": "S0269",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "CLIMATE_RESEARCH",
+   "tag_label_vi": "Dữ liệu phục vụ nghiên cứu khí hậu",
+   "source_ref": "S0269/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "INDUSTRY",
+   "tag_code": "RESEARCH_ACADEMIA",
+   "tag_label_vi": "Viện, trường, nhóm nghiên cứu",
+   "source_ref": "S0269/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "INDUSTRY",
+   "tag_code": "GOVERNMENT_AGENCY",
+   "tag_label_vi": "Cơ quan quản lý nhà nước, chính quyền địa phương",
+   "source_ref": "S0269/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CARBON_PROJECT_DEVELOPER",
+   "tag_label_vi": "Chủ dự án / đơn vị phát triển dự án carbon, tư vấn MRV",
+   "source_ref": "S0269/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "MIXED_LAND_COVER",
+   "tag_label_vi": "Nhiều loại bề mặt / lớp phủ",
+   "source_ref": "S0269/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "URBAN_AREA",
+   "tag_label_vi": "Khu đô thị",
+   "source_ref": "S0269/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "FOREST",
+   "tag_label_vi": "Rừng tự nhiên, rừng trồng",
+   "source_ref": "S0269/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "TOPIC",
+   "tag_code": "albedo",
+   "tag_label_vi": "albedo",
+   "source_ref": "S0269/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "TOPIC",
+   "tag_code": "climate-research",
+   "tag_label_vi": "climate-research",
+   "source_ref": "S0269/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "TOPIC",
+   "tag_code": "multispectral",
+   "tag_label_vi": "multispectral",
+   "source_ref": "S0269/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "albedo",
+   "tag_label_vi": "albedo",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "độ phản xạ bề mặt",
+   "tag_label_vi": "độ phản xạ bề mặt",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "surface albedo",
+   "tag_label_vi": "surface albedo",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "broadband shortwave albedo",
+   "tag_label_vi": "broadband shortwave albedo",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav albedo mapping",
+   "tag_label_vi": "UAV albedo mapping",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "camera đa phổ",
+   "tag_label_vi": "camera đa phổ",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "multispectral",
+   "tag_label_vi": "multispectral",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "albedometer",
+   "tag_label_vi": "albedometer",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "narrow-to-broadband",
+   "tag_label_vi": "Narrow-to-Broadband",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "hiệu chuẩn bức xạ",
+   "tag_label_vi": "hiệu chuẩn bức xạ",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "nghiên cứu khí hậu",
+   "tag_label_vi": "nghiên cứu khí hậu",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "cân bằng năng lượng bề mặt",
+   "tag_label_vi": "cân bằng năng lượng bề mặt",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "mrv",
+   "tag_label_vi": "MRV",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0269",
+   "tag_type": "KEYWORD",
+   "tag_code": "tín chỉ carbon",
+   "tag_label_vi": "tín chỉ carbon",
+   "source_ref": "S0269/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "DROUGHT_WATER_STRESS",
+   "tag_label_vi": "Cảnh báo hạn hán, theo dõi stress nước",
+   "source_ref": "S0270/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "CLIMATE_RESEARCH",
+   "tag_label_vi": "Dữ liệu phục vụ nghiên cứu khí hậu",
+   "source_ref": "S0270/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "INDUSTRY",
+   "tag_code": "AGRICULTURE",
+   "tag_label_vi": "Nông nghiệp, hợp tác xã, doanh nghiệp nông nghiệp",
+   "source_ref": "S0270/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "INDUSTRY",
+   "tag_code": "GOVERNMENT_AGENCY",
+   "tag_label_vi": "Cơ quan quản lý nhà nước, chính quyền địa phương",
+   "source_ref": "S0270/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "INDUSTRY",
+   "tag_code": "RESEARCH_ACADEMIA",
+   "tag_label_vi": "Viện, trường, nhóm nghiên cứu",
+   "source_ref": "S0270/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "CROPLAND",
+   "tag_label_vi": "Đất canh tác, trang trại, vùng sản xuất",
+   "source_ref": "S0270/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "FOREST",
+   "tag_label_vi": "Rừng tự nhiên, rừng trồng",
+   "source_ref": "S0270/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "TOPIC",
+   "tag_code": "drought",
+   "tag_label_vi": "drought",
+   "source_ref": "S0270/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "TOPIC",
+   "tag_code": "soil-moisture",
+   "tag_label_vi": "soil-moisture",
+   "source_ref": "S0270/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "TOPIC",
+   "tag_code": "multispectral",
+   "tag_label_vi": "multispectral",
+   "source_ref": "S0270/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "TOPIC",
+   "tag_code": "thermal",
+   "tag_label_vi": "thermal",
+   "source_ref": "S0270/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav độ ẩm đất",
+   "tag_label_vi": "UAV độ ẩm đất",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "cảnh báo hạn hán",
+   "tag_label_vi": "cảnh báo hạn hán",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "dự báo khô hạn",
+   "tag_label_vi": "dự báo khô hạn",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "cảm biến in-situ vwc",
+   "tag_label_vi": "cảm biến in-situ VWC",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "bản đồ độ ẩm đất",
+   "tag_label_vi": "bản đồ độ ẩm đất",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "ai nông nghiệp",
+   "tag_label_vi": "AI nông nghiệp",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "viễn thám đa phổ",
+   "tag_label_vi": "viễn thám đa phổ",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "ảnh nhiệt lst",
+   "tag_label_vi": "ảnh nhiệt LST",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "random forest",
+   "tag_label_vi": "Random Forest",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "lstm hạn hán",
+   "tag_label_vi": "LSTM hạn hán",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "tưới tiêu chính xác",
+   "tag_label_vi": "tưới tiêu chính xác",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0270",
+   "tag_type": "KEYWORD",
+   "tag_code": "stress nước cây trồng",
+   "tag_label_vi": "stress nước cây trồng",
+   "source_ref": "S0270/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "GHG_EMISSION_MEASUREMENT",
+   "tag_label_vi": "Đo và định lượng phát thải khí nhà kính",
+   "source_ref": "S0271/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "EMISSION_REDUCTION_VERIFICATION",
+   "tag_label_vi": "Xác nhận hiệu quả giảm phát thải (trước – sau)",
+   "source_ref": "S0271/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "GHG_INVENTORY_SUPPORT",
+   "tag_label_vi": "Hỗ trợ kiểm kê khí nhà kính",
+   "source_ref": "S0271/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "INDUSTRY",
+   "tag_code": "WASTE_MANAGEMENT",
+   "tag_label_vi": "Bãi chôn lấp, xử lý chất thải, môi trường đô thị",
+   "source_ref": "S0271/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CARBON_PROJECT_DEVELOPER",
+   "tag_label_vi": "Chủ dự án / đơn vị phát triển dự án carbon, tư vấn MRV",
+   "source_ref": "S0271/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "INDUSTRY",
+   "tag_code": "GOVERNMENT_AGENCY",
+   "tag_label_vi": "Cơ quan quản lý nhà nước, chính quyền địa phương",
+   "source_ref": "S0271/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "LANDFILL",
+   "tag_label_vi": "Bãi chôn lấp chất thải rắn",
+   "source_ref": "S0271/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "TOPIC",
+   "tag_code": "methane",
+   "tag_label_vi": "methane",
+   "source_ref": "S0271/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "TOPIC",
+   "tag_code": "ghg",
+   "tag_label_vi": "ghg",
+   "source_ref": "S0271/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "TOPIC",
+   "tag_code": "landfill",
+   "tag_label_vi": "landfill",
+   "source_ref": "S0271/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "TOPIC",
+   "tag_code": "gas-sensor",
+   "tag_label_vi": "gas-sensor",
+   "source_ref": "S0271/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "TOPIC",
+   "tag_code": "carbon",
+   "tag_label_vi": "carbon",
+   "source_ref": "S0271/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "đo giảm phát thải co2",
+   "tag_label_vi": "đo giảm phát thải CO2",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "measuring co2 emission reduction",
+   "tag_label_vi": "measuring CO2 emission reduction",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav đo methane bãi rác",
+   "tag_label_vi": "UAV đo methane bãi rác",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "landfill methane monitoring",
+   "tag_label_vi": "landfill methane monitoring",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "khảo sát ch4 bãi chôn lấp",
+   "tag_label_vi": "khảo sát CH4 bãi chôn lấp",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "bản đồ phát thải methane",
+   "tag_label_vi": "bản đồ phát thải methane",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "rò rỉ khí bãi rác",
+   "tag_label_vi": "rò rỉ khí bãi rác",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "kiểm kê khí nhà kính bãi rác",
+   "tag_label_vi": "kiểm kê khí nhà kính bãi rác",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "mrv methane bãi rác",
+   "tag_label_vi": "MRV methane bãi rác",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "hiệu suất thu gom khí bãi rác",
+   "tag_label_vi": "hiệu suất thu gom khí bãi rác",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "drone methane inspection",
+   "tag_label_vi": "drone methane inspection",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "quy đổi co2e",
+   "tag_label_vi": "quy đổi CO2e",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "mass balance methane flux",
+   "tag_label_vi": "mass balance methane flux",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "inverse dispersion methane",
+   "tag_label_vi": "inverse dispersion methane",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0271",
+   "tag_type": "KEYWORD",
+   "tag_code": "iso 14064-2 waste",
+   "tag_label_vi": "ISO 14064-2 waste",
+   "source_ref": "S0271/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "CARBON_FOOTPRINT_MAPPING",
+   "tag_label_vi": "Lập bản đồ carbon footprint cơ sở / doanh nghiệp",
+   "source_ref": "S0272/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "GHG_INVENTORY_SUPPORT",
+   "tag_label_vi": "Hỗ trợ kiểm kê khí nhà kính",
+   "source_ref": "S0272/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "ESG_NETZERO",
+   "tag_label_vi": "Mục tiêu ESG / Net Zero",
+   "source_ref": "S0272/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "EMISSION_REDUCTION_VERIFICATION",
+   "tag_label_vi": "Xác nhận hiệu quả giảm phát thải (trước – sau)",
+   "source_ref": "S0272/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "INDUSTRY",
+   "tag_code": "INDUSTRIAL_MANUFACTURING",
+   "tag_label_vi": "Nhà máy, khu công nghiệp, nhà xưởng",
+   "source_ref": "S0272/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CORPORATE_ESG",
+   "tag_label_vi": "Doanh nghiệp có cam kết ESG / Net Zero",
+   "source_ref": "S0272/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "INDUSTRY",
+   "tag_code": "WASTE_MANAGEMENT",
+   "tag_label_vi": "Bãi chôn lấp, xử lý chất thải, môi trường đô thị",
+   "source_ref": "S0272/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "INDUSTRY",
+   "tag_code": "ENERGY_HEAVY_INDUSTRY",
+   "tag_label_vi": "Năng lượng, dầu khí, nhiệt điện, xi măng, sắt thép",
+   "source_ref": "S0272/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "INDUSTRIAL_SITE",
+   "tag_label_vi": "Nhà máy, khu công nghiệp",
+   "source_ref": "S0272/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "URBAN_AREA",
+   "tag_label_vi": "Khu đô thị",
+   "source_ref": "S0272/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "TOPIC",
+   "tag_code": "carbon",
+   "tag_label_vi": "carbon",
+   "source_ref": "S0272/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "TOPIC",
+   "tag_code": "ghg",
+   "tag_label_vi": "ghg",
+   "source_ref": "S0272/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "TOPIC",
+   "tag_code": "co2",
+   "tag_label_vi": "co2",
+   "source_ref": "S0272/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "TOPIC",
+   "tag_code": "industrial",
+   "tag_label_vi": "industrial",
+   "source_ref": "S0272/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "TOPIC",
+   "tag_code": "esg",
+   "tag_label_vi": "esg",
+   "source_ref": "S0272/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "TOPIC",
+   "tag_code": "rgb",
+   "tag_label_vi": "rgb",
+   "source_ref": "S0272/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "carbon footprint mapping",
+   "tag_label_vi": "carbon footprint mapping",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "bản đồ carbon footprint",
+   "tag_label_vi": "bản đồ carbon footprint",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "carbon map",
+   "tag_label_vi": "carbon map",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "bản đồ phát thải",
+   "tag_label_vi": "bản đồ phát thải",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav carbon mapping",
+   "tag_label_vi": "UAV carbon mapping",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "carbon hotspot",
+   "tag_label_vi": "carbon hotspot",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "kiểm kê khí nhà kính",
+   "tag_label_vi": "kiểm kê khí nhà kính",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "ghg inventory",
+   "tag_label_vi": "GHG inventory",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "scope 1 2 3",
+   "tag_label_vi": "Scope 1 2 3",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "spatial carbon",
+   "tag_label_vi": "spatial carbon",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "carbon source map",
+   "tag_label_vi": "carbon source map",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "carbon sink mapping",
+   "tag_label_vi": "carbon sink mapping",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "esg",
+   "tag_label_vi": "ESG",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "net zero",
+   "tag_label_vi": "Net Zero",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "mrv",
+   "tag_label_vi": "MRV",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "orthomosaic",
+   "tag_label_vi": "orthomosaic",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "gis carbon",
+   "tag_label_vi": "GIS carbon",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0272",
+   "tag_type": "KEYWORD",
+   "tag_code": "qđ 42/2026",
+   "tag_label_vi": "QĐ 42/2026",
+   "source_ref": "S0272/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "GHG_EMISSION_MEASUREMENT",
+   "tag_label_vi": "Đo và định lượng phát thải khí nhà kính",
+   "source_ref": "S0273/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "EMISSION_REDUCTION_VERIFICATION",
+   "tag_label_vi": "Xác nhận hiệu quả giảm phát thải (trước – sau)",
+   "source_ref": "S0273/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "CARBON_CREDIT_MRV",
+   "tag_label_vi": "Lập hồ sơ MRV cho dự án tín chỉ carbon",
+   "source_ref": "S0273/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "INDUSTRY",
+   "tag_code": "AGRICULTURE",
+   "tag_label_vi": "Nông nghiệp, hợp tác xã, doanh nghiệp nông nghiệp",
+   "source_ref": "S0273/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CARBON_PROJECT_DEVELOPER",
+   "tag_label_vi": "Chủ dự án / đơn vị phát triển dự án carbon, tư vấn MRV",
+   "source_ref": "S0273/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "INDUSTRY",
+   "tag_code": "GOVERNMENT_AGENCY",
+   "tag_label_vi": "Cơ quan quản lý nhà nước, chính quyền địa phương",
+   "source_ref": "S0273/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "RICE_FIELD",
+   "tag_label_vi": "Ruộng lúa",
+   "source_ref": "S0273/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "TOPIC",
+   "tag_code": "methane",
+   "tag_label_vi": "methane",
+   "source_ref": "S0273/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "TOPIC",
+   "tag_code": "ghg",
+   "tag_label_vi": "ghg",
+   "source_ref": "S0273/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "TOPIC",
+   "tag_code": "rice",
+   "tag_label_vi": "rice",
+   "source_ref": "S0273/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "TOPIC",
+   "tag_code": "mrv",
+   "tag_label_vi": "mrv",
+   "source_ref": "S0273/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "TOPIC",
+   "tag_code": "multispectral",
+   "tag_label_vi": "multispectral",
+   "source_ref": "S0273/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "s0273",
+   "tag_label_vi": "S0273",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "đo nồng độ methane từ ruộng lúa",
+   "tag_label_vi": "Đo nồng độ methane từ ruộng lúa",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "methane ruộng lúa",
+   "tag_label_vi": "methane ruộng lúa",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "ch₄",
+   "tag_label_vi": "CH₄",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav đa phổ",
+   "tag_label_vi": "UAV đa phổ",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "rtk",
+   "tag_label_vi": "RTK",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "buồng đo đóng",
+   "tag_label_vi": "buồng đo đóng",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "thông lượng methane",
+   "tag_label_vi": "thông lượng methane",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "bản đồ phát thải",
+   "tag_label_vi": "bản đồ phát thải",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "awd",
+   "tag_label_vi": "AWD",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0273",
+   "tag_type": "KEYWORD",
+   "tag_code": "mrv",
+   "tag_label_vi": "MRV",
+   "source_ref": "S0273/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "GHG_EMISSION_MEASUREMENT",
+   "tag_label_vi": "Đo và định lượng phát thải khí nhà kính",
+   "source_ref": "S0274/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "GHG_INVENTORY_SUPPORT",
+   "tag_label_vi": "Hỗ trợ kiểm kê khí nhà kính",
+   "source_ref": "S0274/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "INDUSTRY",
+   "tag_code": "GOVERNMENT_AGENCY",
+   "tag_label_vi": "Cơ quan quản lý nhà nước, chính quyền địa phương",
+   "source_ref": "S0274/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "INDUSTRY",
+   "tag_code": "RESEARCH_ACADEMIA",
+   "tag_label_vi": "Viện, trường, nhóm nghiên cứu",
+   "source_ref": "S0274/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "INDUSTRY",
+   "tag_code": "ENERGY_HEAVY_INDUSTRY",
+   "tag_label_vi": "Năng lượng, dầu khí, nhiệt điện, xi măng, sắt thép",
+   "source_ref": "S0274/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "INDUSTRY",
+   "tag_code": "WASTE_MANAGEMENT",
+   "tag_label_vi": "Bãi chôn lấp, xử lý chất thải, môi trường đô thị",
+   "source_ref": "S0274/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "URBAN_AREA",
+   "tag_label_vi": "Khu đô thị",
+   "source_ref": "S0274/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "INDUSTRIAL_SITE",
+   "tag_label_vi": "Nhà máy, khu công nghiệp",
+   "source_ref": "S0274/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "TOPIC",
+   "tag_code": "ghg",
+   "tag_label_vi": "ghg",
+   "source_ref": "S0274/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "TOPIC",
+   "tag_code": "co2",
+   "tag_label_vi": "co2",
+   "source_ref": "S0274/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "TOPIC",
+   "tag_code": "methane",
+   "tag_label_vi": "methane",
+   "source_ref": "S0274/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "TOPIC",
+   "tag_code": "urban",
+   "tag_label_vi": "urban",
+   "source_ref": "S0274/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "TOPIC",
+   "tag_code": "gas-sensor",
+   "tag_label_vi": "gas-sensor",
+   "source_ref": "S0274/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "KEYWORD",
+   "tag_code": "khí nhà kính đô thị",
+   "tag_label_vi": "khí nhà kính đô thị",
+   "source_ref": "S0274/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav ghg survey",
+   "tag_label_vi": "UAV GHG survey",
+   "source_ref": "S0274/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "KEYWORD",
+   "tag_code": "đo co₂",
+   "tag_label_vi": "đo CO₂",
+   "source_ref": "S0274/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "KEYWORD",
+   "tag_code": "đo ch₄",
+   "tag_label_vi": "đo CH₄",
+   "source_ref": "S0274/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "KEYWORD",
+   "tag_code": "bản đồ phân bố ghg",
+   "tag_label_vi": "bản đồ phân bố GHG",
+   "source_ref": "S0274/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "KEYWORD",
+   "tag_code": "khảo sát hotspot",
+   "tag_label_vi": "khảo sát hotspot",
+   "source_ref": "S0274/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "KEYWORD",
+   "tag_code": "quan trắc khí quyển đô thị",
+   "tag_label_vi": "quan trắc khí quyển đô thị",
+   "source_ref": "S0274/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0274",
+   "tag_type": "KEYWORD",
+   "tag_code": "hỗ trợ kiểm kê ghg",
+   "tag_label_vi": "hỗ trợ kiểm kê GHG",
+   "source_ref": "S0274/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "FIRE_RISK_PREVENTION",
+   "tag_label_vi": "Phòng ngừa nguy cơ cháy",
+   "source_ref": "S0282/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "DROUGHT_WATER_STRESS",
+   "tag_label_vi": "Cảnh báo hạn hán, theo dõi stress nước",
+   "source_ref": "S0282/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "INDUSTRY",
+   "tag_code": "FIRE_SAFETY_AUTHORITY",
+   "tag_label_vi": "Lực lượng PCCC, đơn vị quản lý PCCC",
+   "source_ref": "S0282/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "INDUSTRY",
+   "tag_code": "GOVERNMENT_AGENCY",
+   "tag_label_vi": "Cơ quan quản lý nhà nước, chính quyền địa phương",
+   "source_ref": "S0282/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "URBAN_AREA",
+   "tag_label_vi": "Khu đô thị",
+   "source_ref": "S0282/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "TOPIC",
+   "tag_code": "fire-risk",
+   "tag_label_vi": "fire-risk",
+   "source_ref": "S0282/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "TOPIC",
+   "tag_code": "soil-moisture",
+   "tag_label_vi": "soil-moisture",
+   "source_ref": "S0282/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "TOPIC",
+   "tag_code": "urban",
+   "tag_label_vi": "urban",
+   "source_ref": "S0282/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "TOPIC",
+   "tag_code": "thermal",
+   "tag_label_vi": "thermal",
+   "source_ref": "S0282/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "TOPIC",
+   "tag_code": "multispectral",
+   "tag_label_vi": "multispectral",
+   "source_ref": "S0282/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "giám sát độ ẩm đô thị",
+   "tag_label_vi": "giám sát độ ẩm đô thị",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "urban humidity monitoring",
+   "tag_label_vi": "urban humidity monitoring",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav cảm biến môi trường",
+   "tag_label_vi": "UAV cảm biến môi trường",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "environmental uav",
+   "tag_label_vi": "environmental UAV",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav multispectral thermal",
+   "tag_label_vi": "UAV multispectral thermal",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "bản đồ độ ẩm",
+   "tag_label_vi": "bản đồ độ ẩm",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "soil moisture mapping",
+   "tag_label_vi": "soil moisture mapping",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "phân vùng khô hạn",
+   "tag_label_vi": "phân vùng khô hạn",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "dry zone mapping",
+   "tag_label_vi": "dry zone mapping",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "nguy cơ cháy đô thị",
+   "tag_label_vi": "nguy cơ cháy đô thị",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "urban fire risk",
+   "tag_label_vi": "urban fire risk",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "phát hiện sớm nguy cơ cháy",
+   "tag_label_vi": "phát hiện sớm nguy cơ cháy",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "pccc đô thị",
+   "tag_label_vi": "PCCC đô thị",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0282",
+   "tag_type": "KEYWORD",
+   "tag_code": "giám sát định kỳ pccc",
+   "tag_label_vi": "giám sát định kỳ PCCC",
+   "source_ref": "S0282/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "VEGETATION_CHANGE_MONITORING",
+   "tag_label_vi": "Theo dõi biến động thảm thực vật / rừng",
+   "source_ref": "S0283/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "CARBON_CREDIT_MRV",
+   "tag_label_vi": "Lập hồ sơ MRV cho dự án tín chỉ carbon",
+   "source_ref": "S0283/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "INDUSTRY",
+   "tag_code": "FORESTRY",
+   "tag_label_vi": "Lâm nghiệp, chủ rừng, công ty lâm nghiệp",
+   "source_ref": "S0283/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CONSERVATION",
+   "tag_label_vi": "Khu bảo tồn, rừng đặc dụng / phòng hộ",
+   "source_ref": "S0283/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "INDUSTRY",
+   "tag_code": "AGRICULTURE",
+   "tag_label_vi": "Nông nghiệp, hợp tác xã, doanh nghiệp nông nghiệp",
+   "source_ref": "S0283/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CARBON_PROJECT_DEVELOPER",
+   "tag_label_vi": "Chủ dự án / đơn vị phát triển dự án carbon, tư vấn MRV",
+   "source_ref": "S0283/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "FOREST",
+   "tag_label_vi": "Rừng tự nhiên, rừng trồng",
+   "source_ref": "S0283/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "MIXED_LAND_COVER",
+   "tag_label_vi": "Nhiều loại bề mặt / lớp phủ",
+   "source_ref": "S0283/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "TOPIC",
+   "tag_code": "vegetation",
+   "tag_label_vi": "vegetation",
+   "source_ref": "S0283/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "TOPIC",
+   "tag_code": "forest",
+   "tag_label_vi": "forest",
+   "source_ref": "S0283/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "TOPIC",
+   "tag_code": "multispectral",
+   "tag_label_vi": "multispectral",
+   "source_ref": "S0283/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "TOPIC",
+   "tag_code": "rgb",
+   "tag_label_vi": "rgb",
+   "source_ref": "S0283/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "theo dõi thảm thực vật",
+   "tag_label_vi": "theo dõi thảm thực vật",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "biến động thảm thực vật",
+   "tag_label_vi": "biến động thảm thực vật",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav đa phổ",
+   "tag_label_vi": "UAV đa phổ",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "ndvi",
+   "tag_label_vi": "NDVI",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "ndre",
+   "tag_label_vi": "NDRE",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "change detection",
+   "tag_label_vi": "change detection",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "orthomosaic",
+   "tag_label_vi": "orthomosaic",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "gis",
+   "tag_label_vi": "GIS",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "rtk/ppk",
+   "tag_label_vi": "RTK/PPK",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0283",
+   "tag_type": "KEYWORD",
+   "tag_code": "giám sát sinh thái",
+   "tag_label_vi": "giám sát sinh thái",
+   "source_ref": "S0283/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "DROUGHT_WATER_STRESS",
+   "tag_label_vi": "Cảnh báo hạn hán, theo dõi stress nước",
+   "source_ref": "S0284/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "FIRE_RISK_PREVENTION",
+   "tag_label_vi": "Phòng ngừa nguy cơ cháy",
+   "source_ref": "S0284/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "VEGETATION_CHANGE_MONITORING",
+   "tag_label_vi": "Theo dõi biến động thảm thực vật / rừng",
+   "source_ref": "S0284/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "CLIMATE_RESEARCH",
+   "tag_label_vi": "Dữ liệu phục vụ nghiên cứu khí hậu",
+   "source_ref": "S0284/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "INDUSTRY",
+   "tag_code": "FORESTRY",
+   "tag_label_vi": "Lâm nghiệp, chủ rừng, công ty lâm nghiệp",
+   "source_ref": "S0284/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CONSERVATION",
+   "tag_label_vi": "Khu bảo tồn, rừng đặc dụng / phòng hộ",
+   "source_ref": "S0284/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "INDUSTRY",
+   "tag_code": "FIRE_SAFETY_AUTHORITY",
+   "tag_label_vi": "Lực lượng PCCC, đơn vị quản lý PCCC",
+   "source_ref": "S0284/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "INDUSTRY",
+   "tag_code": "RESEARCH_ACADEMIA",
+   "tag_label_vi": "Viện, trường, nhóm nghiên cứu",
+   "source_ref": "S0284/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "FOREST",
+   "tag_label_vi": "Rừng tự nhiên, rừng trồng",
+   "source_ref": "S0284/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "TOPIC",
+   "tag_code": "canopy-moisture",
+   "tag_label_vi": "canopy-moisture",
+   "source_ref": "S0284/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "TOPIC",
+   "tag_code": "forest",
+   "tag_label_vi": "forest",
+   "source_ref": "S0284/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "TOPIC",
+   "tag_code": "fire-risk",
+   "tag_label_vi": "fire-risk",
+   "source_ref": "S0284/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "TOPIC",
+   "tag_code": "drought",
+   "tag_label_vi": "drought",
+   "source_ref": "S0284/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "TOPIC",
+   "tag_code": "multispectral",
+   "tag_label_vi": "multispectral",
+   "source_ref": "S0284/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "TOPIC",
+   "tag_code": "thermal",
+   "tag_label_vi": "thermal",
+   "source_ref": "S0284/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "đo độ ẩm tán rừng",
+   "tag_label_vi": "đo độ ẩm tán rừng",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "canopy moisture monitoring",
+   "tag_label_vi": "canopy moisture monitoring",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "foliar moisture content",
+   "tag_label_vi": "foliar moisture content",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "fmc",
+   "tag_label_vi": "FMC",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "live fuel moisture content",
+   "tag_label_vi": "live fuel moisture content",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "lfmc",
+   "tag_label_vi": "LFMC",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav cảm biến đa phổ",
+   "tag_label_vi": "UAV cảm biến đa phổ",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav thermal forest",
+   "tag_label_vi": "UAV thermal forest",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "viễn thám lâm nghiệp",
+   "tag_label_vi": "viễn thám lâm nghiệp",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "bản đồ độ ẩm tán lá",
+   "tag_label_vi": "bản đồ độ ẩm tán lá",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "phân vùng khô hạn rừng",
+   "tag_label_vi": "phân vùng khô hạn rừng",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "cháy rừng",
+   "tag_label_vi": "cháy rừng",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "pcccr",
+   "tag_label_vi": "PCCCR",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "stress hạn cây rừng",
+   "tag_label_vi": "stress hạn cây rừng",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "giám sát sức khỏe rừng",
+   "tag_label_vi": "giám sát sức khỏe rừng",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "tín chỉ carbon",
+   "tag_label_vi": "tín chỉ carbon",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "forest canopy water content",
+   "tag_label_vi": "forest canopy water content",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "cwc",
+   "tag_label_vi": "CWC",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "nghị định 288/2025/nđ-cp",
+   "tag_label_vi": "Nghị định 288/2025/NĐ-CP",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0284",
+   "tag_type": "KEYWORD",
+   "tag_code": "luật lâm nghiệp 2017",
+   "tag_label_vi": "Luật Lâm nghiệp 2017",
+   "source_ref": "S0284/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "CARBON_STOCK_ASSESSMENT",
+   "tag_label_vi": "Đánh giá trữ lượng / hấp thụ carbon",
+   "source_ref": "S0285-S0287/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "VEGETATION_CHANGE_MONITORING",
+   "tag_label_vi": "Theo dõi biến động thảm thực vật / rừng",
+   "source_ref": "S0285-S0287/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "CARBON_CREDIT_MRV",
+   "tag_label_vi": "Lập hồ sơ MRV cho dự án tín chỉ carbon",
+   "source_ref": "S0285-S0287/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "ESG_NETZERO",
+   "tag_label_vi": "Mục tiêu ESG / Net Zero",
+   "source_ref": "S0285-S0287/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "INDUSTRY",
+   "tag_code": "FORESTRY",
+   "tag_label_vi": "Lâm nghiệp, chủ rừng, công ty lâm nghiệp",
+   "source_ref": "S0285-S0287/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CONSERVATION",
+   "tag_label_vi": "Khu bảo tồn, rừng đặc dụng / phòng hộ",
+   "source_ref": "S0285-S0287/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CARBON_PROJECT_DEVELOPER",
+   "tag_label_vi": "Chủ dự án / đơn vị phát triển dự án carbon, tư vấn MRV",
+   "source_ref": "S0285-S0287/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CORPORATE_ESG",
+   "tag_label_vi": "Doanh nghiệp có cam kết ESG / Net Zero",
+   "source_ref": "S0285-S0287/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "FOREST",
+   "tag_label_vi": "Rừng tự nhiên, rừng trồng",
+   "source_ref": "S0285-S0287/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "TOPIC",
+   "tag_code": "carbon",
+   "tag_label_vi": "carbon",
+   "source_ref": "S0285-S0287/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "TOPIC",
+   "tag_code": "biomass",
+   "tag_label_vi": "biomass",
+   "source_ref": "S0285-S0287/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "TOPIC",
+   "tag_code": "forest",
+   "tag_label_vi": "forest",
+   "source_ref": "S0285-S0287/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "TOPIC",
+   "tag_code": "lidar",
+   "tag_label_vi": "lidar",
+   "source_ref": "S0285-S0287/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "TOPIC",
+   "tag_code": "mrv",
+   "tag_label_vi": "mrv",
+   "source_ref": "S0285-S0287/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "trữ lượng carbon rừng",
+   "tag_label_vi": "trữ lượng carbon rừng",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "sinh khối trên mặt đất",
+   "tag_label_vi": "sinh khối trên mặt đất",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav lidar",
+   "tag_label_vi": "UAV LiDAR",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "viễn thám lâm nghiệp",
+   "tag_label_vi": "viễn thám lâm nghiệp",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "tín chỉ carbon",
+   "tag_label_vi": "tín chỉ carbon",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "chm",
+   "tag_label_vi": "CHM",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "dtm",
+   "tag_label_vi": "DTM",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "allometric",
+   "tag_label_vi": "allometric",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "mrv",
+   "tag_label_vi": "MRV",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "nghị định 180/2026/nđ-cp",
+   "tag_label_vi": "Nghị định 180/2026/NĐ-CP",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "tco2e",
+   "tag_label_vi": "tCO2e",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0285-S0287",
+   "tag_type": "KEYWORD",
+   "tag_code": "bản đồ carbon",
+   "tag_label_vi": "bản đồ carbon",
+   "source_ref": "S0285-S0287/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "CARBON_CREDIT_MRV",
+   "tag_label_vi": "Lập hồ sơ MRV cho dự án tín chỉ carbon",
+   "source_ref": "S0286/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "GHG_INVENTORY_SUPPORT",
+   "tag_label_vi": "Hỗ trợ kiểm kê khí nhà kính",
+   "source_ref": "S0286/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "EMISSION_REDUCTION_VERIFICATION",
+   "tag_label_vi": "Xác nhận hiệu quả giảm phát thải (trước – sau)",
+   "source_ref": "S0286/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CARBON_PROJECT_DEVELOPER",
+   "tag_label_vi": "Chủ dự án / đơn vị phát triển dự án carbon, tư vấn MRV",
+   "source_ref": "S0286/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "INDUSTRY",
+   "tag_code": "FORESTRY",
+   "tag_label_vi": "Lâm nghiệp, chủ rừng, công ty lâm nghiệp",
+   "source_ref": "S0286/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "INDUSTRY",
+   "tag_code": "AGRICULTURE",
+   "tag_label_vi": "Nông nghiệp, hợp tác xã, doanh nghiệp nông nghiệp",
+   "source_ref": "S0286/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "INDUSTRY",
+   "tag_code": "WASTE_MANAGEMENT",
+   "tag_label_vi": "Bãi chôn lấp, xử lý chất thải, môi trường đô thị",
+   "source_ref": "S0286/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "INDUSTRY",
+   "tag_code": "ENERGY_HEAVY_INDUSTRY",
+   "tag_label_vi": "Năng lượng, dầu khí, nhiệt điện, xi măng, sắt thép",
+   "source_ref": "S0286/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "INDUSTRY",
+   "tag_code": "CARBON_INVESTOR",
+   "tag_label_vi": "Quỹ, nhà đầu tư mua tín chỉ",
+   "source_ref": "S0286/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "FOREST",
+   "tag_label_vi": "Rừng tự nhiên, rừng trồng",
+   "source_ref": "S0286/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "CROPLAND",
+   "tag_label_vi": "Đất canh tác, trang trại, vùng sản xuất",
+   "source_ref": "S0286/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "LANDFILL",
+   "tag_label_vi": "Bãi chôn lấp chất thải rắn",
+   "source_ref": "S0286/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "INDUSTRIAL_SITE",
+   "tag_label_vi": "Nhà máy, khu công nghiệp",
+   "source_ref": "S0286/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "TOPIC",
+   "tag_code": "mrv",
+   "tag_label_vi": "mrv",
+   "source_ref": "S0286/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "TOPIC",
+   "tag_code": "carbon",
+   "tag_label_vi": "carbon",
+   "source_ref": "S0286/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "TOPIC",
+   "tag_code": "ghg",
+   "tag_label_vi": "ghg",
+   "source_ref": "S0286/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "TOPIC",
+   "tag_code": "lidar",
+   "tag_label_vi": "lidar",
+   "source_ref": "S0286/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "TOPIC",
+   "tag_code": "gas-sensor",
+   "tag_label_vi": "gas-sensor",
+   "source_ref": "S0286/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "báo cáo mrv",
+   "tag_label_vi": "báo cáo MRV",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "mrv report",
+   "tag_label_vi": "MRV report",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "tín chỉ các-bon",
+   "tag_label_vi": "tín chỉ các-bon",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "carbon credit",
+   "tag_label_vi": "carbon credit",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "đo đạc báo cáo thẩm định",
+   "tag_label_vi": "đo đạc báo cáo thẩm định",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "kiểm kê khí nhà kính",
+   "tag_label_vi": "kiểm kê khí nhà kính",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "đường cơ sở",
+   "tag_label_vi": "đường cơ sở",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "giám sát phát thải",
+   "tag_label_vi": "giám sát phát thải",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "thẩm định độc lập",
+   "tag_label_vi": "thẩm định độc lập",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0286",
+   "tag_type": "KEYWORD",
+   "tag_code": "hạn ngạch phát thải",
+   "tag_label_vi": "hạn ngạch phát thải",
+   "source_ref": "S0286/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "STRUCTURAL_INSPECTION",
+   "tag_label_vi": "Kiểm tra kết cấu công trình",
+   "source_ref": "S0288/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "OBJECTIVE",
+   "tag_code": "FIRE_RISK_PREVENTION",
+   "tag_label_vi": "Phòng ngừa nguy cơ cháy",
+   "source_ref": "S0288/03/D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "INDUSTRY",
+   "tag_code": "INDUSTRIAL_MANUFACTURING",
+   "tag_label_vi": "Nhà máy, khu công nghiệp, nhà xưởng",
+   "source_ref": "S0288/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "INDUSTRY",
+   "tag_code": "REAL_ESTATE_BUILDING",
+   "tag_label_vi": "Quản lý tòa nhà, chung cư, kho bãi",
+   "source_ref": "S0288/03/D001",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "ENVIRONMENT",
+   "tag_code": "BUILDING",
+   "tag_label_vi": "Công trình, tòa nhà",
+   "source_ref": "S0288/03/D001;D003",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "TOPIC",
+   "tag_code": "building",
+   "tag_label_vi": "building",
+   "source_ref": "S0288/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "TOPIC",
+   "tag_code": "fire-risk",
+   "tag_label_vi": "fire-risk",
+   "source_ref": "S0288/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "TOPIC",
+   "tag_code": "lidar",
+   "tag_label_vi": "lidar",
+   "source_ref": "S0288/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "TOPIC",
+   "tag_code": "thermal",
+   "tag_label_vi": "thermal",
+   "source_ref": "S0288/03/M007;D007",
+   "review_status": "APPROVED"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "KEYWORD",
+   "tag_code": "uav lidar",
+   "tag_label_vi": "UAV LiDAR",
+   "source_ref": "S0288/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "KEYWORD",
+   "tag_code": "structural inspection",
+   "tag_label_vi": "structural inspection",
+   "source_ref": "S0288/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "KEYWORD",
+   "tag_code": "building deterioration",
+   "tag_label_vi": "building deterioration",
+   "source_ref": "S0288/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "KEYWORD",
+   "tag_code": "aging materials",
+   "tag_label_vi": "aging materials",
+   "source_ref": "S0288/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "KEYWORD",
+   "tag_code": "fire risk",
+   "tag_label_vi": "fire risk",
+   "source_ref": "S0288/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "KEYWORD",
+   "tag_code": "defect detection",
+   "tag_label_vi": "defect detection",
+   "source_ref": "S0288/03/D007",
+   "review_status": "FROM_SOURCE"
+  },
+  {
+   "service_id": "S0288",
+   "tag_type": "KEYWORD",
+   "tag_code": "structural assessment",
+   "tag_label_vi": "structural assessment",
+   "source_ref": "S0288/03/D007",
+   "review_status": "FROM_SOURCE"
+  }
+ ]
+}
