@@ -2,6 +2,8 @@ services:
   db:
     image: postgres:18
     container_name: package-builder-db
+    entrypoint: >
+      bash -c "ln -sf /usr/share/zoneinfo/Asia/Ho_Chi_Minh /usr/share/zoneinfo/Asia/Saigon && exec docker-entrypoint.sh postgres"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123

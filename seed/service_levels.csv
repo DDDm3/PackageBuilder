@@ -1,0 +1,37 @@
+﻿service_code,level_no,level_name,level_description,verification_status,source_ref
+S0269,1,Bản đồ albedo cơ bản,,VERIFIED,S0269/03/D004
+S0269,2,Giám sát albedo theo thời gian,,VERIFIED,S0269/03/D004
+S0269,3,Albedo chuẩn nghiên cứu và quy đổi khí hậu,,VERIFIED,S0269/03/D004
+S0270,1,Khảo sát hiện trạng cơ bản (Basic Survey),,VERIFIED,S0270/03/D004
+S0270,2,Giám sát định kỳ & phân vùng khô hạn (Periodic Monitoring),,VERIFIED,S0270/03/D004
+S0270,3,Dự báo hạn bằng AI & tích hợp đa nguồn (AI Drought Forecasting),,VERIFIED,S0270/03/D004
+S0271,1,Emission Screening & Source Mapping,"1 khu vực, 1 kỳ đo, lập bản đồ nồng độ CH₄, khoanh hotspot và danh sách kiểm tra, báo cáo QA/QC, KHÔNG quy đổi tCO₂e",VERIFIED,S0271/03/D004
+S0271,2,Quantification & Before–After,"toàn bãi, tuyến bay rèm cuối gió nhiều lớp độ cao, đo 2 kỳ (nền và xác nhận), ước tính flux (kg/h), hiệu suất thu gom, lượng CH₄ giảm và quy đổi tCO₂e kèm dải bất định",VERIFIED,S0271/03/D004
+S0271,3,Multi-site Monitoring & Verification Support,"đa bãi, đo định kỳ, tích hợp SCADA/đồng hồ đo khí thu hồi, phân tích bất định và cung cấp bộ bằng chứng hỗ trợ thẩm định độc lập",VERIFIED,S0271/03/D004
+S0272,1,Bay và đánh giá cơ bản (PILOT/BASIC),,VERIFIED,S0272/03/D004
+S0272,2,Bay và theo dõi ngắn hạn (STANDARD),,VERIFIED,S0272/03/D004
+S0272,3,"Bay, phân tích chi tiết và theo dõi trong năm (ADVANCED/ENTERPRISE)",,VERIFIED,S0272/03/D004
+S0273,1,"Baseline Mapping & Ground Calibration (≤10 ha, 2 lần bay, 3 đợt đo)",,NEED_VERIFY,S0273/03/D004
+S0273,2,"Seasonal Emission Mapping & AWD Comparison (≤50 ha, 5 lần bay, 5 đợt đo)",,NEED_VERIFY,S0273/03/D004
+S0273,3,"AI Spatial Model & MRV Data Support (≤100 ha, 8 lần bay, 8 đợt đo)","quy mô/tần suất đề xuất, cần xác minh",NEED_VERIFY,S0273/03/D004
+S0274,1,Khảo sát cơ bản,,VERIFIED,S0274/03/D004
+S0274,2,Bản đồ không gian & Hotspot,,VERIFIED,S0274/03/D004
+S0274,3,Giám sát tích hợp & Hỗ trợ kiểm kê,,VERIFIED,S0274/03/D004
+S0282,1,Giám sát cơ bản (Basic Environmental Survey),UAV + RGB + cảm biến khí tượng; orthomosaic RGB và số liệu nhiệt độ – độ ẩm – áp suất,VERIFIED,S0282/03/D004
+S0282,2,Bản đồ độ ẩm & phân vùng khô hạn (Moisture Mapping & Dry-Zone Zoning),"thêm multispectral (NIR/Red-edge) + thermal/TIR + ground-truth; bản đồ nhiệt độ bề mặt, bản đồ độ ẩm, bản đồ phân vùng khô hạn, lớp GIS",VERIFIED,S0282/03/D004
+S0282,3,"Giám sát định kỳ, mô hình nguy cơ cháy & cảnh báo (Periodic Monitoring + Fire-Risk Model)","thêm mô hình ML và dashboard theo chuỗi thời gian; bản đồ/xếp hạng nguy cơ cháy, báo cáo biến động, danh sách khu vực ưu tiên. Cấu hình theo tần suất (áp dụng cho cả 3 Level): gói theo đợt / gói theo mùa khô / gói định kỳ gắn với chu kỳ kiểm tra PCCC",VERIFIED,S0282/03/D004
+S0283,1,Pilot / Basic,,VERIFIED,S0283/03/D004
+S0283,2,Standard,,VERIFIED,S0283/03/D004
+S0283,3,Advanced / Enterprise,,VERIFIED,S0283/03/D004
+S0284,1,Khảo sát cơ bản (Basic Survey),"UAV + Camera RGB + Cảm biến đa phổ cơ bản (hoặc nhiệt); Orthomosaic RGB/NIR, bản đồ chỉ số thực vật, báo cáo hiện trạng quang phổ tán cây",VERIFIED,S0284/03/D004
+S0284,2,Bản đồ độ ẩm & phân vùng khô hạn (FMC Mapping & Dry-Zone Zoning) [Gói đề xuất khởi điểm],"Level 1 + Cảm biến đa phổ chuyên sâu + Lấy mẫu Ground-truth mặt đất cân sấy phòng lab + Mô hình hiệu chuẩn theo loài; Bản đồ FMC, bản đồ nhiệt độ tán, lớp GIS, danh mục tọa độ điểm nóng, báo cáo sai số RMSE",VERIFIED,S0284/03/D004
+S0284,3,Giám sát chu kỳ & AI nâng cao (Advanced AI & Periodic Monitoring),"Level 2 + Cảm biến nhiệt radiometric + AI phân đoạn cây riêng lẻ (Mask R-CNN) + Mô hình ML chuỗi thời gian + Dashboard Web GIS; Bản đồ phân cấp độ ẩm theo cây/ô, bản đồ nguy cơ cháy đa yếu tố, báo cáo biến động theo mùa, tài khoản Web Dashboard. Cấu hình theo tần suất: Gói khảo sát đơn lẻ / Gói theo mùa khô / Gói quan trắc định kỳ nhiều năm",VERIFIED,S0284/03/D004
+S0285-S0287,1,Bản đồ các-bon nền 01 kỳ (LiDAR + RGB),,VERIFIED,S0285-S0287/03/D004
+S0285-S0287,2,Bản đồ chi tiết theo cây đơn lẻ 01 kỳ (LiDAR + RGB + Đa phổ),,VERIFIED,S0285-S0287/03/D004
+S0285-S0287,3,Giám sát hấp thụ đa kỳ (chu kỳ 2-3 năm trở lên),"Add-on  Gói chuẩn hóa MRV, mở rộng ảnh vệ tinh Sentinel, hosting GIS dashboard",VERIFIED,S0285-S0287/03/D004
+S0286,1,Baseline Quantification & MRV Readiness,,VERIFIED,S0286/03/D004
+S0286,2,Monitoring Report & Verification Support,,VERIFIED,S0286/03/D004
+S0286,3,Multi-period Digital MRV & Registry Support,,VERIFIED,S0286/03/D004
+S0288,1,Khảo sát cơ bản - Scan & 3D Point Cloud,,VERIFIED,S0288/03/D004
+S0288,2,Đánh giá kết hợp nhiệt - Scan & Thermal Defect Assessment,,VERIFIED,S0288/03/D004
+S0288,3,Chẩn đoán chuyên sâu & Đánh giá rủi ro cháy toàn diện - Advanced Digital Twin & Fire Risk Audit,,VERIFIED,S0288/03/D004

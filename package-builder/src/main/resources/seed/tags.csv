@@ -1,0 +1,195 @@
+﻿tag_code,tag_name,tag_type,parent_tag_code,description,source_ref,active
+CARBON_CREDIT_MRV,Lập hồ sơ MRV cho dự án tín chỉ carbon,OBJECTIVE,,Carbon credit MRV,SV3_D2_Taxonomy/01,TRUE
+CARBON_STOCK_ASSESSMENT,Đánh giá trữ lượng / hấp thụ carbon,OBJECTIVE,,Carbon stock assessment,SV3_D2_Taxonomy/01,TRUE
+GHG_EMISSION_MEASUREMENT,Đo và định lượng phát thải khí nhà kính,OBJECTIVE,,GHG emission measurement,SV3_D2_Taxonomy/01,TRUE
+EMISSION_REDUCTION_VERIFICATION,Xác nhận hiệu quả giảm phát thải (trước – sau),OBJECTIVE,,Emission reduction verification,SV3_D2_Taxonomy/01,TRUE
+GHG_INVENTORY_SUPPORT,Hỗ trợ kiểm kê khí nhà kính,OBJECTIVE,,GHG inventory support,SV3_D2_Taxonomy/01,TRUE
+CARBON_FOOTPRINT_MAPPING,Lập bản đồ carbon footprint cơ sở / doanh nghiệp,OBJECTIVE,,Carbon footprint mapping,SV3_D2_Taxonomy/01,TRUE
+ESG_NETZERO,Mục tiêu ESG / Net Zero,OBJECTIVE,,ESG / Net Zero,SV3_D2_Taxonomy/01,TRUE
+CLIMATE_RESEARCH,Dữ liệu phục vụ nghiên cứu khí hậu,OBJECTIVE,,Climate research data,SV3_D2_Taxonomy/01,TRUE
+DROUGHT_WATER_STRESS,"Cảnh báo hạn hán, theo dõi stress nước",OBJECTIVE,,Drought & water stress,SV3_D2_Taxonomy/01,TRUE
+FIRE_RISK_PREVENTION,Phòng ngừa nguy cơ cháy,OBJECTIVE,,Fire risk prevention,SV3_D2_Taxonomy/01,TRUE
+VEGETATION_CHANGE_MONITORING,Theo dõi biến động thảm thực vật / rừng,OBJECTIVE,,Vegetation change monitoring,SV3_D2_Taxonomy/01,TRUE
+STRUCTURAL_INSPECTION,Kiểm tra kết cấu công trình,OBJECTIVE,,Structural inspection,SV3_D2_Taxonomy/01,TRUE
+FORESTRY,"Lâm nghiệp, chủ rừng, công ty lâm nghiệp",INDUSTRY,,Forestry,SV3_D2_Taxonomy/02,TRUE
+CONSERVATION,"Khu bảo tồn, rừng đặc dụng / phòng hộ",INDUSTRY,FORESTRY,Conservation,SV3_D2_Taxonomy/02,TRUE
+AGRICULTURE,"Nông nghiệp, hợp tác xã, doanh nghiệp nông nghiệp",INDUSTRY,,Agriculture,SV3_D2_Taxonomy/02,TRUE
+WASTE_MANAGEMENT,"Bãi chôn lấp, xử lý chất thải, môi trường đô thị",INDUSTRY,,Waste management,SV3_D2_Taxonomy/02,TRUE
+INDUSTRIAL_MANUFACTURING,"Nhà máy, khu công nghiệp, nhà xưởng",INDUSTRY,,Industrial / manufacturing,SV3_D2_Taxonomy/02,TRUE
+ENERGY_HEAVY_INDUSTRY,"Năng lượng, dầu khí, nhiệt điện, xi măng, sắt thép",INDUSTRY,,Energy & heavy industry,SV3_D2_Taxonomy/02,TRUE
+GOVERNMENT_AGENCY,"Cơ quan quản lý nhà nước, chính quyền địa phương",INDUSTRY,,Government agency,SV3_D2_Taxonomy/02,TRUE
+RESEARCH_ACADEMIA,"Viện, trường, nhóm nghiên cứu",INDUSTRY,,Research & academia,SV3_D2_Taxonomy/02,TRUE
+CARBON_PROJECT_DEVELOPER,"Chủ dự án / đơn vị phát triển dự án carbon, tư vấn MRV",INDUSTRY,,Carbon project developer,SV3_D2_Taxonomy/02,TRUE
+CARBON_INVESTOR,"Quỹ, nhà đầu tư mua tín chỉ",INDUSTRY,,Carbon investor,SV3_D2_Taxonomy/02,TRUE
+CORPORATE_ESG,Doanh nghiệp có cam kết ESG / Net Zero,INDUSTRY,,Corporate ESG,SV3_D2_Taxonomy/02,TRUE
+FIRE_SAFETY_AUTHORITY,"Lực lượng PCCC, đơn vị quản lý PCCC",INDUSTRY,,Fire safety authority,SV3_D2_Taxonomy/02,TRUE
+REAL_ESTATE_BUILDING,"Quản lý tòa nhà, chung cư, kho bãi",INDUSTRY,,Real estate & building,SV3_D2_Taxonomy/02,TRUE
+FOREST,"Rừng tự nhiên, rừng trồng",ENVIRONMENT,,Forest,SV3_D2_Taxonomy/03,TRUE
+RICE_FIELD,Ruộng lúa,ENVIRONMENT,CROPLAND,Rice field,SV3_D2_Taxonomy/03,TRUE
+CROPLAND,"Đất canh tác, trang trại, vùng sản xuất",ENVIRONMENT,,Cropland,SV3_D2_Taxonomy/03,TRUE
+LANDFILL,Bãi chôn lấp chất thải rắn,ENVIRONMENT,,Landfill,SV3_D2_Taxonomy/03,TRUE
+INDUSTRIAL_SITE,"Nhà máy, khu công nghiệp",ENVIRONMENT,,Industrial site,SV3_D2_Taxonomy/03,TRUE
+URBAN_AREA,Khu đô thị,ENVIRONMENT,,Urban area,SV3_D2_Taxonomy/03,TRUE
+BUILDING,"Công trình, tòa nhà",ENVIRONMENT,,Building,SV3_D2_Taxonomy/03,TRUE
+MIXED_LAND_COVER,Nhiều loại bề mặt / lớp phủ,ENVIRONMENT,,Mixed land cover,SV3_D2_Taxonomy/03,TRUE
+carbon,carbon,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+ghg,ghg,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+co2,co2,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+methane,methane,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+mrv,mrv,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+biomass,biomass,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+forest,forest,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+rice,rice,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+landfill,landfill,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+urban,urban,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+industrial,industrial,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+drought,drought,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+soil-moisture,soil-moisture,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+canopy-moisture,canopy-moisture,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+fire-risk,fire-risk,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+albedo,albedo,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+climate-research,climate-research,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+vegetation,vegetation,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+building,building,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+esg,esg,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+lidar,lidar,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+multispectral,multispectral,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+thermal,thermal,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+gas-sensor,gas-sensor,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+rgb,rgb,TOPIC,,,SV3_D2_Taxonomy/06_TOPIC,TRUE
+aging materials,aging materials,KEYWORD,,,file 03 D007,TRUE
+ai nông nghiệp,AI nông nghiệp,KEYWORD,,,file 03 D007,TRUE
+albedometer,albedometer,KEYWORD,,,file 03 D007,TRUE
+allometric,allometric,KEYWORD,,,file 03 D007,TRUE
+awd,AWD,KEYWORD,,,file 03 D007,TRUE
+biến động thảm thực vật,biến động thảm thực vật,KEYWORD,,,file 03 D007,TRUE
+broadband shortwave albedo,broadband shortwave albedo,KEYWORD,,,file 03 D007,TRUE
+building deterioration,building deterioration,KEYWORD,,,file 03 D007,TRUE
+buồng đo đóng,buồng đo đóng,KEYWORD,,,file 03 D007,TRUE
+báo cáo mrv,báo cáo MRV,KEYWORD,,,file 03 D007,TRUE
+bản đồ carbon,bản đồ carbon,KEYWORD,,,file 03 D007,TRUE
+bản đồ carbon footprint,bản đồ carbon footprint,KEYWORD,,,file 03 D007,TRUE
+bản đồ phát thải,bản đồ phát thải,KEYWORD,,,file 03 D007,TRUE
+bản đồ phát thải methane,bản đồ phát thải methane,KEYWORD,,,file 03 D007,TRUE
+bản đồ phân bố ghg,bản đồ phân bố GHG,KEYWORD,,,file 03 D007,TRUE
+bản đồ độ ẩm,bản đồ độ ẩm,KEYWORD,,,file 03 D007,TRUE
+bản đồ độ ẩm tán lá,bản đồ độ ẩm tán lá,KEYWORD,,,file 03 D007,TRUE
+bản đồ độ ẩm đất,bản đồ độ ẩm đất,KEYWORD,,,file 03 D007,TRUE
+camera đa phổ,camera đa phổ,KEYWORD,,,file 03 D007,TRUE
+canopy moisture monitoring,canopy moisture monitoring,KEYWORD,,,file 03 D007,TRUE
+carbon credit,carbon credit,KEYWORD,,,file 03 D007,TRUE
+carbon footprint mapping,carbon footprint mapping,KEYWORD,,,file 03 D007,TRUE
+carbon hotspot,carbon hotspot,KEYWORD,,,file 03 D007,TRUE
+carbon map,carbon map,KEYWORD,,,file 03 D007,TRUE
+carbon sink mapping,carbon sink mapping,KEYWORD,,,file 03 D007,TRUE
+carbon source map,carbon source map,KEYWORD,,,file 03 D007,TRUE
+change detection,change detection,KEYWORD,,,file 03 D007,TRUE
+chm,CHM,KEYWORD,,,file 03 D007,TRUE
+cháy rừng,cháy rừng,KEYWORD,,,file 03 D007,TRUE
+ch₄,CH₄,KEYWORD,,,file 03 D007,TRUE
+cwc,CWC,KEYWORD,,,file 03 D007,TRUE
+cân bằng năng lượng bề mặt,cân bằng năng lượng bề mặt,KEYWORD,,,file 03 D007,TRUE
+cảm biến in-situ vwc,cảm biến in-situ VWC,KEYWORD,,,file 03 D007,TRUE
+cảnh báo hạn hán,cảnh báo hạn hán,KEYWORD,,,file 03 D007,TRUE
+defect detection,defect detection,KEYWORD,,,file 03 D007,TRUE
+drone methane inspection,drone methane inspection,KEYWORD,,,file 03 D007,TRUE
+dry zone mapping,dry zone mapping,KEYWORD,,,file 03 D007,TRUE
+dtm,DTM,KEYWORD,,,file 03 D007,TRUE
+dự báo khô hạn,dự báo khô hạn,KEYWORD,,,file 03 D007,TRUE
+environmental uav,environmental UAV,KEYWORD,,,file 03 D007,TRUE
+fire risk,fire risk,KEYWORD,,,file 03 D007,TRUE
+fmc,FMC,KEYWORD,,,file 03 D007,TRUE
+foliar moisture content,foliar moisture content,KEYWORD,,,file 03 D007,TRUE
+forest canopy water content,forest canopy water content,KEYWORD,,,file 03 D007,TRUE
+ghg inventory,GHG inventory,KEYWORD,,,file 03 D007,TRUE
+gis,GIS,KEYWORD,,,file 03 D007,TRUE
+gis carbon,GIS carbon,KEYWORD,,,file 03 D007,TRUE
+giám sát phát thải,giám sát phát thải,KEYWORD,,,file 03 D007,TRUE
+giám sát sinh thái,giám sát sinh thái,KEYWORD,,,file 03 D007,TRUE
+giám sát sức khỏe rừng,giám sát sức khỏe rừng,KEYWORD,,,file 03 D007,TRUE
+giám sát định kỳ pccc,giám sát định kỳ PCCC,KEYWORD,,,file 03 D007,TRUE
+giám sát độ ẩm đô thị,giám sát độ ẩm đô thị,KEYWORD,,,file 03 D007,TRUE
+hiệu chuẩn bức xạ,hiệu chuẩn bức xạ,KEYWORD,,,file 03 D007,TRUE
+hiệu suất thu gom khí bãi rác,hiệu suất thu gom khí bãi rác,KEYWORD,,,file 03 D007,TRUE
+hạn ngạch phát thải,hạn ngạch phát thải,KEYWORD,,,file 03 D007,TRUE
+hỗ trợ kiểm kê ghg,hỗ trợ kiểm kê GHG,KEYWORD,,,file 03 D007,TRUE
+inverse dispersion methane,inverse dispersion methane,KEYWORD,,,file 03 D007,TRUE
+iso 14064-2 waste,ISO 14064-2 waste,KEYWORD,,,file 03 D007,TRUE
+khí nhà kính đô thị,khí nhà kính đô thị,KEYWORD,,,file 03 D007,TRUE
+khảo sát ch4 bãi chôn lấp,khảo sát CH4 bãi chôn lấp,KEYWORD,,,file 03 D007,TRUE
+khảo sát hotspot,khảo sát hotspot,KEYWORD,,,file 03 D007,TRUE
+kiểm kê khí nhà kính,kiểm kê khí nhà kính,KEYWORD,,,file 03 D007,TRUE
+kiểm kê khí nhà kính bãi rác,kiểm kê khí nhà kính bãi rác,KEYWORD,,,file 03 D007,TRUE
+landfill methane monitoring,landfill methane monitoring,KEYWORD,,,file 03 D007,TRUE
+lfmc,LFMC,KEYWORD,,,file 03 D007,TRUE
+live fuel moisture content,live fuel moisture content,KEYWORD,,,file 03 D007,TRUE
+lstm hạn hán,LSTM hạn hán,KEYWORD,,,file 03 D007,TRUE
+luật lâm nghiệp 2017,Luật Lâm nghiệp 2017,KEYWORD,,,file 03 D007,TRUE
+mass balance methane flux,mass balance methane flux,KEYWORD,,,file 03 D007,TRUE
+measuring co2 emission reduction,measuring CO2 emission reduction,KEYWORD,,,file 03 D007,TRUE
+methane ruộng lúa,methane ruộng lúa,KEYWORD,,,file 03 D007,TRUE
+mrv methane bãi rác,MRV methane bãi rác,KEYWORD,,,file 03 D007,TRUE
+mrv report,MRV report,KEYWORD,,,file 03 D007,TRUE
+narrow-to-broadband,Narrow-to-Broadband,KEYWORD,,,file 03 D007,TRUE
+ndre,NDRE,KEYWORD,,,file 03 D007,TRUE
+ndvi,NDVI,KEYWORD,,,file 03 D007,TRUE
+net zero,Net Zero,KEYWORD,,,file 03 D007,TRUE
+nghiên cứu khí hậu,nghiên cứu khí hậu,KEYWORD,,,file 03 D007,TRUE
+nghị định 180/2026/nđ-cp,Nghị định 180/2026/NĐ-CP,KEYWORD,,,file 03 D007,TRUE
+nghị định 288/2025/nđ-cp,Nghị định 288/2025/NĐ-CP,KEYWORD,,,file 03 D007,TRUE
+nguy cơ cháy đô thị,nguy cơ cháy đô thị,KEYWORD,,,file 03 D007,TRUE
+orthomosaic,orthomosaic,KEYWORD,,,file 03 D007,TRUE
+pccc đô thị,PCCC đô thị,KEYWORD,,,file 03 D007,TRUE
+pcccr,PCCCR,KEYWORD,,,file 03 D007,TRUE
+phát hiện sớm nguy cơ cháy,phát hiện sớm nguy cơ cháy,KEYWORD,,,file 03 D007,TRUE
+phân vùng khô hạn,phân vùng khô hạn,KEYWORD,,,file 03 D007,TRUE
+phân vùng khô hạn rừng,phân vùng khô hạn rừng,KEYWORD,,,file 03 D007,TRUE
+quan trắc khí quyển đô thị,quan trắc khí quyển đô thị,KEYWORD,,,file 03 D007,TRUE
+quy đổi co2e,quy đổi CO2e,KEYWORD,,,file 03 D007,TRUE
+qđ 42/2026,QĐ 42/2026,KEYWORD,,,file 03 D007,TRUE
+random forest,Random Forest,KEYWORD,,,file 03 D007,TRUE
+rtk,RTK,KEYWORD,,,file 03 D007,TRUE
+rtk/ppk,RTK/PPK,KEYWORD,,,file 03 D007,TRUE
+rò rỉ khí bãi rác,rò rỉ khí bãi rác,KEYWORD,,,file 03 D007,TRUE
+s0273,S0273,KEYWORD,,,file 03 D007,TRUE
+scope 1 2 3,Scope 1 2 3,KEYWORD,,,file 03 D007,TRUE
+sinh khối trên mặt đất,sinh khối trên mặt đất,KEYWORD,,,file 03 D007,TRUE
+soil moisture mapping,soil moisture mapping,KEYWORD,,,file 03 D007,TRUE
+spatial carbon,spatial carbon,KEYWORD,,,file 03 D007,TRUE
+stress hạn cây rừng,stress hạn cây rừng,KEYWORD,,,file 03 D007,TRUE
+stress nước cây trồng,stress nước cây trồng,KEYWORD,,,file 03 D007,TRUE
+structural assessment,structural assessment,KEYWORD,,,file 03 D007,TRUE
+structural inspection,structural inspection,KEYWORD,,,file 03 D007,TRUE
+surface albedo,surface albedo,KEYWORD,,,file 03 D007,TRUE
+tco2e,tCO2e,KEYWORD,,,file 03 D007,TRUE
+theo dõi thảm thực vật,theo dõi thảm thực vật,KEYWORD,,,file 03 D007,TRUE
+thông lượng methane,thông lượng methane,KEYWORD,,,file 03 D007,TRUE
+thẩm định độc lập,thẩm định độc lập,KEYWORD,,,file 03 D007,TRUE
+trữ lượng carbon rừng,trữ lượng carbon rừng,KEYWORD,,,file 03 D007,TRUE
+tín chỉ carbon,tín chỉ carbon,KEYWORD,,,file 03 D007,TRUE
+tín chỉ các-bon,tín chỉ các-bon,KEYWORD,,,file 03 D007,TRUE
+tưới tiêu chính xác,tưới tiêu chính xác,KEYWORD,,,file 03 D007,TRUE
+uav albedo mapping,UAV albedo mapping,KEYWORD,,,file 03 D007,TRUE
+uav carbon mapping,UAV carbon mapping,KEYWORD,,,file 03 D007,TRUE
+uav cảm biến môi trường,UAV cảm biến môi trường,KEYWORD,,,file 03 D007,TRUE
+uav cảm biến đa phổ,UAV cảm biến đa phổ,KEYWORD,,,file 03 D007,TRUE
+uav ghg survey,UAV GHG survey,KEYWORD,,,file 03 D007,TRUE
+uav lidar,UAV LiDAR,KEYWORD,,,file 03 D007,TRUE
+uav multispectral thermal,UAV multispectral thermal,KEYWORD,,,file 03 D007,TRUE
+uav thermal forest,UAV thermal forest,KEYWORD,,,file 03 D007,TRUE
+uav đa phổ,UAV đa phổ,KEYWORD,,,file 03 D007,TRUE
+uav đo methane bãi rác,UAV đo methane bãi rác,KEYWORD,,,file 03 D007,TRUE
+uav độ ẩm đất,UAV độ ẩm đất,KEYWORD,,,file 03 D007,TRUE
+urban fire risk,urban fire risk,KEYWORD,,,file 03 D007,TRUE
+urban humidity monitoring,urban humidity monitoring,KEYWORD,,,file 03 D007,TRUE
+viễn thám lâm nghiệp,viễn thám lâm nghiệp,KEYWORD,,,file 03 D007,TRUE
+viễn thám đa phổ,viễn thám đa phổ,KEYWORD,,,file 03 D007,TRUE
+đo ch₄,đo CH₄,KEYWORD,,,file 03 D007,TRUE
+đo co₂,đo CO₂,KEYWORD,,,file 03 D007,TRUE
+đo giảm phát thải co2,đo giảm phát thải CO2,KEYWORD,,,file 03 D007,TRUE
+đo nồng độ methane từ ruộng lúa,Đo nồng độ methane từ ruộng lúa,KEYWORD,,,file 03 D007,TRUE
+đo đạc báo cáo thẩm định,đo đạc báo cáo thẩm định,KEYWORD,,,file 03 D007,TRUE
+đo độ ẩm tán rừng,đo độ ẩm tán rừng,KEYWORD,,,file 03 D007,TRUE
+đường cơ sở,đường cơ sở,KEYWORD,,,file 03 D007,TRUE
+độ phản xạ bề mặt,độ phản xạ bề mặt,KEYWORD,,,file 03 D007,TRUE
+ảnh nhiệt lst,ảnh nhiệt LST,KEYWORD,,,file 03 D007,TRUE

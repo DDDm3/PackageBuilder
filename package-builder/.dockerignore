@@ -1,7 +1,8 @@
 .git
 .idea
 .mvn
-target
+target/*
+!target/*.jar
 Dockerfile
 docker-compose.yml
 *.iml

@@ -11,6 +11,7 @@ import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.slf4j.Slf4j;
+import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -64,7 +65,7 @@ public class RequirementController {
             @RequestParam(value = "customerId", required = false) String customerId,
             @RequestParam(value = "status", required = false) RequirementStatus status,
             @RequestParam(value = "keyword", required = false) String keyword,
-            @PageableDefault(size = 10, sort = "createdAt", direction = Sort.Direction.DESC) Pageable pageable
+            @ParameterObject @PageableDefault(size = 10, sort = "createdAt", direction = Sort.Direction.DESC) Pageable pageable
     ) {
         return APIResponse.<Page<RequirementResponse>>builder()
                 .result(requirementService.searchRequirements(customerId, status, keyword, pageable))
