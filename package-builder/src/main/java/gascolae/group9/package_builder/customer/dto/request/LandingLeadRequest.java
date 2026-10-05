@@ -16,6 +16,11 @@ import java.util.Map;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class LandingLeadRequest {
+    // 0. Dịch vụ & Cấp độ khách chọn trên Landing Page
+    String serviceId;
+
+    Object level;
+
     // 1. Thông tin liên hệ khách hàng
     @NotBlank(message = "NOT_NULL")
     String customerName;
@@ -52,6 +57,22 @@ public class LandingLeadRequest {
     List<String> rawExpectedOutputs;
 
     Object expectedOutputs;
+
+    public void setServiceID(String serviceID) {
+        this.serviceId = serviceID;
+    }
+
+    public Integer getLevelAsInteger() {
+        if (this.level == null) return null;
+        if (this.level instanceof Number num) return num.intValue();
+        String str = this.level.toString().trim().replaceAll("[^0-9]", "");
+        if (str.isEmpty()) return null;
+        try {
+            return Integer.parseInt(str);
+        } catch (Exception e) {
+            return null;
+        }
+    }
 
     public void setArea(Object input) {
         this.areaValue = input;

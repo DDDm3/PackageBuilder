@@ -32,6 +32,8 @@ public class RequirementResponse {
     String monitoringFrequencyRaw;
     String objectiveRaw;
     String providedInputsRaw;
+    String serviceId;
+    Integer level;
     RequirementStatus status;
     String createdBy;
     String confirmedBy;

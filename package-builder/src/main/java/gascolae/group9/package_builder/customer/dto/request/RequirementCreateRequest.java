@@ -32,8 +32,22 @@ public class RequirementCreateRequest {
     String monitoringFrequencyRaw;
     String objectiveRaw;
     String providedInputsRaw;
+    String serviceId;
+    Object level;
 
     Object expectedOutputs;
+
+    public Integer getLevelAsInteger() {
+        if (this.level == null) return null;
+        if (this.level instanceof Number num) return num.intValue();
+        String str = this.level.toString().trim().replaceAll("[^0-9]", "");
+        if (str.isEmpty()) return null;
+        try {
+            return Integer.parseInt(str);
+        } catch (Exception e) {
+            return null;
+        }
+    }
 
     public List<ExpectedOutputRequest> getExpectedOutputsAsList() {
         return parseExpectedOutputs(this.expectedOutputs);

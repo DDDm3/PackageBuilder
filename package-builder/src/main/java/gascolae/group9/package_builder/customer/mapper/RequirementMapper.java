@@ -24,6 +24,7 @@ public interface RequirementMapper {
     @Mapping(target = "updatedAt", ignore = true)
     @Mapping(target = "expectedOutputs", ignore = true)
     @Mapping(target = "areaValue", expression = "java(request.getAreaValueAsBigDecimal())")
+    @Mapping(target = "level", expression = "java(request.getLevelAsInteger())")
     CustomerRequirement toRequirement(RequirementCreateRequest request);
 
     @Mapping(target = "requirementId", ignore = true)
@@ -38,6 +39,7 @@ public interface RequirementMapper {
     @Mapping(target = "expectedOutputs", ignore = true)
     @Mapping(target = "areaValue", expression = "java(request.getAreaValueAsBigDecimal())")
     @Mapping(target = "areaUnit", expression = "java(request.getAreaUnit())")
+    @Mapping(target = "level", expression = "java(request.getLevelAsInteger())")
     CustomerRequirement toRequirementFromLead(gascolae.group9.package_builder.customer.dto.request.LandingLeadRequest request);
 
     @Mapping(target = "customerId", source = "customer.customerId")
@@ -71,5 +73,6 @@ public interface RequirementMapper {
     @Mapping(target = "updatedAt", ignore = true)
     @Mapping(target = "expectedOutputs", ignore = true)
     @Mapping(target = "areaValue", expression = "java(request.getAreaValueAsBigDecimal())")
+    @Mapping(target = "level", expression = "java(request.getLevelAsInteger())")
     void updateRequirementFromRequest(RequirementUpdateRequest request, @MappingTarget CustomerRequirement requirement);
 }
