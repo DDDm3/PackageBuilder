@@ -64,6 +64,11 @@ public class CustomerRequirement {
     @Column(columnDefinition = "TEXT")
     String providedInputsRaw;
 
+    @Column(length = 100)
+    String serviceId;
+
+    Integer level;
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 20)
     RequirementStatus status;
