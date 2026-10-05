@@ -63,12 +63,13 @@ public class RequirementController {
     @GetMapping
     public APIResponse<Page<RequirementResponse>> searchRequirements(
             @RequestParam(value = "customerId", required = false) String customerId,
+            @RequestParam(value = "serviceId", required = false) String serviceId,
             @RequestParam(value = "status", required = false) RequirementStatus status,
             @RequestParam(value = "keyword", required = false) String keyword,
             @ParameterObject @PageableDefault(size = 10, sort = "createdAt", direction = Sort.Direction.DESC) Pageable pageable
     ) {
         return APIResponse.<Page<RequirementResponse>>builder()
-                .result(requirementService.searchRequirements(customerId, status, keyword, pageable))
+                .result(requirementService.searchRequirements(customerId, serviceId, status, keyword, pageable))
                 .build();
     }
 
