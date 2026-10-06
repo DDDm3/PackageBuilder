@@ -35,6 +35,19 @@ public class GeminiProperties {
     /** HTTP 429/500/503 → chờ rồi thử lại 1 lần cùng model, sau đó mới đổi model. */
     int retryWaitSeconds = 3;
 
+    /**
+     * Bỏ khoảng trắng và dấu nháy bao quanh: file .env đọc dạng .properties nên
+     * GEMINI_API_KEY="..." sẽ giữ nguyên dấu nháy và Google báo API_KEY_INVALID.
+     */
+    public void setApiKey(String apiKey) {
+        String v = apiKey == null ? null : apiKey.strip();
+        if (v != null && v.length() >= 2
+                && (v.startsWith("\"") && v.endsWith("\"") || v.startsWith("'") && v.endsWith("'"))) {
+            v = v.substring(1, v.length() - 1).strip();
+        }
+        this.apiKey = v;
+    }
+
     public boolean isConfigured() {
         return StringUtils.hasText(apiKey);
     }

@@ -151,6 +151,14 @@ class ExtractionPipelineTest {
     }
 
     @Test
+    void quotedKeyFromEnvFileIsStripped() throws Exception {
+        GeminiProperties p = fakeGemini(new String[][]{{"200", geminiReply(GOOD)}});
+        p.setApiKey(" \"" + KEY + "\" ");
+        ExtractionResult r = pipeline(p).extractText(TEXT);
+        assertEquals("model-chinh", r.getLayer(), "server giả kiểm header x-goog-api-key đúng bằng KEY, không kèm dấu nháy");
+    }
+
+    @Test
     void garbageResponseIsAnErrorNotACrash() throws Exception {
         ExtractionResult r = pipeline(fakeGemini(new String[][]{{"200", "{\"usage\":{}}"}})).extractText(TEXT);
         assertTrue(r.isFallback());
