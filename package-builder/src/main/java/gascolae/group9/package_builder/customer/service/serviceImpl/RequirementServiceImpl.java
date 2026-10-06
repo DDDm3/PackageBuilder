@@ -242,29 +242,36 @@ public class RequirementServiceImpl implements RequirementService {
 
     @Override
     public Page<RequirementResponse> searchRequirements(String customerId, RequirementStatus status, String keyword, Pageable pageable) {
+        return searchRequirements(customerId, null, status, keyword, pageable);
+    }
+
+    @Override
+    public Page<RequirementResponse> searchRequirements(String customerId, String serviceId, RequirementStatus status, String keyword, Pageable pageable) {
         boolean hasCustomerId = StringUtils.hasText(customerId);
+        boolean hasServiceId = StringUtils.hasText(serviceId);
         boolean hasKeyword = StringUtils.hasText(keyword);
 
         // Trường hợp 1: Không có bộ lọc nào -> findAll trực tiếp (nhanh nhất, tránh lỗi lower(bytea))
-        if (!hasCustomerId && status == null && !hasKeyword) {
+        if (!hasCustomerId && !hasServiceId && status == null && !hasKeyword) {
             return requirementRepository.findAll(pageable).map(requirementMapper::toRequirementResponse);
         }
 
         // Trường hợp 2: Chỉ lọc theo status (VD: status=DRAFT)
-        if (!hasCustomerId && status != null && !hasKeyword) {
+        if (!hasCustomerId && !hasServiceId && status != null && !hasKeyword) {
             return requirementRepository.findByStatus(status, pageable).map(requirementMapper::toRequirementResponse);
         }
 
         // Trường hợp 3: Chỉ lọc theo customerId
-        if (hasCustomerId && status == null && !hasKeyword) {
+        if (hasCustomerId && !hasServiceId && status == null && !hasKeyword) {
             return requirementRepository.findByCustomer_CustomerId(customerId.trim(), pageable).map(requirementMapper::toRequirementResponse);
         }
 
         // Trường hợp 4: Có keyword hoặc kết hợp -> bọc % và lowercase ở tầng Java
         String pattern = hasKeyword ? "%" + keyword.trim().toLowerCase() + "%" : null;
         String trimmedCustomerId = hasCustomerId ? customerId.trim() : null;
+        String trimmedServiceId = hasServiceId ? serviceId.trim() : null;
 
-        Page<CustomerRequirement> page = requirementRepository.searchRequirements(trimmedCustomerId, status, pattern, pageable);
+        Page<CustomerRequirement> page = requirementRepository.searchRequirements(trimmedCustomerId, trimmedServiceId, status, pattern, pageable);
         return page.map(requirementMapper::toRequirementResponse);
     }
 

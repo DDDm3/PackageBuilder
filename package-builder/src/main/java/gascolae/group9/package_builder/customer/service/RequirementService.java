@@ -17,6 +17,7 @@ public interface RequirementService {
     RequirementResponse getRequirementByCode(String requirementCode);
     List<RequirementResponse> getRequirementsByCustomer(String customerId);
     Page<RequirementResponse> searchRequirements(String customerId, RequirementStatus status, String keyword, Pageable pageable);
+    Page<RequirementResponse> searchRequirements(String customerId, String serviceId, RequirementStatus status, String keyword, Pageable pageable);
     RequirementResponse confirmRequirement(String requirementId, String currentUsername);
     void deleteRequirement(String requirementId);
 }

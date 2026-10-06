@@ -5,6 +5,7 @@ import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,47 +16,66 @@ import java.util.Map;
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
+@Schema(description = "Thông tin đề bài gửi từ Form tư vấn Landing Page")
 public class LandingLeadRequest {
     // 0. Dịch vụ & Cấp độ khách chọn trên Landing Page
+    @Schema(description = "Mã dịch vụ khách chọn trên Landing Page (VD: S0274)", example = "S0274")
     String serviceId;
 
+    @Schema(description = "Cấp độ dịch vụ mong muốn (nhận số 1-3, hoặc chuỗi 'Level 2')", example = "2")
     Object level;
 
     // 1. Thông tin liên hệ khách hàng
+    @Schema(description = "Họ và tên người liên hệ", example = "Nguyễn Văn An", requiredMode = Schema.RequiredMode.REQUIRED)
     @NotBlank(message = "NOT_NULL")
     String customerName;
 
+    @Schema(description = "Tên cơ quan / đơn vị / doanh nghiệp", example = "Công ty CP Môi trường Đô thị Xanh")
     String companyName;
 
+    @Schema(description = "Địa chỉ email liên hệ", example = "nguyenvanan@moitruongxanh.vn")
     String contactEmail;
 
+    @Schema(description = "Số điện thoại liên hệ", example = "0987654321")
     String contactPhone;
 
     // 2. Thông tin nhu cầu dự án
+    @Schema(description = "Tên dự án (nếu để trống hệ thống sẽ tự sinh theo tên khách/công ty)", example = "Khảo sát phát thải KNK Quận 7")
     String projectName;
 
+    @Schema(description = "Địa bàn / Khu vực khảo sát (AOI)", example = "Quận 7, TP. Hồ Chí Minh")
     String locationDescription;
 
+    @Schema(description = "Diện tích khảo sát (nhận số 25.5, chuỗi '25.5 ha', '1000 m2' hoặc object)", example = "25.5")
     Object areaValue;
 
+    @Schema(description = "Đơn vị diện tích (mặc định: ha)", example = "ha")
     @Builder.Default
     String areaUnit = "ha";
 
+    @Schema(description = "Tần suất quan trắc / theo dõi mong muốn", example = "Định kỳ theo quý")
     String monitoringFrequencyRaw;
 
+    @Schema(description = "Mục tiêu bài toán", example = "Kiểm kê phát thải và phát hiện điểm nóng rò rỉ khí CH4")
     String objectiveRaw;
 
+    @Schema(description = "Dữ liệu / tài liệu khách hàng đã có sẵn", example = "Bản đồ ranh giới khu đất tỷ lệ 1:2000 dạng CAD")
     String providedInputsRaw;
 
+    @Schema(description = "Mô tả chung nhu cầu dự án", example = "Cần bay UAV đo nồng độ CO2 và CH4 tại các trục đường chính và bãi trung chuyển rác.")
     String rawRequirementText;
 
+    @Schema(description = "Ngành nghề / lĩnh vực hoạt động", example = "Môi trường & Quản lý chất thải")
     String industryRaw;
 
+    @Schema(description = "Môi trường triển khai (Đô thị, Rừng, Nông nghiệp, Công nghiệp)", example = "Đô thị")
     String environmentRaw;
 
     // 3. Đầu ra / Sản phẩm mong đợi (hỗ trợ text list, string đơn, chuỗi rỗng "", mảng string hoặc mảng object)
+    @Schema(description = "Danh sách sản phẩm đầu ra mong đợi (dạng chuỗi)")
     List<String> rawExpectedOutputs;
 
+    @Schema(description = "Đầu ra kỳ vọng linh hoạt (nhận text-area đa dòng, mảng chuỗi hoặc mảng object)")
     Object expectedOutputs;
 
     public void setServiceID(String serviceID) {
