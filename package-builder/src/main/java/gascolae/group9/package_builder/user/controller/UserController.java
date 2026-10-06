@@ -8,6 +8,8 @@ import gascolae.group9.package_builder.user.dto.response.UserResponse;
 import gascolae.group9.package_builder.user.enums.RoleName;
 import gascolae.group9.package_builder.user.enums.UserStatus;
 import gascolae.group9.package_builder.user.service.UserService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
@@ -22,11 +24,12 @@ import java.util.Set;
 @RestController
 @RequestMapping("/users")
 @RequiredArgsConstructor
-
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
+@Tag(name = "User Management", description = "Quản lý tài khoản người dùng & phân quyền hệ thống")
 public class UserController {
     UserService userService;
 
+    @Operation(summary = "Đăng ký tài khoản người dùng mới (Public)")
     @PostMapping("/register")
     public APIResponse<UserResponse> createUser(@Valid @RequestBody UserRegisterRequest request){
         return APIResponse.<UserResponse>builder()

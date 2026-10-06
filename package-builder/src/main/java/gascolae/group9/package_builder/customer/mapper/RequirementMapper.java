@@ -80,5 +80,7 @@ public interface RequirementMapper {
     @Mapping(target = "extractionConfidence", ignore = true)
     @Mapping(target = "areaValue", expression = "java(request.getAreaValueAsBigDecimal())")
     @Mapping(target = "level", expression = "java(request.getLevelAsInteger())")
+    @Mapping(target = "areaValue", expression = "java(request.getAreaValue() != null ? request.getAreaValueAsBigDecimal() : requirement.getAreaValue())")
+    @Mapping(target = "level", expression = "java(request.getLevel() != null ? request.getLevelAsInteger() : requirement.getLevel())")
     void updateRequirementFromRequest(RequirementUpdateRequest request, @MappingTarget CustomerRequirement requirement);
 }

@@ -22,19 +22,23 @@ public interface CustomerRequirementRepository extends JpaRepository<CustomerReq
 
     @Query("SELECT r FROM CustomerRequirement r WHERE " +
             "(:customerId IS NULL OR r.customer.customerId = :customerId) AND " +
+            "(:serviceId IS NULL OR LOWER(r.serviceId) = LOWER(:serviceId)) AND " +
             "(:status IS NULL OR r.status = :status) AND " +
             "(:keyword IS NULL OR (" +
             "LOWER(r.requirementCode) LIKE :keyword OR " +
+            "LOWER(r.serviceId) LIKE :keyword OR " +
             "LOWER(r.projectName) LIKE :keyword OR " +
             "LOWER(r.customer.customerName) LIKE :keyword OR " +
             "LOWER(r.customer.companyName) LIKE :keyword OR " +
             "LOWER(r.customer.contactEmail) LIKE :keyword OR " +
             "LOWER(r.customer.contactPhone) LIKE :keyword OR " +
             "LOWER(r.locationDescription) LIKE :keyword OR " +
+            "LOWER(r.rawRequirementText) LIKE :keyword OR " +
             "LOWER(r.industryRaw) LIKE :keyword OR " +
             "LOWER(r.objectiveRaw) LIKE :keyword))")
     Page<CustomerRequirement> searchRequirements(
             @Param("customerId") String customerId,
+            @Param("serviceId") String serviceId,
             @Param("status") RequirementStatus status,
             @Param("keyword") String keyword,
             Pageable pageable
